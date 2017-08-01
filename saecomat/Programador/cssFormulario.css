@@ -1,0 +1,50 @@
+<style type="text/css">
+#contenedor{
+   text-align: left;
+   width: 400px;
+   height: 300px;
+   margin: auto;
+}
+#baner{
+   text-align: center;
+   font-size:22px;
+   font-weight: bold;
+    height: 32px;
+   padding: 0 0 0 0px;
+}
+#cabecera{
+  /* background-color: #d0d0ff;*/
+  /* color: #333300;*/
+   font-weight: bold;
+   padding: 0 0 0 0px;
+}
+#cuerpo{
+   margin: 8 0 8 0px;
+}
+#principal{
+   font: 10pt Arial, Helvetica, sans-serif;
+   margin-left: 5px;
+   background-color: #f7f6f3;
+   padding: 0 4 0 4px;   
+   width: 360px;
+   height: 260px;
+   text-align:justify;
+}
+
+#botones{	
+	text-align: center;
+   margin-left: 5px;
+  /* background-color: #a7f6f3;*/
+   padding: 0 4 0 4px;   
+   width: 360px;
+   text-align:justify;
+}
+.fuente{
+   font: 10pt "arial", Times, serif;
+   color: #000000;
+}
+.fuenteN{
+   font: 10pt "arial", Times, serif;
+   color: #000000;
+   font-weight: bold;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Effects - Show Demo</title>
+	<link rel="stylesheet" href="jquery.ui.theme.css">
+	<script type="text/javascript" src="../datepicker/jquery-1.3.2.js"></script>
+	<script src="jquery.effects.core.js"></script>
+	<script src="jquery.effects.blind.js"></script>
+	<script src="jquery.effects.bounce.js"></script>
+
+	<link rel="stylesheet" href="../demos.css">
+	<style>
+	.toggler { width: 500px; height: 200px; }
+	#button { padding: .5em 1em; text-decoration: none; }
+	#effect { width: 240px; height: 135px; padding: 0.4em; position:absolute; }
+	#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+	
+#div1{
+	position:absolute;
+	top:50px;
+	left:50px;
+	z-index:1;
+}
+#div2{
+	position:absolute;
+	top:50px; 
+	left:50px;
+	z-index:2; 
+}
+
+	</style>
+	<script>
+	function hola(){
+		
+	$(function() {
+		runEffect();
+			
+			return false;
+		// run the currently selected effect
+		function runEffect() {
+			
+			// get effect type from 
+			var selectedEffect = "blind";
+
+			// most effect types need no options passed by default
+			//var options = {};
+			var options = { to: { width: 280, height: 185 } };
+
+			// run the effect
+			$( "#effect" ).show( selectedEffect, options, 500, callback );
+			
+		};
+
+		//callback function to bring a hidden box back
+		function callback() {
+			setTimeout(function() {$( "#effect:visible" ).removeAttr( "style" ).fadeOut();}, 2000 );
+		};
+
+		
+		
+		
+
+		
+	});
+	
+	}
+	
+	$(function() {
+		$( "#effect" ).hide();
+	});
+	
+	</script>
+</head>
+<body>
+
+
+
+
+http://foro.elhacker.net/desarrollo_web/un_div_encima_de_otro-t181742.0.html#ixzz1QVSctExB
+
+
+	<div id="effect" class="ui-widget-content ui-corner-all">
+		
+	</div>
+
+
+<select name="effects" id="effectTypes">
+	<option value="blind">Blind</option>
+	<option value="bounce">Bounce</option>
+
+</select>
+
+<a href="#" id="button" class="ui-state-default ui-corner-all">Run Effect</a>
+
+<input  class="boton" type="button"  name="registrar" value="REGISTRAR" onclick="hola()">&nbsp;
+
+
+
+</body>
+</html>
+
+
+
+<script>
+document.getElementById('effect').innerHTML = '<h3 class="ui-widget-header ui-corner-all">Show</h3><p>Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.</p>';
+	
+</script>

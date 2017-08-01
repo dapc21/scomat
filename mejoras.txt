@@ -1,0 +1,32 @@
+*EN NUEVO CONTRATO PONER PONER PARA AGREGAR LOS DATOS DE SERVICIOS CON CHECK.
+
+**eliminar el seleccione de vendedores.
+
+*los numeros de telefonos reconocer fijos y movil y ponerlo donde deben.
+
+*en modificar datos poner para buscar por cedula. y si tiene varios contrato que aparesca para seleccionar el que desee.
+
+*que permita dejar el campo direccion adicional vacio y que le de la sugerencia.
+
+*en pagos poner un boton para actualizar el listado de cargos.
+
+
+
+*en todas las estadisticas almacenar la informacion en tablas.
+
+*los materiales hacer un inventario de almacen y un inventario de materiales por tecnico.
+*poner limite tope minimo de aviso.
+
+*si una orden viene sin presinto. que le avise al usuario que se va a generar una orden para colocar presinto.
+
+*script para verificar presinto vacios y duplicados. si estan duplicados que los borre y genere orden para colocarle nuevos.
+
+ORDENES DE TECNICOS.
+
+*crear grupos de trabajos para diferentes zonas. por las zonas en un listado tambien. que las orden se casen a las zonas. los grupos a las zonas y los tecnicos a los grupos
+que se puedan finalizar ordenes de servicio por zonas.
+
+*modulo para enviar reportes de fallas o mejoras
+*habilitar modulo pagos para contribuyentes especiales.
+
+*revisar cargar deuda por actualizar datos

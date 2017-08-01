@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Object API Int</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="title" content="Samples" />
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<link rel="icon" href="commonWindows/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="commonWindows/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="commonWindows/css/style.css" type="text/css" media="screen" />
+
+	</head>
+	<body onload="doOnLoad();">
+        
+	    
+		<link rel="stylesheet" type="text/css" href="codebase/skins/dhtmlxwindows_dhx_skyblue.css">
+		
+		<script src="codebase/dhtmlxcommon.js"></script>
+		<script src="codebase/dhtmlxwindows.js"></script>
+		<link rel="stylesheet" type="text/css" href="codebase/dhtmlxwindows.css">
+		<script src="codebase/dhtmlxcontainer.js"></script>
+	
+
+
+<div id="winVP" style="position: relative; height: 500px; border: #cecece 1px solid; margin: 10px;"></div>
+<script>
+	var dhxWins
+	function doOnLoad() {
+		dhxWinsParams = {
+			image_path: "codebase/imgs/",
+			viewport: {object: "winVP"},
+			wins: [ {
+						id: "w1", 
+						left: 20, 
+						top: 30, 
+						width: 320, 
+						height: 240
+					},
+					{
+						id: "w2", 
+						left: 50, 
+						top: 70, 
+						width: 320, 
+						height: 240
+					},
+					{
+						id: "w3", 
+						left: 80, 
+						top: 110, 
+						width: 320, 
+						height: 240
+					}
+			]
+		};
+		dhxWins = new dhtmlXWindows(dhxWinsParams);
+	}
+</script>
+			
+			
+         
+	</body>
+</html>

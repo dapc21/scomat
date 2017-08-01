@@ -1,0 +1,162 @@
+/*PERMITE ESTABLECER LA ESTRUCTURA Y DISEÑO DE LA APLICACION*/
+<style type="text/css">
+
+body{
+   font: 8pt Arial, Helvetica, sans-serif;
+   margin: 10 0 10 0px;
+   text-align: center;
+   background-color: #ebebeb;
+}
+H3{	font: 12pt "arial",Times, serif;color: #000000;font-weight: bold;}
+#contenedor{
+   text-align: left;
+   width: 800px;
+   margin: auto;
+}
+#baner{
+   font-size:130px;
+   height: 90px;
+   font-weight: bold;
+   padding: 0 0 0 0px;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+   text-align:center;
+   text-shadow: #C3C3C3 10px 10px 10px ;
+}
+#cabecera{
+   font-size:20px;
+   height: 30px;
+   font-weight: bold;
+   padding: 0 0 0 0px;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 3px;
+   margin: 3 0 3 0px;
+}
+#cuerpo{
+   margin: 4 0 4 0px;
+}
+#lateral{
+   width: 135px;
+   float:left;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+}
+#lateral ul{
+   margin : 0 0 0 0px;
+   padding: 0 0 0 0px;
+   list-style: none;
+}
+#lateral li{
+   margin: 0 0 0 0px;
+   padding: 0 0 0 4px;
+   font-weight: bold;
+   text-align:left;
+}
+#lateral a{color: #3333cc;text-decoration: none; font: 9pt Arial;font-weight: bold;}
+#principal{
+	min-height: 358px;
+	font: 10pt Arial, Helvetica, sans-serif;
+   margin-left: 140px;
+   padding: 0 4 0 4px;   
+   width: 485px;
+   text-align:center;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+}
+#otrolado{
+	width: 160px;
+	float: right;
+	padding: 0 0 0 0px;
+	border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+}
+#otrolado ul{
+   margin : 0 0 0 0px;
+   padding: 0 0 0 0px;
+   list-style: none;
+}
+#otrolado li{
+   margin: 4 4 4 4px;
+   padding: 2 2 2 2px;
+   height:108px;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+   color:#CECECE;
+   font: 15pt "Times New Roman", Times, serif;
+   text-align:center;
+}
+#pie{
+	height: 40px;
+   font: 9pt Arial, Helvetica, sans-serif;
+   padding: 3 10 3 10px;
+   text-align:center;
+   clear: both;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+   background-image: url(../imagenes/barra.jpg);
+	
+}
+.titulo{
+   font: 50pt "Times New Roman", Times, serif;
+   color: #F6F5FB;
+   font-style: italic;
+   font-weight: bold;
+}
+.area{
+   font: 30pt "Times New Roman", Times, serif;
+   color: #CECECE;
+   font-style: italic;
+   font-weight: bold;
+}
+.enlace{
+   margin: 2 4 2 4px;
+   color:#CECECE;
+   width: 149px;
+   height: 24px;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 1px;
+   float: left;
+   text-align:center;
+   font: 12pt "Times New Roman", Times, serif;
+}
+#reloj{
+	font: 9pt "arial", Times, serif;
+   height: 17px;
+   width: 798px;
+   padding: 0 0 0 0px;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 3px;
+   margin: 3 0 3 0px;
+}
+#usuario{
+	   width: 260px;
+	   float: left;
+	   padding: 0 0 0 4px;
+}
+#sesion{
+	   width: 230px;
+	   margin-left: 20px;
+	   text-align:center;
+}
+#tiempo{
+	   width: 290px;
+	   float: right;
+	   text-align:right;
+	   padding: 0 4 0 0px;
+}
+.fuente{font: 10pt "arial", Times, serif;color: #000000;}
+.fuenteN{font: 10pt "arial", Times, serif;color: #000000;font-weight: bold;}
+#imagen  {
+background-image: url(../imagenes/boton.jpg);
+}
+#imagen  a {
+	display: block; /* para poder darle altura y ancho*/
+	width: 130px;
+	height: 22px;
+}
+#imagen.active, #imagen :hover{
+	background-image:url(../imagenes/botonhover.jpg);
+}
+A.estilo{font-weight: 500; font-size : 13px; font-family : Arial; color : #000099; text-decoration: none;}
+A.estilo:hover{ font-size : 13px;  font-family : Arial; color : #194D81; text-decoration: underline;}
+.arrow_btn{ font-style: normal; font-variant: normal; font-weight: normal; font-size: 8pt; font-family: verdana, arial, helvetica; color: #000000; border-left: 1px solid #cccccc; border-right: 1px solid #eeeeee; border-top: 1px solid #eeeeee; border-bottom: 1px solid #cccccc; background-color: #ffffff;}

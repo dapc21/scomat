@@ -1,0 +1,19 @@
+
+
+<html>
+<head>
+<script type="text/javascript">
+function runApp(which) {
+  WshShell = new ActiveXObject("WScript.Shell");
+  WshShell.Run (which,1,true);
+}
+</script>
+</head>
+<body>
+<!-- Two ways to create a link to run the app. -->
+<font onClick="runApp('file://c:/winnt/notepad.exe');" style="cursor: hand;"><u>Notepad</u></font>
+<br>
+<!-- Or use <a> descriptor -->
+<a href="runApp('file://C:/Archivos de programa/PostgreSQL/8.4/bin/respaldo.bat');">Batch File</a>
+</body>
+</html>

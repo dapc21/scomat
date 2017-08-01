@@ -1,0 +1,346 @@
+/*PERMITE ESTABLECER LA ESTRUCTURA Y DISEÑO DE LA APLICACION*/
+<style type="text/css">
+
+
+
+body{
+   font: 8pt Arial, Helvetica, sans-serif;
+   margin: 10 0 10 0px;
+   text-align: center;
+   background-color: #ebebeb;
+}
+
+.cabe{height: 40px; text-align: center;	font: 13pt arial,"arial",Times, serif;color: #4A5A6D;font-weight: bold;text-transform :uppercase;}
+
+.estilocabe{font: 11pt arial,"arial",Times, serif;color: #4A5A6D;font-weight: normal;}
+.estilocabeN{font: 10pt arial,"arial",Times, serif;color: #4A5A6D;font-weight: bold;}
+#contenedor{
+   text-align: left;
+   width: 800px;
+   margin: auto;
+}
+#bienv{
+   font: 60pt "Times New Roman", Times, serif;
+   color: #CDDEF5;
+   font-style: italic;
+   font-weight: bold;
+   text-align:center;
+  
+}
+#baner{
+   font: 120pt "Times New Roman", Times, serif;
+   color: #CDDEF5;
+   font-style: italic;
+   font-weight: bold;
+   text-align:center;
+   text-shadow: #C3C3C3 10px 10px 10px ;
+}
+
+#cuerpo{
+   margin: 4 0 4 0px;
+}
+#lateral{
+   width: 135px;
+   float:left;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+}
+#lateral ul{
+   margin : 0 0 0 0px;
+   padding: 0 0 0 0px;
+   list-style: none;
+}
+#lateral li{
+   margin: 0 0 0 0px;
+   padding: 0 0 0 4px;
+   font-weight: bold;
+   text-align:left;
+}
+#lateral a{color: #3333cc;text-decoration: none;}
+#principal{
+	/*background-image: url(../imagenes/background.jpg);*/
+}
+
+#pie{
+	height: 40px;
+   font: 9pt Arial, Helvetica, sans-serif;
+   padding: 3 10 3 10px;
+   text-align:center;
+   clear: both;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 5px;
+   background-image: url(../imagenes/barra.jpg);
+}
+
+.area{
+   font: 30pt "Times New Roman", Times, serif;
+   color: #CECECE;
+   font-style: italic;
+   font-weight: bold;
+}
+.enlace{
+   margin: 2 4 2 4px;
+   color:#CECECE;
+   width: 149px;
+   height: 24px;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 1px;
+   float: left;
+   text-align:center;
+   font: 12pt "Times New Roman", Times, serif;
+}
+#reloj{
+	font: 9pt "arial", Times, serif;
+   height: 17px;
+   width: 798px;
+   padding: 0 0 0 0px;
+   border: 1px solid ThreeDShadow;
+   -moz-border-radius: 3px;
+   margin: 3 0 3 0px;
+}
+#usuario{
+	   width: 260px;
+	   float: left;
+	   padding: 0 0 0 4px;
+}
+#sesion{
+	   width: 230px;
+	   margin-left: 20px;
+	   text-align:center;
+}
+#tiempo{
+	   width: 290px;
+	   float: right;
+	   text-align:right;
+	   padding: 0 4 0 0px;
+}
+.bitac{font: 11pt arial,"arial", Times, serif;color: #1FB045;font-weight: bold;}
+.fuenteP{font: 8pt arial,"arial", Times, serif;color: #000000;}
+.fuente{font: 9pt arial, Times, serif;color: #000000;text-transform :uppercase;}
+.resaltado{font: 11pt arial, Times, serif;color: #0000FF;border: 1px solid #B9CAE1; }
+.fuenteNormal{font: 9pt arial, Times, serif;color: #000000;text-transform :none;}
+
+.fuenteM{font: 9pt arial, Times, serif;color: #000000;text-transform :uppercase; font-weight: bold;text-decoration: underline;}
+
+.fuenteN{font: 10pt "arial", Times, serif;color: #000000;font-weight: bold;text-transform :uppercase;}
+
+.error{font: 12pt "arial", Times, serif;color: #FF0000;font-weight: bold; text-align:center;text-transform :uppercase;}
+#imagen  {
+background-image: url(../imagenes/boton.jpg);
+}
+#imagen  a {
+	display: block; /* para poder darle altura y ancho*/
+	width: 130px;
+	height: 22px;
+}
+#imagen.active, #imagen :hover{
+	background-image:url(../imagenes/botonhover.jpg);
+}
+A.estilo{font-weight: 500; font-size : 13px; font-family : Arial; color : #000099; text-decoration: none;}
+A.estilo:hover{ font-size : 13px;  font-family : Arial; color : #194D81; text-decoration: underline;}
+.arrow_btn{ font-style: normal; font-variant: normal; font-weight: normal; font-size: 8pt; font-family: verdana, arial, helvetica; color: #000000; border-left: 1px solid #cccccc; border-right: 1px solid #eeeeee; border-top: 1px solid #eeeeee; border-bottom: 1px solid #cccccc; background-color: #ffffff;}
+
+fieldset{
+			background:#F5F9FE;
+			font-size:10pt;
+			font-family: Arial, sans-serif;
+			color:#B9CAE1;
+			/*text-transform :uppercase;*/
+			font-weight :bold;
+			border: 1px solid #B9CAE1; 
+			-moz-border-radius: 5px;
+}
+
+legend{
+			color:#B9CAE1;
+			text-transform :uppercase;
+			font-weight :bold;
+}
+
+select{
+	text-transform :uppercase;
+}
+option{
+	font: 9pt arial, Times, serif;
+	text-transform :uppercase;
+}
+input{
+	font: 9pt arial, Times, serif;
+	text-transform :uppercase;
+}
+textarea{
+	font: 9pt arial, Times, serif;
+	text-transform :uppercase;
+}
+
+button
+{
+
+font-weight:bold;
+text-transform:uppercase;
+cursor:pointer;
+border:1px solid #3B5984;
+background:#FFFFFF none repeat scroll 0 0;
+color:#3B5984;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+line-height:normal;
+height:20px;
+-moz-border-radius:20px 40px;
+}
+
+#scroll{
+	height: 100%;
+	width: 100%;
+   overflow:auto;
+}
+
+
+
+
+/*MENSAJES*/
+
+.toggler { width: 500px; height: 200px; }
+#button { padding: .5em 1em; text-decoration: none; }
+
+#effect { width: 240px; height: 135px; padding: 0.4em; position:absolute;z-index:200;float: right;right:20px;}
+#effect h5 { margin: 0; padding: 0.4em; text-align: center; }
+
+
+
+.tit_sms{font: 12pt "arial", Times, serif;color: #4A5A6D;font-weight: bold;}
+.fuente_sms{font: 10pt "arial", Times, serif;color: #333333;}
+.fuente_sms_corto{font: 8pt "arial", Times, serif;color: #838383;}
+
+.fuente_sms_n{font: 10pt "arial", Times, serif;color: #333333;font-weight: bold;}
+.fuente_sms_corto_n{font: 7pt "arial", Times, serif;color: #838383;font-weight: bold;}
+
+#t_mensaje{
+	background-image:url(imagenes/titulo_sms.jpg);
+	height: 30px;
+	width: 150px;
+	border: 1px solid ThreeDShadow;
+}
+#t_listado{
+	background-image:url(imagenes/titulo_sms.jpg);
+	height: 30px;
+	width: 280px;
+	border: 1px solid ThreeDShadow;
+}
+#t_detalle{
+	background-image:url(imagenes/titulo_sms.jpg);
+	height: 30px;
+	width: 320px;
+	border: 1px solid ThreeDShadow;
+}
+
+#mensaje{
+	height: 480px;
+	width: 150px;
+	border: 1px solid ThreeDShadow;
+}
+#listado{
+	height: 480px;
+	width: 280px;
+	border: 1px solid ThreeDShadow;
+	overflow:auto;
+}
+#detalle_cont{
+	/*height: 380px;*/
+	width: 660px;
+	border: 1px solid ThreeDShadow;
+	overflow:auto;
+}
+#detalle{
+	height: 380px;
+	width: 320px;
+	border: 1px solid ThreeDShadow;
+	overflow:auto;
+}
+#envio_cont{
+	height: 100px;
+	width: 660px;
+	border-top: 1px solid ThreeDShadow;
+	border-right: 1px solid ThreeDShadow;
+	border-left: 1px solid ThreeDShadow;
+	
+	
+}
+#envio{
+	height: 100px;
+	width: 320px;
+	border-top: 1px solid ThreeDShadow;
+	border-right: 1px solid ThreeDShadow;
+	border-left: 1px solid ThreeDShadow;
+	
+	
+}
+#sms_rec{
+	width: 200px;
+	border: 1px solid #B1D85D;
+	overflow:auto;
+	float: left;
+	font: 10pt "arial", Times, serif;color: #333333;
+	-moz-border-radius: 8px;
+	background: #E4FDAE;
+}
+#sms_env{
+	width: 200px;
+	border: 1px solid #C3D7FA;
+	overflow:auto;
+	float: right;
+	font: 10pt "arial", Times, serif;color: #333333;
+	-moz-border-radius: 8px;
+	background: #E0EAFA;
+}
+
+
+#sms_rec_cont{
+	width: 400px;
+	border: 1px solid #B1D85D;
+	overflow:auto;
+	float: left;
+	font: 10pt "arial", Times, serif;color: #333333;
+	-moz-border-radius: 5px;
+	background: #E4FDAE;
+}
+#sms_env_cont{
+	width: 400px;
+	border: 1px solid #C3D7FA;
+	overflow:auto;
+	float: right;
+	font: 10pt "arial", Times, serif;color: #333333;
+	-moz-border-radius: 5px;
+	background: #E0EAFA;
+}
+
+.sms_envio{
+	border: 1px solid ThreeDShadow;
+	-moz-border-radius: 5px;
+}
+
+
+/*DISEÑO HTML 5*********************************************************************************/
+		[required]{
+		border-color: green;
+		box-shadow: 0px 0px 5px green;
+		}
+		:invalid {
+		border-color: red;
+		box-shadow: 0px 0px 5px red;
+		}
+
+/*FIN DISEÑO HTML 5*********************************************************************************/
+
+
+#image {
+background: #CFE4FF;
+}
+#image  a {
+	display: block; /* para poder darle altura y ancho*/
+	width: 130px;
+	height: 22px;
+}
+#image.active, #image :hover{
+	background: #FEE5AD;
+}

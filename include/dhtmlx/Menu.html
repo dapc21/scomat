@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Initiazation using Script</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		
+		<!-- Dhtmlx-->
+		<script src="codebase/dhtmlxcommon.js"></script>
+		<!-- Tconos Menu-->
+		<link rel="icon" href="commonMenu/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="commonMenu/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="commonMenu/css/style.css" type="text/css" media="screen" />
+		<!--Temas Menu-->
+		<link rel="stylesheet" type="text/css" href="codebase/skins/dhtmlxmenu_dhx_skyblue.css">
+		
+		<!--Menu-->
+		<script src="codebase/dhtmlxmenu.js"></script>
+		<script src="codebase/ext/dhtmlxmenu_ext.js" type="text/javascript"></script>
+		
+		<!-- Tconos barra-->
+		<link rel="icon" href="commonToolbal/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="commonToolbal/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="commonToolbal/css/style.css" type="text/css" media="screen" />
+		<!--Temas barra-->
+		<link rel="stylesheet" type="text/css" href="codebase/skins/dhtmlxtoolbar_dhx_skyblue.css"></link>
+		
+		<!--Barra-->
+		<script type="text/javascript" src="codebase/dhtmlxtoolbar.js"></script>
+		
+		<!-- Tconos windows-->
+		<link rel="icon" href="commonWindows/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="commonWindows/favicon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="commonWindows/css/style.css" type="text/css" media="screen" />
+		<!--Temas windows-->
+		<link rel="stylesheet" type="text/css" href="codebase/skins/dhtmlxwindows_dhx_skyblue.css">
+		
+		<!--windows-->
+		<link rel="stylesheet" type="text/css" href="codebase/dhtmlxwindows.css">
+		<script src="codebase/dhtmlxwindows.js"></script>
+		<script src="codebase/dhtmlxcontainer.js"></script>
+		
+		
+	</head>
+	<body>
+           
+           
+			
+            
+
+
+
+<div id="menuObj"></div>
+<div id="toolbarObj"></div>
+<div id="winVP" style="height:800px; border: #cecece 1px solid;"></div>
+<script>
+//Menu
+	var menu = new dhtmlXMenuObject("menuObj");
+	menu.setSkin("dhx_skyblue");
+	menu.setOpenMode("win");
+	//menu.setAlign("right"); 
+	menu.setTopText("hola");
+	menu.setIconsPath("commonMenu/imgs/");
+	// initing
+	menu.addNewSibling(null, "file", "File", false);
+		menu.addNewChild("file", 0, "new", "New", false, "new.gif");
+		menu.setHref("new","javascript:cargarPantalla()");
+		menu.setHotKey("new","Shift+g");
+		menu.addNewSeparator("new");
+		menu.addNewChild("file", 2, "open", "Open", false, "open.gif");
+		menu.addNewChild("file", 3, "save", "Save", false, "save.gif");
+			menu.addNewChild("save", 3, "save1", "Save1", false, "save.gif");
+		menu.addNewChild("file", 4, "saveAs", "Save As...", true, null, "save_as_dis.gif");
+		menu.addNewSeparator("saveAs");
+		menu.addNewChild("file", 6, "print", "Print", false, "print.gif");
+		menu.addNewChild("file", 7, "pageSetup", "Page Setup", true, null, "page_setup_dis.gif");
+		menu.addNewSeparator("pageSetup");
+		menu.addNewChild("file", 12, "close", "Close", false, "close.gif");
+	menu.addNewSibling("file", "edit", "Edit", false);
+		menu.addNewChild("edit", 0, "edit_undo", "Undo", false, "undo.gif");
+		menu.addNewSibling("edit_undo", "edit_redo", "Redo", false, "redo.gif");
+		menu.addNewSeparator("edit_redo", "sep_1");
+		menu.addNewSibling("sep_1", "edit_select_all", "Select All", false, "select_all.gif");
+		menu.addNewSeparator("edit_select_all", "sep_2");
+		menu.addNewSibling("sep_2", "edit_cut", "Cut", false, "cut.gif");
+		menu.addNewSibling("edit_cut", "edit_copy", "Copy", false, "copy.gif");
+		menu.addNewSibling("edit_copy", "edit_paste", "Paste", false, "paste.gif");
+	menu.addNewSibling("edit", "help", "Help", false);
+		menu.addNewChild("help", 0, "about", "About...", false, "about.gif");
+		menu.addNewChild("help", 1, "help2", "Help", false, "help.gif");
+		menu.addNewChild("help", 2, "bugrep", "Bug Reporting", false, "bug_reporting.gif");
+	
+	menu.addNewSibling("edit", "opts", "Options");
+		menu.addCheckbox("child", "opts", 0, "ignore_case", "Ignore Case", true);
+		menu.addCheckbox("child", "opts", 1, "search_everywhere", "Search Everywhere");
+	menu.addNewSibling("opts", "color", "Color");
+		menu.addRadioButton("child", "color", 0, "red", "Red", "color", true);
+		menu.addRadioButton("child", "color", 1, "green", "Green", "color");
+		menu.addRadioButton("child", "color", 2, "blue", "Blue", "color");
+		
+//Barra
+		
+	var toolbar = new dhtmlXToolbarObject("toolbarObj");
+	toolbar.setIconsPath("commonToolbal/imgs/");
+	
+	var newOpts = Array(	Array('new_text', 'obj', 'Text Document', 'text_document.gif'),
+				Array('new_excel','obj', 'Stylesheet'   , 'stylesheet.gif'),
+				Array('new_db',   'obj', 'Database'     , 'database.gif'),
+				Array('new_pp',   'obj', 'Presentation' , 'presentation.gif'),
+				Array('new_s1',   'sep'),
+				Array('new_other','obj', 'Other'        , 'other.gif'));
+	
+	toolbar.addButtonSelect("new_excel", 0, "New", newOpts, "new.gif", "new_dis.gif");
+	
+	toolbar.addSeparator("sep1", 1);
+	toolbar.addButton("open", 2, "", "open.gif", "open_dis.gif");
+	//toolbar.setHref("open","javascript:cargarPantalla()");
+	toolbar.addButton("save", 3, "", "save.gif", "save_dis.gif");
+	toolbar.addButton("save_as", 4, "Save As...", "save_as.gif", "save_as_dis.gif");
+	toolbar.disableItem("save_as");
+	toolbar.addSeparator("sep2", 5);
+	toolbar.addButton("undo", 6, "", "undo.gif", "undo_dis.gif");
+	toolbar.addButton("redo", 7, "", "redo.gif", "redo_dis.gif");
+	toolbar.addSeparator("sep3", 8);
+	toolbar.addButton("cut", 9, "Cut", "cut.gif", "cut_dis.gif");
+	toolbar.addButton("copy", 10, "Copy", "copy.gif", "copy_dis.gif");
+	toolbar.addButton("paste", 11, "Paste", "paste.gif", "paste_dis.gif");
+	toolbar.addSeparator("sep4", 12);
+	
+	var printOpts = Array(	Array('print_page', 'obj', 'Page'       , 'page.gif'),
+				Array('print_range','obj', 'Page Range' , 'page_range.gif'),
+				Array('print_sel',  'obj', 'Selection'  , 'selection.gif'),
+				Array('print_sep1', 'sep'),
+				Array('print_cfg',  'obj', 'Settings'   , 'settings.gif'));
+	
+	toolbar.addButtonSelect("print", 13, "Print", printOpts, "print.gif", "print_dis.gif");
+	toolbar.addSeparator("sep5", 14);
+	toolbar.addText("info", 15, "dhtmlxToolbar Demo");
+
+//Ventana
+//function cargarPantalla(){
+		var dhxWins
+		dhxWinsParams = {
+			image_path: "codebase/imgs/",
+			viewport: {object: "winVP"},
+			wins: [ {
+						id: "w1", 
+						left: 20, 
+						top: 30, 
+						width: 420, 
+						height: 300
+					},
+					{
+						id: "w2", 
+						left: 50, 
+						top: 70, 
+						width: 420, 
+						height: 300
+					},
+					{
+						id: "w3", 
+						left: 80, 
+						top: 110, 
+						width: 420, 
+						height: 300
+					}
+			]
+		};
+		dhxWins = new dhtmlXWindows(dhxWinsParams);
+		
+//}
+</script>
+	</body>
+</html>

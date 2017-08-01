@@ -1,0 +1,8 @@
+#v 1.0
+#Este manifiesto corresponde a mi saeco_3
+
+CACHE MANIFEST
+index.php
+SMS/javascript/ajax.js
+SMS/javascript/controlador.js
+include/dhtmlx/commonMenu/imgs/users.png

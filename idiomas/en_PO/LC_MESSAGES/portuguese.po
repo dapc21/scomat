@@ -1,0 +1,4803 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SAECO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-12 12:14-0400\n"
+"PO-Revision-Date: 2012-07-14 12:08-0400\n"
+"Last-Translator: JOEL BOLIVAR <JOEL_JOSE99@HOTMAIL.COM>\n"
+"Language-Team: SAECOSOFT C.A. <saeco.ve@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: C:/wamp/www/\n"
+"Plural-Forms: brasil\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: SAECO_4\n"
+
+#: SAECO_4/actualizar_campo.php:39
+msgid "actualizar cargo"
+msgstr "atualizar por"
+
+#: SAECO_4/actualizar_campo.php:49
+msgid "monto cargo"
+msgstr "quantidade de carga"
+
+#: SAECO_4/actualizar_campo.php:58
+msgid "clasificacion motivo"
+msgstr "por classificação"
+
+#: SAECO_4/actualizar_campo.php:69
+msgid "describa motivo"
+msgstr "descrever por"
+
+#: SAECO_4/act_datos.php:39
+msgid "actualizacion de datos del cliente"
+msgstr "atualizar os dados dos clientes"
+
+#: SAECO_4/act_datos.php:47
+#: SAECO_4/datos_contrato.php:94
+msgid "datos personales del cliente"
+msgstr "dados de clientes"
+
+#: SAECO_4/act_datos.php:54
+#: SAECO_4/datos_contrato.php:331
+msgid "nro contrato"
+msgstr "nr contrato"
+
+#: SAECO_4/act_datos.php:62
+#: SAECO_4/busq_cont_avanz.php:38
+#: SAECO_4/datos_contrato.php:115
+msgid "rif / cedula"
+msgstr "rif / Cédula"
+
+#: SAECO_4/act_datos.php:73
+#: SAECO_4/datos_contrato.php:134
+#: SAECO_4/envio_aut.php:66
+msgid "nombre"
+msgstr "nome"
+
+#: SAECO_4/act_datos.php:81
+#: SAECO_4/busq_cont_avanz.php:62
+#: SAECO_4/datos_contrato.php:142
+msgid "apellido"
+msgstr "sobrenome"
+
+#: SAECO_4/act_datos.php:90
+#: SAECO_4/busq_cont_avanz.php:128
+#: SAECO_4/datos_contrato.php:151
+msgid "celular"
+msgstr "célula"
+
+#: SAECO_4/act_datos.php:98
+#: SAECO_4/busq_cont_avanz.php:135
+#: SAECO_4/datos_contrato.php:159
+msgid "telefono"
+msgstr "telefone"
+
+#: SAECO_4/act_datos.php:107
+#: SAECO_4/datos_contrato.php:168
+msgid "telefono adicional"
+msgstr "adicional do telefone"
+
+#: SAECO_4/act_datos.php:114
+#: SAECO_4/datos_contrato.php:175
+msgid "email"
+msgstr "e-mail"
+
+#: SAECO_4/act_datos.php:132
+#: SAECO_4/datos_contrato.php:194
+msgid "datos de ubicacion del cliente"
+msgstr "localização dos dados de clientes"
+
+#: SAECO_4/act_datos.php:137
+#: SAECO_4/datos_contrato.php:199
+msgid "franquicia"
+msgstr "franquia"
+
+#: SAECO_4/act_datos.php:145
+#: SAECO_4/datos_contrato.php:208
+msgid "residencia"
+msgstr "residência"
+
+#: SAECO_4/act_datos.php:150
+msgid "casa"
+msgstr "casa"
+
+#: SAECO_4/act_datos.php:151
+#: SAECO_4/act_datos.php:196
+#: SAECO_4/datos_contrato.php:261
+msgid "edificio"
+msgstr "construção"
+
+#: SAECO_4/act_datos.php:157
+#: SAECO_4/busq_cont_avanz.php:89
+#: SAECO_4/datos_contrato.php:219
+msgid "zona"
+msgstr "zona"
+
+#: SAECO_4/act_datos.php:167
+#: SAECO_4/busq_cont_avanz.php:99
+#: SAECO_4/datos_contrato.php:231
+msgid "sector"
+msgstr "setor"
+
+#: SAECO_4/act_datos.php:178
+#: SAECO_4/busq_cont_avanz.php:110
+#: SAECO_4/datos_contrato.php:243
+msgid "calle"
+msgstr "rua"
+
+#: SAECO_4/act_datos.php:187
+#: SAECO_4/busq_cont_avanz.php:119
+#: SAECO_4/datos_contrato.php:253
+msgid "nro casa / apto"
+msgstr "nro casa / apt"
+
+#: SAECO_4/act_datos.php:205
+#: SAECO_4/datos_contrato.php:271
+msgid "nro piso"
+msgstr "nro do andar"
+
+#: SAECO_4/act_datos.php:214
+#: SAECO_4/datos_contrato.php:306
+msgid "direccion adicional"
+msgstr "direção adicional"
+
+#: SAECO_4/act_datos.php:234
+msgid "actualizar"
+msgstr "atualizar"
+
+#: SAECO_4/administrar.php:36
+msgid "el campo no esta registrado en esta tabla"
+msgstr "o campo não é gravado nesta tabela"
+
+#: SAECO_4/administrar.php:46
+msgid " el campo ya esta registrado en esta tabla"
+msgstr "o campo já está registrado na tabela"
+
+#: SAECO_4/busq_cont_avanz.php:23
+msgid "busqueda avanzada"
+msgstr "Pesquisa avançada"
+
+#: SAECO_4/busq_cont_avanz.php:33
+msgid "parametros de la busqueda"
+msgstr "parâmetros da pesquisa"
+
+#: SAECO_4/busq_cont_avanz.php:45
+msgid " nro contrato"
+msgstr "nro contrato"
+
+#: SAECO_4/busq_cont_avanz.php:72
+#: SAECO_4/datos_contrato.php:350
+msgid "etiqueta"
+msgstr "rótulo"
+
+#: SAECO_4/busq_cont_avanz.php:80
+msgid "fecha contrato"
+msgstr "data do contrato"
+
+#: SAECO_4/busq_cont_avanz.php:158
+msgid "resultados encontrados de la busqueda"
+msgstr "resultados da pesquisa"
+
+#: SAECO_4/comandos_sms.php:54
+msgid "editar comandos para mensajes de textos"
+msgstr "comandos para editar mensagens de texto"
+
+#: SAECO_4/comandos_sms.php:60
+msgid "datos del comando"
+msgstr "dados de comando"
+
+#: SAECO_4/comandos_sms.php:72
+msgid "comando"
+msgstr "comando"
+
+#: SAECO_4/comandos_sms.php:80
+msgid "descripcion"
+msgstr "descrição"
+
+#: SAECO_4/comandos_sms.php:88
+msgid "sms correcto"
+msgstr "sms corretos"
+
+#: SAECO_4/comandos_sms.php:99
+msgid "mensaje erroneo"
+msgstr "mensagem errada"
+
+#: SAECO_4/comandos_sms.php:108
+msgid "email correcto"
+msgstr "endereço de email"
+
+#: SAECO_4/comandos_sms.php:126
+msgid "registrar"
+msgstr "registrar"
+
+#: SAECO_4/comandos_sms.php:127
+#: SAECO_4/envio_aut.php:104
+msgid "guardar"
+msgstr "salvar"
+
+#: SAECO_4/comandos_sms.php:128
+msgid "eliminar"
+msgstr "remover"
+
+#: SAECO_4/comandos_sms.php:129
+msgid "cancelar"
+msgstr "cancelar"
+
+#: SAECO_4/datos_contrato.php:79
+msgid "datos del cliente"
+msgstr "dados de clientes"
+
+#: SAECO_4/datos_contrato.php:101
+msgid "tipo cliente"
+msgstr "tipo de cliente"
+
+#: SAECO_4/datos_contrato.php:124
+msgid "razon social"
+msgstr "nome da empresa"
+
+#: SAECO_4/datos_contrato.php:280
+msgid "poste"
+msgstr "postar"
+
+#: SAECO_4/datos_contrato.php:287
+msgid "taps"
+msgstr "taps"
+
+#: SAECO_4/datos_contrato.php:296
+msgid "pto"
+msgstr "pto"
+
+#: SAECO_4/datos_contrato.php:325
+msgid "datos del contrato"
+msgstr "o contrato"
+
+#: SAECO_4/datos_contrato.php:341
+msgid "status contrato"
+msgstr "status de contrato"
+
+#: SAECO_4/datos_contrato.php:361
+msgid "vendedor"
+msgstr "vendedor"
+
+#: SAECO_4/datos_contrato.php:370
+msgid "costo contrato"
+msgstr "custo do contrato"
+
+#: SAECO_4/datos_contrato.php:381
+#: SAECO_4/datos_contrato.php:502
+#: SAECO_4/datos_contrato.php:563
+msgid "fecha"
+msgstr "data"
+
+#: SAECO_4/datos_contrato.php:389
+msgid "hora"
+msgstr "tempo"
+
+#: SAECO_4/datos_contrato.php:401
+msgid "observacion"
+msgstr "observação"
+
+#: SAECO_4/datos_contrato.php:420
+msgid "datos de los servicios mensuales"
+msgstr "mensais de serviços de dados"
+
+#: SAECO_4/datos_contrato.php:439
+#: SAECO_4/datos_contrato.php:500
+#: SAECO_4/datos_contrato.php:618
+msgid "nombre servicio"
+msgstr "nome do serviço"
+
+#: SAECO_4/datos_contrato.php:440
+#: SAECO_4/datos_contrato.php:501
+msgid "tipo de servicio"
+msgstr "tipo de serviço"
+
+#: SAECO_4/datos_contrato.php:441
+msgid "cantidad"
+msgstr "quantidade"
+
+#: SAECO_4/datos_contrato.php:489
+msgid "cargos pendientes"
+msgstr "acusações pendentes"
+
+#: SAECO_4/datos_contrato.php:503
+#: SAECO_4/datos_contrato.php:620
+msgid "cant"
+msgstr "quant"
+
+#: SAECO_4/datos_contrato.php:504
+msgid "monto"
+msgstr "quant"
+
+#: SAECO_4/datos_contrato.php:505
+#: SAECO_4/datos_contrato.php:622
+msgid "total"
+msgstr "total"
+
+#: SAECO_4/datos_contrato.php:532
+msgid "total deuda"
+msgstr "total da dívida"
+
+#: SAECO_4/datos_contrato.php:552
+msgid "ordenes de servicios"
+msgstr "ordens de serviço"
+
+#: SAECO_4/datos_contrato.php:564
+msgid "tipo orden"
+msgstr "tipo de ordem"
+
+#: SAECO_4/datos_contrato.php:565
+msgid "nombre orden"
+msgstr "a ordem dos nomes"
+
+#: SAECO_4/datos_contrato.php:566
+msgid "status"
+msgstr "estado"
+
+#: SAECO_4/datos_contrato.php:567
+msgid "fecha final"
+msgstr "data de término"
+
+#: SAECO_4/datos_contrato.php:568
+msgid "comentario"
+msgstr "comentar"
+
+#: SAECO_4/datos_contrato.php:569
+msgid "v"
+msgstr "v"
+
+#: SAECO_4/datos_contrato.php:605
+msgid "historial de pagos"
+msgstr "histórico de pagamentos"
+
+#: SAECO_4/datos_contrato.php:615
+msgid "factura"
+msgstr "projeto de lei"
+
+#: SAECO_4/datos_contrato.php:616
+msgid "fecha pago"
+msgstr "data de pagamento"
+
+#: SAECO_4/datos_contrato.php:617
+msgid "tipo servicio"
+msgstr "tipo de serviço"
+
+#: SAECO_4/datos_contrato.php:619
+msgid "fecha cargo"
+msgstr "por data"
+
+#: SAECO_4/datos_contrato.php:621
+msgid "costo"
+msgstr "custar"
+
+#: SAECO_4/datos_contrato.php:682
+msgid "salir"
+msgstr "deixar"
+
+#: SAECO_4/envio_aut.php:49
+msgid "editar datos de envio automatico"
+msgstr "editar dados autoship"
+
+#: SAECO_4/envio_aut.php:55
+msgid "datos del envio"
+msgstr "dados de navegação"
+
+#: SAECO_4/envio_aut.php:75
+msgid "sms a enviar"
+msgstr "sms a enviar"
+
+#: SAECO_4/envio_aut.php:85
+msgid "e-mail a enviar"
+msgstr "e-mail a enviar"
+
+#: SAECO_4/index.php:142
+msgid "Bienvenidos"
+msgstr "boas-vindas"
+
+#: SAECO_4/index.php:157
+msgid "Actualizacion"
+msgstr "atualizar"
+
+#: SAECO_4/index.php:161
+msgid "Contrato"
+msgstr "contrato"
+
+#: SAECO_4/index.php:168
+msgid "Actualizar Datos"
+msgstr "atualizar dados"
+
+#: SAECO_4/index.php:173
+msgid "Datos de Ubicacion"
+msgstr "Dados de localização"
+
+#: SAECO_4/index.php:174
+msgid "Edificio"
+msgstr "edifício"
+
+#: SAECO_4/index.php:177
+msgid "Calle"
+msgstr "rua"
+
+#: SAECO_4/index.php:180
+msgid "Sector"
+msgstr "setor"
+
+#: SAECO_4/index.php:183
+msgid "Zona"
+msgstr "área"
+
+#: SAECO_4/index.php:186
+msgid "Franquicia"
+msgstr "franquia"
+
+#: SAECO_4/index.php:189
+msgid "Datos de Empleados"
+msgstr "Dados dos funcionários"
+
+#: SAECO_4/index.php:190
+msgid "Tecnico"
+msgstr "técnico"
+
+#: SAECO_4/index.php:193
+msgid "Cobrador"
+msgstr "condutor"
+
+#: SAECO_4/index.php:196
+msgid "Vendedor"
+msgstr "vendedor"
+
+#: SAECO_4/index.php:200
+msgid "Gerentes"
+msgstr "gerentes"
+
+#: SAECO_4/index.php:204
+msgid "Grupo Trabajo"
+msgstr "Grupo de Trabalho"
+
+#: SAECO_4/index.php:207
+msgid "Datos de Ordenes"
+msgstr "Dados ordens"
+
+#: SAECO_4/index.php:208
+msgid "Detalle de Orden"
+msgstr "Detalhe Ordem"
+
+#: SAECO_4/index.php:211
+msgid "Tipo de Orden"
+msgstr "Tipo de Ordem"
+
+#: SAECO_4/index.php:214
+msgid "Datos de Servicios"
+msgstr "Dados Serviços"
+
+#: SAECO_4/index.php:215
+msgid "Servicios"
+msgstr "serviços"
+
+#: SAECO_4/index.php:218
+msgid "Tipos de Servicios"
+msgstr "Tipos de Serviços"
+
+#: SAECO_4/index.php:221
+msgid "Tarifa Servicio"
+msgstr "Taxa de Serviço"
+
+#: SAECO_4/index.php:224
+msgid "Otros Datos"
+msgstr "outros Dados"
+
+#: SAECO_4/index.php:225
+msgid "Status Contrato"
+msgstr "status do contrato"
+
+#: SAECO_4/index.php:228
+msgid "Motivo Notas"
+msgstr "Status Contrato"
+
+#: SAECO_4/index.php:234
+msgid "Forma de Pago"
+msgstr "Pagamento"
+
+#: SAECO_4/index.php:237
+msgid "Banco"
+msgstr "Banco"
+
+#: SAECO_4/index.php:240
+msgid "Punto de Cobro"
+msgstr "Ponto de recolha"
+
+#: SAECO_4/index.php:243
+msgid "Parametros Generales"
+msgstr "Parâmetros Gerais"
+
+#: SAECO_4/index.php:247
+msgid "Transacciones"
+msgstr "transações"
+
+#: SAECO_4/index.php:248
+msgid "Abrir Punto de Cobro"
+msgstr "Ponto Aberto de Coleta"
+
+#: SAECO_4/index.php:253
+msgid "Cerrar Punto de Cobro"
+msgstr "Fechar Ponto de Coleta"
+
+#: SAECO_4/index.php:257
+msgid "Cobrar por Punto de Cobro"
+msgstr "Cobrar por ponto de coleta"
+
+#: SAECO_4/index.php:260
+msgid "Imprimir Facturas en Lotes"
+msgstr "Imprimir faturas em lote"
+
+#: SAECO_4/index.php:266
+msgid "Consultar Cierre Diario"
+msgstr "Ver Jornal Fechar"
+
+#: SAECO_4/index.php:269
+#: SAECO_4/index.php:354
+msgid "Cierre Diario"
+msgstr "Encerramento Jornal"
+
+#: SAECO_4/index.php:274
+#: SAECO_4/index.php:350
+msgid "Ordenes de Servicios"
+msgstr "Ordens de Serviço"
+
+#: SAECO_4/index.php:275
+msgid "Asignar Ordenes de Servicios"
+msgstr "Atribuir Ordens de Serviço"
+
+#: SAECO_4/index.php:278
+msgid "Imprimir Ordenes de Servicios"
+msgstr "Ordens de Serviço de Impressão"
+
+#: SAECO_4/index.php:281
+msgid "Finalizar Ordenes de Servicios"
+msgstr "Ordens de serviços finais"
+
+#: SAECO_4/index.php:284
+msgid "Ordenes de Servicios Devueltas"
+msgstr "Ordens Devolvido Serviços"
+
+#: SAECO_4/index.php:287
+msgid "Generar listado para Cobro"
+msgstr "Gerar lista para Coleção"
+
+#: SAECO_4/index.php:290
+msgid "Clientes que pagaron en mes de"
+msgstr "Os clientes que pagaram no mês"
+
+#: SAECO_4/index.php:301
+msgid "Cargar Deuda"
+msgstr "carga da Dívida"
+
+#: SAECO_4/index.php:304
+msgid "Anular Pago"
+msgstr "cancelar Pagamento"
+
+#: SAECO_4/index.php:307
+msgid "Nota de Credito"
+msgstr "Nota de Crédito"
+
+#: SAECO_4/index.php:310
+msgid "Modificar Pago"
+msgstr "modificar Pagamento"
+
+#: SAECO_4/index.php:313
+msgid "Modificar Numero Fact"
+msgstr "Modificar Número da Fatura"
+
+#: SAECO_4/index.php:319
+msgid "Descuento por lotes"
+msgstr "Itens com desconto"
+
+#: SAECO_4/index.php:323
+msgid "Reportes"
+msgstr "relatórios"
+
+#: SAECO_4/index.php:330
+msgid "Reporte fiscal"
+msgstr "Relatório fiscal"
+
+#: SAECO_4/index.php:333
+msgid "Libro de Venta"
+msgstr "Venda de Livros"
+
+#: SAECO_4/index.php:336
+msgid "Total Cliente"
+msgstr "total do Cliente"
+
+#: SAECO_4/index.php:339
+msgid "Estado de Cuenta"
+msgstr "Afirmação"
+
+#: SAECO_4/index.php:342
+msgid "Historial de Pagos"
+msgstr "Histórico de Pagamentos"
+
+#: SAECO_4/index.php:345
+msgid "Reimprimir Archivos"
+msgstr "reimprimir Arquivos"
+
+#: SAECO_4/index.php:347
+msgid "Ultima Factura de Pago"
+msgstr "Pagamento última fatura"
+
+#: SAECO_4/index.php:357
+msgid "Cierre de Caja"
+msgstr "Fechar Caixa"
+
+#: SAECO_4/index.php:361
+msgid "Clientes Por Ubicacion"
+msgstr "Clientes por Localização"
+
+#: SAECO_4/index.php:363
+#: SAECO_4/index.php:377
+msgid "Franquicias"
+msgstr "franquias"
+
+#: SAECO_4/index.php:366
+#: SAECO_4/index.php:380
+msgid "Zonas"
+msgstr "áreas"
+
+#: SAECO_4/index.php:369
+msgid "Sectores"
+msgstr "setores"
+
+#: SAECO_4/index.php:372
+#: SAECO_4/index.php:386
+msgid "Calles"
+msgstr "ruas"
+
+#: SAECO_4/index.php:375
+msgid "Deudas Por Ubicacion"
+msgstr "Dívida por localidade"
+
+#: SAECO_4/index.php:383
+msgid "Deudas por Sectores"
+msgstr "Setores da dívida"
+
+#: SAECO_4/index.php:389
+msgid "Ordenes de Servicio"
+msgstr "Ordem de Serviço"
+
+#: SAECO_4/index.php:392
+msgid "Ord. de Serv. Completo"
+msgstr "Ordens de Servi Completo"
+
+#: SAECO_4/index.php:395
+msgid "Informe de Notas"
+msgstr "Notas relatório"
+
+#: SAECO_4/index.php:398
+msgid "Recuperados"
+msgstr "recuperado"
+
+#: SAECO_4/index.php:401
+msgid "Reporte por cobrador"
+msgstr "Relatório coletor"
+
+#: SAECO_4/index.php:404
+msgid "Ingresos por Servicios"
+msgstr "Resultado dos Serviços"
+
+#: SAECO_4/index.php:407
+msgid "Ingresos por Cargos"
+msgstr "Rendas de tarifas"
+
+#: SAECO_4/index.php:412
+msgid "Estadisticas"
+msgstr "estatística"
+
+#: SAECO_4/index.php:414
+msgid "Anuales"
+msgstr "anual"
+
+#: SAECO_4/index.php:415
+#: SAECO_4/index.php:457
+msgid "De Ingresos"
+msgstr "renda"
+
+#: SAECO_4/index.php:416
+#: SAECO_4/index.php:430
+#: SAECO_4/index.php:443
+#: SAECO_4/index.php:458
+#: SAECO_4/index.php:472
+#: SAECO_4/index.php:485
+msgid "Por Franquicias"
+msgstr "franquias"
+
+#: SAECO_4/index.php:419
+#: SAECO_4/index.php:433
+#: SAECO_4/index.php:446
+#: SAECO_4/index.php:461
+#: SAECO_4/index.php:475
+#: SAECO_4/index.php:488
+msgid "Por Zonas"
+msgstr "áreas"
+
+#: SAECO_4/index.php:422
+#: SAECO_4/index.php:436
+#: SAECO_4/index.php:449
+#: SAECO_4/index.php:464
+#: SAECO_4/index.php:478
+#: SAECO_4/index.php:491
+msgid "Por Sectores"
+msgstr "setores"
+
+#: SAECO_4/index.php:425
+#: SAECO_4/index.php:439
+#: SAECO_4/index.php:452
+#: SAECO_4/index.php:467
+#: SAECO_4/index.php:481
+#: SAECO_4/index.php:494
+msgid "Por Calles"
+msgstr "ruas"
+
+#: SAECO_4/index.php:429
+#: SAECO_4/index.php:471
+msgid "De Clientes"
+msgstr "cliente"
+
+#: SAECO_4/index.php:442
+#: SAECO_4/index.php:484
+msgid "De Ordenes"
+msgstr "ordens"
+
+#: SAECO_4/index.php:456
+msgid "Mensuales"
+msgstr "mensal"
+
+#: SAECO_4/index.php:497
+msgid "Tecnicos por fechas"
+msgstr "Técnico por data"
+
+#: SAECO_4/index.php:498
+msgid "General"
+msgstr "geral"
+
+#: SAECO_4/index.php:501
+msgid "Individual"
+msgstr "individual"
+
+#: SAECO_4/index.php:505
+#: SAECO_4/index.php:506
+msgid "Materiales"
+msgstr "materiais"
+
+#: SAECO_4/index.php:510
+msgid "Entrada de Materiales"
+msgstr "Materiais de Entrada"
+
+#: SAECO_4/index.php:513
+msgid "Salida de Materiales"
+msgstr "Saída de materiais"
+
+#: SAECO_4/index.php:516
+msgid "Inventario de Materiales"
+msgstr "Inventário dos Materiais"
+
+#: SAECO_4/index.php:521
+msgid "Configuracion"
+msgstr "configuração"
+
+#: SAECO_4/index.php:524
+msgid "Consultar"
+msgstr "consultar"
+
+#: SAECO_4/index.php:527
+msgid "Cierre"
+msgstr "encerramento"
+
+#: SAECO_4/index.php:530
+msgid "Libro"
+msgstr "livro"
+
+#: SAECO_4/index.php:533
+msgid "Reimp. Cierre"
+msgstr "reimp encerramento"
+
+#: SAECO_4/index.php:536
+msgid "Reimp. Caja"
+msgstr "reimp caixa"
+
+#: SAECO_4/index.php:543
+msgid "Seguridad"
+msgstr "segurança"
+
+#: SAECO_4/index.php:544
+msgid "Cambiar contrasena"
+msgstr "alterar senha"
+
+#: SAECO_4/index.php:547
+msgid "Usuario"
+msgstr "usuário"
+
+#: SAECO_4/index.php:550
+msgid "perfil"
+msgstr "perfil"
+
+#: SAECO_4/index.php:563
+msgid "Comunicacion"
+msgstr "comunicação"
+
+#: SAECO_4/index.php:564
+msgid "Leer SMS"
+msgstr "Leia SMS"
+
+#: SAECO_4/index.php:567
+msgid "Enviar SMS unico"
+msgstr "Enviar SMS só"
+
+#: SAECO_4/index.php:570
+msgid "Enviar SMS por Lotes"
+msgstr "Enviar SMS Batch"
+
+#: SAECO_4/index.php:579
+msgid "Configuraci&oacute;n SMS"
+msgstr "SMS Configurações"
+
+#: SAECO_4/index.php:581
+msgid "Configuraci&oacute;n General"
+msgstr "Definições Gerais"
+
+#: SAECO_4/index.php:584
+msgid "Configurar Envio Automatico"
+msgstr "Configurar o envio automático"
+
+#: SAECO_4/index.php:587
+msgid "Configurar Comandos SMS"
+msgstr "Configurar Comandos SMS"
+
+#: SAECO_4/index.php:590
+msgid "Variables SMS"
+msgstr "SMS variáveis"
+
+#: SAECO_4/index.php:593
+msgid "Plantilla para Envio SMS Masivo"
+msgstr "Modelo para envio maciço SMS"
+
+#: SAECO_4/index.php:596
+msgid "Revisar Listado"
+msgstr "Check List"
+
+#: SAECO_4/index.php:598
+msgid "Listado de Falla"
+msgstr "Lista de culpa"
+
+#: SAECO_4/index.php:601
+msgid "Listado de Denuncia"
+msgstr "Lista de Relatório"
+
+#: SAECO_4/index.php:604
+msgid "Listado de Reclamo"
+msgstr "Listagem Reclamação"
+
+#: SAECO_4/index.php:607
+msgid "Mantenimiento"
+msgstr "manutenção"
+
+#: SAECO_4/index.php:608
+msgid "Realizar Copia de Seguridad"
+msgstr "Back Up"
+
+#: SAECO_4/index.php:611
+msgid "consulta ID"
+msgstr "ID consulta"
+
+#: SAECO_4/index.php:614
+msgid "Personalizar Interfaz"
+msgstr "interface personalizada"
+
+#: SAECO_4/index.php:615
+msgid "Dise&ntilde;o Azul Web"
+msgstr "Blue Design Web"
+
+#: SAECO_4/index.php:616
+msgid "Dise&ntilde;o Negro"
+msgstr "design Preto"
+
+#: SAECO_4/index.php:617
+msgid "Dise&ntilde;o Azul"
+msgstr "Blue Design"
+
+#: SAECO_4/index.php:619
+msgid "INFORMACION VIEJA"
+msgstr "INFORMAÇÕES VELHO"
+
+#: SAECO_4/index.php:622
+msgid "Configuracion de Idioma"
+msgstr "Configurações de idioma"
+
+#: SAECO_4/index.php:660
+#: SAECO_4/index.php:662
+msgid "Ayuda"
+msgstr "ajudar"
+
+#: SAECO_4/index.php:667
+msgid "Parametros de Licencia"
+msgstr "Parâmetros de Licença"
+
+#: SAECO_4/prueba.php:14
+msgid "conectado"
+msgstr "conectado"
+
+#: SAECO_4/prueba.php:18
+msgid "no conectado"
+msgstr "não conectado"
+
+#: SAECO_4/sorteo.php:20
+msgid "lista de contrato para sorteo en navidad"
+msgstr "lista do lote contrato no Natal"
+
+#: SAECO_4/sorteo.php:62
+msgid "total participantes"
+msgstr "total de participantes"
+
+#: SAECO_4/add/sector.php:62
+msgid "paquete de mantenimiento"
+msgstr "pacote de manutenção"
+
+#: SAECO_4/add/sector.php:70
+msgid "paquete de afiliacion"
+msgstr "Pacote de afiliados"
+
+#: SAECO_4/Clases/sms.php:1219
+msgid "caracteres"
+msgstr "caracteres"
+
+#: SAECO_4/Clases/sms.php:1356
+msgid "mensajes"
+msgstr "mensagens"
+
+#: SAECO_4/Clases/sms.php:1364
+msgid "todos"
+msgstr "todos"
+
+#: SAECO_4/Clases/sms.php:1367
+msgid "sin leer"
+msgstr "não lido"
+
+#: SAECO_4/Clases/sms.php:1370
+msgid "recibidos"
+msgstr "recebido"
+
+#: SAECO_4/Clases/sms.php:1373
+msgid "enviados"
+msgstr "enviado"
+
+#: SAECO_4/Clases/sms.php:1483
+msgid "enviar"
+msgstr "enviar"
+
+#: SAECO_4/Clases/sms.php:1484
+msgid "limpiar"
+msgstr "limpar"
+
+#: SAECO_4/Clases/sms.php:1726
+msgid "CONECTADO"
+msgstr "CONECTADO"
+
+#: SAECO_4/Clases/sms.php:1726
+msgid "DESCONECTADO"
+msgstr "OFFLINE"
+
+#: SAECO_4/Clases/sms.php:1726
+msgid "CONECTANDO..."
+msgstr "CONEXÃO ..."
+
+#: SAECO_4/Formulario/actualizar_pagos.php:8
+msgid "actualizacion de pagos de clientes"
+msgstr "atualizar os pagamentos dos clientes"
+
+#: SAECO_4/Formulario/actualizar_pagos.php:130
+msgid "seleccione el campo a modificar"
+msgstr "selecione o campo para mudar"
+
+#: SAECO_4/Formulario/actualizar_pagos.php:150
+#: SAECO_4/Formulario/antes_cirre_diario.php:71
+#: SAECO_4/Formulario/antes_cirre_diario1.php:71
+#: SAECO_4/Formulario/asig_orden.php:80
+#: SAECO_4/Formulario/asig_orden1.php:177
+#: SAECO_4/Formulario/aviso_cobro.php:52
+#: SAECO_4/Formulario/banco.php:34
+#: SAECO_4/Formulario/caja.php:78
+#: SAECO_4/Formulario/caja_cobrador.php:80
+#: SAECO_4/Formulario/calle.php:74
+#: SAECO_4/Formulario/cambiar_c.php:58
+#: SAECO_4/Formulario/cargar_d.php:119
+msgid "modificar"
+msgstr "mudar"
+
+#: SAECO_4/Formulario/act_contrato.php:38
+msgid "busqueda del cliente"
+msgstr "pesquisa de clientes"
+
+#: SAECO_4/Formulario/act_contrato.php:82
+msgid "natural"
+msgstr "natural"
+
+#: SAECO_4/Formulario/act_contrato.php:83
+msgid "juridico"
+msgstr "legal"
+
+#: SAECO_4/Formulario/act_contrato.php:331
+msgid "grupo que realizo el corte"
+msgstr "Eu faço o grupo corte"
+
+#: SAECO_4/Formulario/act_contrato.php:352
+msgid "costo Contrato"
+msgstr "custo do contrato"
+
+#: SAECO_4/Formulario/act_contrato.php:419
+#: SAECO_4/Formulario/antes_cirre_diario.php:93
+#: SAECO_4/Formulario/antes_cirre_diario1.php:92
+#: SAECO_4/Formulario/aviso_cobro.php:27
+#: SAECO_4/Formulario/cargar_d.php:89
+msgid "servicio"
+msgstr "serviço"
+
+#: SAECO_4/Formulario/act_datos.php:226
+msgid "postel"
+msgstr "Postel"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:17
+msgid "consulta de cierre diario"
+msgstr "estreita consulta diária"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:24
+msgid "datos del cierre"
+msgstr "dados finais"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:36
+#: SAECO_4/Formulario/antes_cirre_diario1.php:36
+msgid "hora "
+msgstr "tempo"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:70
+#: SAECO_4/Formulario/antes_cirre_diario1.php:70
+msgid "registrar cierre"
+msgstr "fechamento recorde"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:89
+#: SAECO_4/Formulario/antes_cirre_diario1.php:88
+msgid "resumen por servicios"
+msgstr "Resumo dos Serviços"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:155
+#: SAECO_4/Formulario/antes_cirre_diario1.php:154
+msgid "resumen por forma de pago"
+msgstr "resumo de pagamento"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:159
+#: SAECO_4/Formulario/anular_pagos.php:66
+msgid "forma de pago"
+msgstr "método de pagamento"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:212
+msgid "detalles de puntos de cobros"
+msgstr "Detalhes de pontos de recolha"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:222
+#: SAECO_4/Formulario/antes_cirre_diario1.php:221
+#: SAECO_4/Formulario/anular_pagos.php:39
+#: SAECO_4/Formulario/caja_cobrador.php:35
+msgid "punto de cobro"
+msgstr "ponto de recolha"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:224
+#: SAECO_4/Formulario/antes_cirre_diario1.php:223
+#: SAECO_4/Formulario/caja_cobrador.php:43
+msgid "cobrador"
+msgstr "condutor"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:226
+#: SAECO_4/Formulario/antes_cirre_diario1.php:225
+msgid "hora apertura"
+msgstr "horário de funcionamento"
+
+#: SAECO_4/Formulario/antes_cirre_diario.php:227
+#: SAECO_4/Formulario/antes_cirre_diario1.php:226
+msgid "hora cierre"
+msgstr "horas de fechamento"
+
+#: SAECO_4/Formulario/antes_cirre_diario1.php:17
+msgid "cierre diario"
+msgstr "fechamento diário"
+
+#: SAECO_4/Formulario/antes_cirre_diario1.php:24
+msgid "datos de cierre"
+msgstr "dados finais"
+
+#: SAECO_4/Formulario/antes_cirre_diario1.php:158
+msgid "forma pago"
+msgstr "forma de pagamento"
+
+#: SAECO_4/Formulario/antes_cirre_diario1.php:211
+msgid "detalle de los puntos de cobros"
+msgstr "detalhe dos pontos de recolha"
+
+#: SAECO_4/Formulario/anular_pagos.php:19
+#: SAECO_4/Formulario/anular_pagos.php:248
+msgid "anular pago"
+msgstr "cancelar o pagamento"
+
+#: SAECO_4/Formulario/anular_pagos.php:26
+msgid "datos del pago"
+msgstr "dados de pagamento"
+
+#: SAECO_4/Formulario/anular_pagos.php:32
+msgid "nro factura"
+msgstr "nro conta"
+
+#: SAECO_4/Formulario/anular_pagos.php:74
+#: SAECO_4/Formulario/banco.php:19
+msgid "banco"
+msgstr "banco"
+
+#: SAECO_4/Formulario/anular_pagos.php:80
+msgid "numero"
+msgstr "número"
+
+#: SAECO_4/Formulario/anular_pagos.php:89
+msgid "pago"
+msgstr "pagamento"
+
+#: SAECO_4/Formulario/anular_pagos.php:117
+msgid "datos del Cliente"
+msgstr "Os dados dos clientes"
+
+#: SAECO_4/Formulario/anular_pagos.php:123
+msgid "nro Contrato"
+msgstr "contrato n "
+
+#: SAECO_4/Formulario/anular_pagos.php:225
+msgid "cargos pagados"
+msgstr "encargos pagos"
+
+#: SAECO_4/Formulario/anular_pagos.php:247
+msgid "anular factura"
+msgstr "anel projeto de lei"
+
+#: SAECO_4/Formulario/asig_orden.php:8
+#: SAECO_4/Formulario/asig_orden1.php:8
+msgid "asignar ordenes a tecnicos"
+msgstr "atribuir ordens aos técnicos"
+
+#: SAECO_4/Formulario/asig_orden.php:17
+#: SAECO_4/Formulario/asig_orden1.php:99
+msgid "datos de la orden"
+msgstr "dados de ordem"
+
+#: SAECO_4/Formulario/asig_orden.php:24
+#: SAECO_4/Formulario/asig_orden1.php:104
+msgid "nro de orden"
+msgstr "n ordem"
+
+#: SAECO_4/Formulario/asig_orden.php:32
+#: SAECO_4/Formulario/asig_orden1.php:112
+msgid "tecnico"
+msgstr "técnico"
+
+#: SAECO_4/Formulario/asig_orden.php:43
+#: SAECO_4/Formulario/asig_orden1.php:123
+msgid "tipo de orden"
+msgstr "tipo de ordem"
+
+#: SAECO_4/Formulario/asig_orden.php:52
+#: SAECO_4/Formulario/asig_orden1.php:132
+msgid "detalle orden"
+msgstr "detalhes do pedido"
+
+#: SAECO_4/Formulario/asig_orden1.php:142
+msgid "prioridad"
+msgstr "prioridade"
+
+#: SAECO_4/Formulario/asig_orden1.php:157
+msgid "comentario orden"
+msgstr "comentar ordem"
+
+#: SAECO_4/Formulario/aviso_cobro.php:9
+#: SAECO_4/Formulario/aviso_cobro.php:51
+msgid "cargar mensualidad"
+msgstr "mensalidade"
+
+#: SAECO_4/Formulario/banco.php:8
+msgid "administracion de bancos"
+msgstr "administração dos bancos"
+
+#: SAECO_4/Formulario/banco.php:14
+msgid "datos del banco"
+msgstr "banco de dados"
+
+#: SAECO_4/Formulario/banco.php:45
+msgid "bancos agregados"
+msgstr "bancos adicionada"
+
+#: SAECO_4/Formulario/caja.php:7
+msgid "administracion de puntos de cobros"
+msgstr "administração de pontos de recolha"
+
+#: SAECO_4/Formulario/caja.php:14
+#: SAECO_4/Formulario/caja_cobrador.php:30
+#: SAECO_4/Formulario/calle.php:13
+msgid "datos a registrar"
+msgstr "dados a serem gravados"
+
+#: SAECO_4/Formulario/caja.php:18
+msgid "nro Caja"
+msgstr "Caixa nro"
+
+#: SAECO_4/Formulario/caja.php:46
+msgid "tipo caja"
+msgstr "tipo de caixa"
+
+#: SAECO_4/Formulario/caja.php:88
+msgid "puntos de cobros agregados"
+msgstr "pontos de coleta adicionada"
+
+#: SAECO_4/Formulario/caja_cobrador.php:23
+msgid "abrir punto de cobros"
+msgstr "abrir ponto de coleta"
+
+#: SAECO_4/Formulario/caja_cobrador.php:61
+msgid "hora de apertura"
+msgstr "tempo de abertura"
+
+#: SAECO_4/Formulario/caja_cobrador.php:79
+msgid "abrir punto"
+msgstr "ponto aberto"
+
+#: SAECO_4/Formulario/calle.php:7
+msgid "administracion de calles"
+msgstr "administração de ruas"
+
+#: SAECO_4/Formulario/calle.php:19
+msgid "nro Calle"
+msgstr "nro Rua"
+
+#: SAECO_4/Formulario/calle.php:57
+msgid "nombre Calle"
+msgstr "nome da rua"
+
+#: SAECO_4/Formulario/calle.php:85
+msgid "calles agregadas"
+msgstr "ruas adicionada"
+
+#: SAECO_4/Formulario/cambiar_c.php:4
+msgid "cambio de contrase&ntilde;a"
+msgstr "alteração de senha"
+
+#: SAECO_4/Formulario/cambiar_c.php:13
+msgid "datos del usuario"
+msgstr "Dados do Usuário"
+
+#: SAECO_4/Formulario/cambiar_c.php:17
+msgid "usuario"
+msgstr "usuário"
+
+#: SAECO_4/Formulario/cambiar_c.php:26
+msgid "contrase&ntilde;a actual"
+msgstr "senha atual"
+
+#: SAECO_4/Formulario/cambiar_c.php:34
+msgid "contrase&ntilde;a nueva"
+msgstr "nova senha"
+
+#: SAECO_4/Formulario/cambiar_c.php:42
+msgid "confirmar contrase&ntilde;a nueva"
+msgstr "confirmar nova senha"
+
+#: SAECO_4/Formulario/cargar_d.php:9
+#: SAECO_4/Formulario/cargar_d.php:118
+msgid "cargar deuda"
+msgstr "carga da dívida"
+
+#: SAECO_4/Formulario/cargar_d.php:72
+msgid "datos de la deuda a cargar"
+msgstr "Os dados da dívida para carregar"
+
+#: SAECO_4/Formulario/cargar_d.php:77
+msgid "tipo de cargo"
+msgstr "tipo de carga"
+
+#: SAECO_4/Formulario/cargar_d.php:81
+msgid "mensual"
+msgstr "mensal"
+
+#: SAECO_4/Formulario/cargar_d.php:82
+msgid "unico"
+msgstr "apenas"
+
+#: SAECO_4/Formulario/cargar_d.php:98
+msgid "mes"
+msgstr "mês"
+
+#: SAECO_4/Formulario/cargar_deuda.php:79
+msgid "costo mensual"
+msgstr "custo mensal"
+
+#: SAECO_4/Formulario/cargar_deuda.php:80
+msgid "costo unico"
+msgstr "custam apenas"
+
+#: SAECO_4/Formulario/cerrar_caja.php:17
+msgid "cierre de caja"
+msgstr "caixa fechada"
+
+#: SAECO_4/Formulario/cerrar_caja.php:24
+msgid "datos de cierre de caja"
+msgstr "datos de cierre de caja"
+
+#: SAECO_4/Formulario/cerrar_caja.php:53
+msgid "monto acumulado"
+msgstr "montante acumulado"
+
+#: SAECO_4/Formulario/cerrar_caja.php:68
+msgid "hora de cierre"
+msgstr "tempo de fechamento"
+
+#: SAECO_4/Formulario/cerrar_caja.php:86
+msgid "cerrar punto"
+msgstr "ponto próximo"
+
+#: SAECO_4/Formulario/cierre_pago.php:9
+msgid "administracion de cierre pago"
+msgstr "pagamento administração Encerramento"
+
+#: SAECO_4/Formulario/cierre_pago.php:16
+msgid "id cont serv"
+msgstr "id cont serv"
+
+#: SAECO_4/Formulario/cierre_pago.php:25
+msgid "id cierre"
+msgstr "final ID"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:9
+msgid "reporte fiscal"
+msgstr "relatório fiscal"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:16
+msgid "datos requeridos"
+msgstr "dados necessários"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:20
+msgid "nota: el reporte fiscal saldra por la impresora fiscal"
+msgstr "Nota: o relatório fiscal para a impressora fiscal vai deixar"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:26
+msgid "desde"
+msgstr "a partir de"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:32
+msgid "hasta"
+msgstr "para"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:38
+msgid "tipo"
+msgstr "tipo"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:42
+msgid "reporte por dias"
+msgstr "relatório para os dias"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:43
+msgid "detallado por mes"
+msgstr "mensal detalhado"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:44
+msgid "reporte con un resumen por ventas diarias"
+msgstr "relatório com um resumo das vendas diárias"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:49
+msgid "Buscar"
+msgstr "Pesquisar"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:56
+msgid "cierre x"
+msgstr "x fechar"
+
+#: SAECO_4/Formulario/cierre_x_fecha.php:57
+msgid "cierre z"
+msgstr "z fechar"
+
+#: SAECO_4/Formulario/cirre_diario.php:97
+msgid "servicios"
+msgstr "serviços"
+
+#: SAECO_4/Formulario/cirre_diario1.php:91
+msgid "resumen por servicio"
+msgstr "resumo serviço"
+
+#: SAECO_4/Formulario/cirre_diario1.php:214
+msgid "detalles de los puntos de cobros"
+msgstr "Detalhes dos pontos de coleta"
+
+#: SAECO_4/Formulario/cliente.php:9
+msgid "administracion de cliente"
+msgstr "administração de cliente"
+
+#: SAECO_4/Formulario/cobrador.php:10
+msgid "administracion de cobradores"
+msgstr "administração de coletores"
+
+#: SAECO_4/Formulario/cobrador.php:23
+msgid "nro cobrador"
+msgstr "nro coletor"
+
+#: SAECO_4/Formulario/cobrador.php:30
+msgid "cedula"
+msgstr "Cédula"
+
+#: SAECO_4/Formulario/cobrador.php:55
+msgid "direccion"
+msgstr "endereço"
+
+#: SAECO_4/Formulario/cobrador.php:94
+msgid "cobradores agregados"
+msgstr "coletores de agregados"
+
+#: SAECO_4/Formulario/comandos_sms.php:2
+msgid "agregar comandos para mensajes de textos"
+msgstr "adicionar comandos para mensagens de texto"
+
+#: SAECO_4/Formulario/comandos_sms.php:27
+msgid "tipo com"
+msgstr "tipo com"
+
+#: SAECO_4/Formulario/comandos_sms.php:33
+msgid "para clientes"
+msgstr "para clientes"
+
+#: SAECO_4/Formulario/comandos_sms.php:34
+msgid "para tecnicos"
+msgstr "para técnico"
+
+#: SAECO_4/Formulario/comandos_sms.php:35
+msgid "para gerentes"
+msgstr "para os gestores"
+
+#: SAECO_4/Formulario/comandos_sms.php:47
+msgid "tipo variable"
+msgstr "taxa variável"
+
+#: SAECO_4/Formulario/comandos_sms.php:52
+msgid "contrato"
+msgstr "contrato"
+
+#: SAECO_4/Formulario/comandos_sms.php:53
+msgid "ingreso actual"
+msgstr "renda atual"
+
+#: SAECO_4/Formulario/comandos_sms.php:90
+msgid "e-mail correcto"
+msgstr "endereço de email"
+
+#: SAECO_4/Formulario/comandos_sms.php:108
+msgid "agregar"
+msgstr "adicionar"
+
+#: SAECO_4/Formulario/comentario_cliente.php:7
+msgid "comentar clientes"
+msgstr "clientes comentário"
+
+#: SAECO_4/Formulario/comentario_cliente.php:20
+msgid "nro comentario"
+msgstr "comentário nro"
+
+#: SAECO_4/Formulario/comentario_cliente.php:47
+msgid "nombre cliente"
+msgstr "nome do cliente"
+
+#: SAECO_4/Formulario/comentario_cliente.php:102
+msgid "comentarios realizados"
+msgstr "comentários feitos"
+
+#: SAECO_4/Formulario/Configuracion.php:32
+msgid "error, la aplicacion no ha sido configurada para conectarse con un manejador de base de datos"
+msgstr "erro, o aplicativo não está configurado para se conectar a um gerenciador de banco"
+
+#: SAECO_4/Formulario/Configuracion.php:34
+msgid "configuracion del manejador de base de datos"
+msgstr "configuração do gerenciador de banco de dados"
+
+#: SAECO_4/Formulario/Configuracion.php:41
+msgid "manejador"
+msgstr "gerente"
+
+#: SAECO_4/Formulario/Configuracion.php:52
+msgid "servidor"
+msgstr "servidor"
+
+#: SAECO_4/Formulario/Configuracion.php:68
+msgid "contrasena"
+msgstr "senha"
+
+#: SAECO_4/Formulario/Configuracion.php:76
+msgid "base de datos"
+msgstr "banco de dados"
+
+#: SAECO_4/Formulario/Configuracion.php:84
+msgid "restaurar base de datos si no existe"
+msgstr "restaurar banco de dados se não"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:7
+msgid "configuracion de comandos para respuestas automaticas"
+msgstr "comandos de configuração de respostas automáticas"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:21
+msgid "comandos para clientes"
+msgstr "comandos para clientes"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:25
+#: SAECO_4/Formulario/config_comandos_sms.php:102
+#: SAECO_4/Formulario/config_comandos_sms.php:179
+#: SAECO_4/Formulario/config_envio_aut.php:23
+msgid "#"
+msgstr "#"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:34
+#: SAECO_4/Formulario/config_comandos_sms.php:111
+#: SAECO_4/Formulario/config_comandos_sms.php:188
+#: SAECO_4/Formulario/config_envio_aut.php:29
+#: SAECO_4/Formulario/config_envio_aut.php:101
+msgid "envio"
+msgstr "expedição"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:37
+#: SAECO_4/Formulario/config_comandos_sms.php:114
+#: SAECO_4/Formulario/config_comandos_sms.php:191
+msgid "edit"
+msgstr "edit"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:98
+msgid "comandos para tecnicos"
+msgstr "comandos para técnica"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:175
+msgid "comandos para gerentes"
+msgstr "comandos para os gestores"
+
+#: SAECO_4/Formulario/config_comandos_sms.php:254
+#: SAECO_4/Formulario/config_envio_aut.php:164
+msgid "guardar cambios"
+msgstr "salvar as alterações"
+
+#: SAECO_4/Formulario/config_envio_aut.php:7
+msgid "configuracion de envio automatico para sms y e-mail"
+msgstr "configurações automáticas de entrega de sms e e-mail"
+
+#: SAECO_4/Formulario/config_envio_aut.php:19
+msgid "envio automatico para clientes"
+msgstr "autoship Cliente"
+
+#: SAECO_4/Formulario/config_envio_aut.php:32
+#: SAECO_4/Formulario/config_envio_aut.php:104
+msgid "editar"
+msgstr "editar"
+
+#: SAECO_4/Formulario/config_envio_aut.php:91
+msgid "envio automatico para gerentes"
+msgstr "autoship para os gestores"
+
+#: SAECO_4/Formulario/config_sms.php:8
+msgid "configuracion general de sms"
+msgstr "configuração geral de sms"
+
+#: SAECO_4/Formulario/config_sms.php:15
+msgid "datos generales"
+msgstr "dados gerais"
+
+#: SAECO_4/Formulario/config_sms.php:31
+msgid "permitir telefono fijo"
+msgstr "permitir que fixo"
+
+#: SAECO_4/Formulario/config_sms.php:35
+#: SAECO_4/Formulario/config_sms.php:46
+#: SAECO_4/Formulario/config_sms.php:65
+msgid "si"
+msgstr "se"
+
+#: SAECO_4/Formulario/config_sms.php:36
+#: SAECO_4/Formulario/config_sms.php:47
+#: SAECO_4/Formulario/config_sms.php:66
+msgid "no"
+msgstr "não"
+
+#: SAECO_4/Formulario/config_sms.php:42
+msgid "enviar a todos los movil"
+msgstr "enviado para todos móvel"
+
+#: SAECO_4/Formulario/config_sms.php:54
+msgid "codigos de operadoras movil"
+msgstr "operadores códigos móveis"
+
+#: SAECO_4/Formulario/config_sms.php:64
+msgid "responder a telefono desconocido"
+msgstr "atender o telefone desconhecido"
+
+#: SAECO_4/Formulario/config_sms.php:83
+msgid "datos de modem/telefono"
+msgstr "modem de dados / telefone"
+
+#: SAECO_4/Formulario/config_sms.php:88
+msgid "codigo telef. de pais"
+msgstr "código telef. do país"
+
+#: SAECO_4/Formulario/config_sms.php:92
+msgid "conexion"
+msgstr "conexão"
+
+#: SAECO_4/Formulario/config_sms.php:96
+msgid "puerto com"
+msgstr "com porta"
+
+#: SAECO_4/Formulario/config_sms.php:100
+msgid "bits por segundo"
+msgstr "bits por segundo"
+
+#: SAECO_4/Formulario/config_sms.php:121
+msgid "num. telf."
+msgstr "num. tel."
+
+#: SAECO_4/Formulario/config_sms.php:125
+msgid "marca telf."
+msgstr "marca tel."
+
+#: SAECO_4/Formulario/config_sms.php:129
+msgid "modelo telf."
+msgstr "modelo tel."
+
+#: SAECO_4/Formulario/config_sms.php:153
+msgid "datos de correo"
+msgstr "dados de email"
+
+#: SAECO_4/Formulario/config_sms.php:159
+msgid "correo principal"
+msgstr "pós principal"
+
+#: SAECO_4/Formulario/config_sms.php:163
+msgid "clave corre"
+msgstr "chave de roda"
+
+#: SAECO_4/Formulario/config_sms.php:167
+msgid "asunto correo"
+msgstr "matéria-mail"
+
+#: SAECO_4/Formulario/consultaID.php:9
+msgid "consulta de id"
+msgstr "ID de consultoria"
+
+#: SAECO_4/Formulario/consultaID.php:16
+msgid "datos de contrato"
+msgstr "dados do contrato"
+
+#: SAECO_4/Formulario/consultaID.php:21
+msgid "id contrato"
+msgstr "ID de contrato"
+
+#: SAECO_4/Formulario/consultaID.php:55
+msgid "datos de pagos"
+msgstr "dados de pagamento"
+
+#: SAECO_4/Formulario/consultaID.php:61
+msgid "id pago"
+msgstr "ID de pagamento"
+
+#: SAECO_4/Formulario/consultaID.php:76
+msgid "registrar cobro"
+msgstr "coleção de discos"
+
+#: SAECO_4/Formulario/contrato_ser.php:7
+msgid "parametros de licencia"
+msgstr "parâmetros de licença"
+
+#: SAECO_4/Formulario/contrato_ser.php:14
+msgid "datos de la empresa"
+msgstr "dados da empresa"
+
+#: SAECO_4/Formulario/contrato_ser.php:20
+msgid "empresa"
+msgstr "companhia"
+
+#: SAECO_4/Formulario/contrato_ser.php:27
+msgid "rif"
+msgstr "rif"
+
+#: SAECO_4/Formulario/contrato_ser.php:63
+msgid "datos de licencia"
+msgstr "dados de licença"
+
+#: SAECO_4/Formulario/contrato_ser.php:67
+msgid "Paquete"
+msgstr "pacote"
+
+#: SAECO_4/Formulario/contrato_ser.php:73
+msgid "saeco 2.000"
+msgstr "saeco 2000"
+
+#: SAECO_4/Formulario/contrato_ser.php:74
+msgid "saeco 5.000"
+msgstr "saeco 5.000"
+
+#: SAECO_4/Formulario/contrato_ser.php:75
+msgid "saeco 10.000"
+msgstr "saeco 10.000"
+
+#: SAECO_4/Formulario/contrato_ser.php:76
+msgid "saeco limitado"
+msgstr "cierresaeco limitado"
+
+#: SAECO_4/Formulario/contrato_ser.php:84
+msgid "fecha registro"
+msgstr "data de registro"
+
+#: SAECO_4/Formulario/contrato_ser.php:91
+msgid "hora registro"
+msgstr "horas de registro"
+
+#: SAECO_4/Formulario/contrato_ser.php:100
+msgid "clave de instalacion"
+msgstr "chave de instalação"
+
+#: SAECO_4/Formulario/contrato_ser.php:109
+msgid "clave de sistema"
+msgstr "chave do sistema"
+
+#: SAECO_4/Formulario/contrato_ser.php:118
+msgid "clave de licencia"
+msgstr "chave de licença"
+
+#: SAECO_4/Formulario/contrato_ser.php:145
+msgid "registrar sistema"
+msgstr "sistema de registro"
+
+#: SAECO_4/Formulario/contrato_servicio.php:9
+msgid "administracion de contrato servicio"
+msgstr "administração de contratos de serviços"
+
+#: SAECO_4/Formulario/datos_mensajes.php:9
+msgid "envio de sms y email masivo"
+msgstr "envio de sms e e-mail em massa"
+
+#: SAECO_4/Formulario/datos_mensajes.php:17
+#: SAECO_4/Formulario/descuento.php:19
+msgid "por ubicacion"
+msgstr "por localização"
+
+#: SAECO_4/Formulario/datos_mensajes.php:71
+msgid "con deuda"
+msgstr "com a dívida"
+
+#: SAECO_4/Formulario/datos_mensajes.php:98
+msgid "sin tomar en cuenta deuda"
+msgstr "sem levar em conta a dívida"
+
+#: SAECO_4/Formulario/datos_mensajes.php:122
+#: SAECO_4/Formulario/descuento.php:78
+msgid "por status"
+msgstr "por estado"
+
+#: SAECO_4/Formulario/datos_mensajes.php:142
+msgid "mensaje"
+msgstr "mensagem"
+
+#: SAECO_4/Formulario/datos_mensajes.php:146
+#: SAECO_4/Formulario/formato_sms.php:68
+msgid "formatos agregados"
+msgstr "formatos agregados"
+
+#: SAECO_4/Formulario/datos_mensajes.php:175
+msgid "listar clientes"
+msgstr "lista de clientes"
+
+#: SAECO_4/Formulario/datos_mensajes.php:176
+msgid "enviar mensaje"
+msgstr "enviar mensagem"
+
+#: SAECO_4/Formulario/datos_mensajes.php:177
+msgid "actualizar archivo"
+msgstr "atualizar o arquivo"
+
+#: SAECO_4/Formulario/datos_mensajes.php:188
+msgid "listado de clientes a enviar mensajes"
+msgstr "lista de clientes para enviar mensagens"
+
+#: SAECO_4/Formulario/descuento.php:11
+msgid "descuento por lotes"
+msgstr "Lote fora"
+
+#: SAECO_4/Formulario/descuento.php:24
+msgid "general"
+msgstr "geral"
+
+#: SAECO_4/Formulario/descuento.php:25
+msgid "especifico"
+msgstr "específico"
+
+#: SAECO_4/Formulario/descuento.php:102
+msgid "parametros del descuento"
+msgstr "parâmetros com desconto"
+
+#: SAECO_4/Formulario/descuento.php:106
+msgid "dias a descontar"
+msgstr "dias com desconto"
+
+#: SAECO_4/Formulario/descuento.php:115
+msgid "para el mes de"
+msgstr "para o mês de"
+
+#: SAECO_4/Formulario/descuento.php:132
+msgid "buscar"
+msgstr "pesquisar"
+
+#: SAECO_4/Formulario/descuento.php:133
+msgid "realizar descuento"
+msgstr "cierrelevar consigo"
+
+#: SAECO_4/Formulario/descuento.php:144
+msgid "clientes encontrados"
+msgstr "clientes encontrada"
+
+#: SAECO_4/Formulario/detalle_orden.php:7
+msgid "administracion de detalles de orden"
+msgstr "ordem detalhes de administração"
+
+#: SAECO_4/Formulario/detalle_orden.php:29
+msgid "para los contratos"
+msgstr "para os contratos"
+
+#: SAECO_4/Formulario/detalle_orden.php:50
+msgid "generar Deuda"
+msgstr "dívida gerar"
+
+#: SAECO_4/Formulario/detalle_orden.php:86
+msgid "detalle de ordenes agregadas"
+msgstr "ordens acrescentou detalhes"
+
+#: SAECO_4/Formulario/detalle_tipopago.php:9
+msgid "administracion de detalle tipo pago"
+msgstr "administração de detalhe tal pagamento"
+
+#: SAECO_4/Formulario/detalle_tipopago.php:16
+msgid "id tipo pago"
+msgstr "ID de tipo de pagamento"
+
+#: SAECO_4/Formulario/detalle_tipopago.php:51
+msgid "id detalle"
+msgstr "detalhe ID"
+
+#: SAECO_4/Formulario/devolver_ordenes_tecnicos.php:7
+msgid "ordenes de servicios devueltas"
+msgstr "ordens de serviço voltou"
+
+#: SAECO_4/Formulario/devolver_ordenes_tecnicos.php:17
+msgid "asignar a grupo"
+msgstr "atribuído ao grupo"
+
+#: SAECO_4/Formulario/devolver_ordenes_tecnicos.php:26
+msgid "seleccion automatica"
+msgstr "seleção automática"
+
+#: SAECO_4/Formulario/devolver_ordenes_tecnicos.php:35
+msgid "ordenes de servicios para imprimir"
+msgstr "ordens para serviços de impressão"
+
+#: SAECO_4/Formulario/edificio.php:7
+msgid "administracion de edificios"
+msgstr "edifícios da administração"
+
+#: SAECO_4/Formulario/edificio.php:13
+msgid "ubicacion del edificio"
+msgstr "cierrelocalização do edifício"
+
+#: SAECO_4/Formulario/edificio.php:89
+msgid "edificios agregados"
+msgstr "edifícios adicionada"
+
+#: SAECO_4/Formulario/envio_aut.php:29
+msgid "mensaje a enviar"
+msgstr "mensagem a ser enviada"
+
+#: SAECO_4/Formulario/envio_aut.php:52
+msgid "cargar ordenes"
+msgstr "ordens de cobrança"
+
+#: SAECO_4/Formulario/factura.php:1
+msgid "registro de contrato"
+msgstr "registro de contrato"
+
+#: SAECO_4/Formulario/factura.php:30
+msgid "cierre por fecha"
+msgstr "data de encerramento"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:8
+msgid "finalizar ordenes a tecnicos"
+msgstr "Para finalizar técnico"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:31
+msgid "nombre y apellido"
+msgstr "nome e sobrenome"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:48
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:172
+msgid "finalizar orden"
+msgstr "ordem completa"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:79
+msgid "fecha finalizacion"
+msgstr "data de conclusão"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:100
+msgid "realizado por el grupo"
+msgstr "feito pelo grupo"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:112
+msgid "agregar visita"
+msgstr "adicionar visitar"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:128
+msgid "materiales utilizados"
+msgstr "materiais utilizados"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:173
+msgid "cancelar orden"
+msgstr "cancelar o pedido"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:174
+msgid "devolver orden"
+msgstr "ordem de volta"
+
+#: SAECO_4/Formulario/final_ordenes_tecnicos.php:184
+msgid "ordenes de servicios asignadas"
+msgstr "atribuídas ordens de serviço"
+
+#: SAECO_4/Formulario/formato_sms.php:7
+msgid "administracion de formato para envio masivo"
+msgstr "formato de administração para transporte a granel"
+
+#: SAECO_4/Formulario/formato_sms.php:20
+msgid "nombre plantilla"
+msgstr "nome do modelo"
+
+#: SAECO_4/Formulario/formato_sms.php:29
+msgid "nombre formato"
+msgstr "nome de formato"
+
+#: SAECO_4/Formulario/formato_sms.php:41
+#: SAECO_4/Formulario/formato_sms.php:42
+msgid "activo"
+msgstr "ativo"
+
+#: SAECO_4/Formulario/formato_sms.php:42
+#: SAECO_4/Formulario/formato_sms.php:43
+msgid "inactivo"
+msgstr "inativo"
+
+#: SAECO_4/Formulario/formato_sms.php:79
+msgid "listado de variables disponibles"
+msgstr "lista de variáveis disponíveis"
+
+#: SAECO_4/Formulario/formato_sms.php:84
+msgid "variable"
+msgstr "variável"
+
+#: SAECO_4/Formulario/franquicia.php:7
+msgid "administracion de franquicias"
+msgstr "administração franquia"
+
+#: SAECO_4/Formulario/franquicia.php:36
+msgid "estado"
+msgstr "estado"
+
+#: SAECO_4/Formulario/franquicia.php:45
+msgid "municipio"
+msgstr "municipalidade"
+
+#: SAECO_4/Formulario/franquicia.php:53
+msgid "ciudad"
+msgstr "cidade"
+
+#: SAECO_4/Formulario/franquicia.php:89
+msgid "franquicias agregadas"
+msgstr "franquias adicionados"
+
+#: SAECO_4/Formulario/gerentes_permitidos.php:2
+msgid "administracion de gerentes"
+msgstr "gestores da administração"
+
+#: SAECO_4/Formulario/gerentes_permitidos.php:9
+msgid "Datos a registrar"
+msgstr "Os dados a serem gravados"
+
+#: SAECO_4/Formulario/gerentes_permitidos.php:15
+msgid "nro Gerente"
+msgstr "nro Gestor"
+
+#: SAECO_4/Formulario/gerentes_permitidos.php:50
+msgid "tipo gerente"
+msgstr "gerente de tipo"
+
+#: SAECO_4/Formulario/gerentes_permitidos.php:61
+msgid "cargo"
+msgstr "carga"
+
+#: SAECO_4/Formulario/gerentes_permitidos.php:86
+msgid "correo"
+msgstr "correio"
+
+#: SAECO_4/Formulario/gerentes_permitidos.php:126
+msgid "gerentes agregados"
+msgstr "gerentes adicionado"
+
+#: SAECO_4/Formulario/grupo_tecnico.php:4
+msgid "administracion de grupo tecnico"
+msgstr "administração do grupo técnico"
+
+#: SAECO_4/Formulario/grupo_tecnico.php:11
+msgid "id gt"
+msgstr "id gt"
+
+#: SAECO_4/Formulario/grupo_tecnico.php:20
+msgid "id persona"
+msgstr "ID da pessoa"
+
+#: SAECO_4/Formulario/grupo_trabajo.php:7
+msgid "administracion de grupo de trabajos"
+msgstr "administração do trabalho em grupo"
+
+#: SAECO_4/Formulario/grupo_trabajo.php:20
+msgid "nombre grupo"
+msgstr "nome do grupo"
+
+#: SAECO_4/Formulario/grupo_trabajo.php:26
+msgid "ubicacion"
+msgstr "localização"
+
+#: SAECO_4/Formulario/grupo_trabajo.php:81
+msgid "seleccionar tecnicos"
+msgstr "selecionar técnicas"
+
+#: SAECO_4/Formulario/grupo_trabajo.php:91
+msgid "grupo activos"
+msgstr "ordens de serviço voltou"
+
+#: SAECO_4/Formulario/idiomas.php:7
+msgid "configuracion regional de idiomas"
+msgstr "regionais configurações de idioma"
+
+#: SAECO_4/Formulario/idiomas.php:19
+msgid "idioma"
+msgstr "linguagem"
+
+#: SAECO_4/Formulario/idiomas.php:24
+msgid "espa&ntilde;ol"
+msgstr "espanhol"
+
+#: SAECO_4/Formulario/idiomas.php:25
+msgid "ingles"
+msgstr "Inglês"
+
+#: SAECO_4/Formulario/idiomas.php:26
+msgid "portugues"
+msgstr "português"
+
+#: SAECO_4/Formulario/idiomas.php:33
+msgid "pais"
+msgstr "país"
+
+#: SAECO_4/Formulario/idiomas.php:37
+msgid "venezuela"
+msgstr "Venezuela"
+
+#: SAECO_4/Formulario/idiomas.php:38
+msgid "colombia"
+msgstr "Colômbia"
+
+#: SAECO_4/Formulario/idiomas.php:39
+msgid "brasil"
+msgstr "Brasil"
+
+#: SAECO_4/Formulario/idiomas.php:40
+msgid "estados unidos"
+msgstr "EUA"
+
+#: SAECO_4/Formulario/idiomas.php:46
+msgid "moneda"
+msgstr "moeda"
+
+#: SAECO_4/Formulario/idiomas.php:51
+msgid "bolivar"
+msgstr "bolivar"
+
+#: SAECO_4/Formulario/idiomas.php:52
+msgid "peso"
+msgstr "peso"
+
+#: SAECO_4/Formulario/idiomas.php:53
+msgid "dolar"
+msgstr "dólar"
+
+#: SAECO_4/Formulario/idiomas.php:54
+msgid "real"
+msgstr "real"
+
+#: SAECO_4/Formulario/idiomas.php:80
+msgid "idiomas agregados"
+msgstr "Os idiomas acrescentados"
+
+#: SAECO_4/Formulario/imprimir_ordenes_tecnicos.php:7
+msgid "imprimir ordenes a tecnicos"
+msgstr "imprimir ordens para técnicos"
+
+#: SAECO_4/Formulario/imprimir_ordenes_tecnicos.php:26
+msgid "Seleccion Automatica"
+msgstr "Seleção automática"
+
+#: SAECO_4/Formulario/imp_fact_lotes.php:7
+msgid "impresion de facturas en lotes"
+msgstr "impressão em lote de facturas"
+
+#: SAECO_4/Formulario/imp_fact_lotes.php:32
+msgid "factura inicial"
+msgstr "factura inicial"
+
+#: SAECO_4/Formulario/imp_fact_lotes.php:58
+msgid "por ubicaci&oacute;n"
+msgstr "por localização"
+
+#: SAECO_4/Formulario/imp_fact_lotes.php:114
+msgid "imprimir facturas seleccionadas"
+msgstr "facturas de impressão selecionado"
+
+#: SAECO_4/Formulario/imp_fact_lotes.php:115
+msgid "guardar listado"
+msgstr "salvar lista"
+
+#: SAECO_4/Formulario/imp_fact_lotes.php:124
+msgid "clientes con deuda"
+msgstr "clientes com dívidas"
+
+#: SAECO_4/Formulario/ingreso_x_serv.php:9
+msgid "ingresos por servicios"
+msgstr "receitas de serviços"
+
+#: SAECO_4/Formulario/ingreso_x_serv.php:16
+#: SAECO_4/Formulario/ingreso_x_serv1.php:16
+msgid "ingresos"
+msgstr "renda"
+
+#: SAECO_4/Formulario/ingreso_x_serv.php:45
+#: SAECO_4/Formulario/ingreso_x_serv1.php:83
+msgid "imprimir reporte"
+msgstr "imprimir o relatório"
+
+#: SAECO_4/Formulario/ingreso_x_serv.php:46
+#: SAECO_4/Formulario/ingreso_x_serv1.php:84
+msgid "descargar reporte"
+msgstr "baixar relatório"
+
+#: SAECO_4/Formulario/ingreso_x_serv.php:49
+#: SAECO_4/Formulario/ingreso_x_serv1.php:87
+msgid "resetear"
+msgstr "redefinir"
+
+#: SAECO_4/Formulario/ingreso_x_serv1.php:9
+msgid "ingresos por cargos"
+msgstr "receitas provenientes das taxas"
+
+#: SAECO_4/Formulario/ingreso_x_serv1.php:20
+msgid "mes a analizar"
+msgstr "meses para analisar"
+
+#: SAECO_4/Formulario/ingreso_x_serv1.php:28
+msgid "nro meses ant."
+msgstr "mês de formigas nro."
+
+#: SAECO_4/Formulario/ingreso_x_serv1.php:41
+msgid "nro Meses pos."
+msgstr "Meses depois nr."
+
+#: SAECO_4/Formulario/ingreso_x_serv1.php:59
+msgid "con fecha desde"
+msgstr "datado de"
+
+#: SAECO_4/Formulario/list_denuncia.php:7
+msgid "listado de denuncias reportadas por revisar"
+msgstr "lista de queixas relatadas por revisão"
+
+#: SAECO_4/Formulario/list_denuncia.php:15
+msgid "denuncias"
+msgstr "queixas"
+
+#: SAECO_4/Formulario/list_denuncia.php:25
+#: SAECO_4/Formulario/list_falla.php:71
+#: SAECO_4/Formulario/list_reclamo.php:25
+msgid "asignar orden"
+msgstr "atribuir ordem"
+
+#: SAECO_4/Formulario/list_denuncia.php:26
+#: SAECO_4/Formulario/list_falla.php:72
+#: SAECO_4/Formulario/list_falla.php:74
+#: SAECO_4/Formulario/list_reclamo.php:26
+msgid "rechazar peticion"
+msgstr "rejeitar o pedido"
+
+#: SAECO_4/Formulario/list_falla.php:7
+msgid "listado de fallas reportadas por revisar"
+msgstr "lista de falhas reportadas por revisão"
+
+#: SAECO_4/Formulario/list_falla.php:15
+msgid "listado de fallas"
+msgstr "lista de falhas"
+
+#: SAECO_4/Formulario/list_falla.php:24
+msgid "aplicar a todos los seleccionados"
+msgstr "aplicar todas as seleccionado"
+
+#: SAECO_4/Formulario/list_falla.php:34
+msgid "falla tecnica"
+msgstr "falha técnica"
+
+#: SAECO_4/Formulario/list_falla.php:42
+msgid "omitir SMS"
+msgstr "saltar SMS"
+
+#: SAECO_4/Formulario/list_falla.php:48
+msgid "sms respuesta"
+msgstr "sms resposta"
+
+#: SAECO_4/Formulario/list_reclamo.php:7
+msgid "listado de reclamos reportados por revisar"
+msgstr "lista de queixas relatadas por revisão"
+
+#: SAECO_4/Formulario/list_reclamo.php:15
+msgid "reclamos"
+msgstr "reivindicações"
+
+#: SAECO_4/Formulario/modelo_formulario.php:9
+msgid "administracion de materiales"
+msgstr "a administração de materiais"
+
+#: SAECO_4/Formulario/modelo_formulario.php:20
+msgid "nro zona"
+msgstr "n area"
+
+#: SAECO_4/Formulario/modelo_formulario.php:43
+msgid "agregadas"
+msgstr "adicionado"
+
+#: SAECO_4/Formulario/modificar_pagos.php:19
+#: SAECO_4/Formulario/modificar_pagos.php:117
+msgid "modificar pago"
+msgstr "mudança pagamento"
+
+#: SAECO_4/Formulario/modificar_pagos.php:89
+#: SAECO_4/Formulario/modificar_pagos1.php:90
+msgid "monto pago"
+msgstr "valor do pagamento"
+
+#: SAECO_4/Formulario/modificar_pagos.php:116
+msgid "registrar pago"
+msgstr "registro de pagamento"
+
+#: SAECO_4/Formulario/modificar_pagos1.php:19
+msgid "modificar numero de factura"
+msgstr "modificar o número da fatura"
+
+#: SAECO_4/Formulario/modificar_pagos1.php:26
+msgid "datos del Pago"
+msgstr "dados de pagamento"
+
+#: SAECO_4/Formulario/modificar_pagos1.php:118
+msgid "modificar factura"
+msgstr "mudar lei"
+
+#: SAECO_4/Formulario/Modulo.php:12
+msgid "administracion de modulos de perfiles"
+msgstr "Perfis módulos de administração"
+
+#: SAECO_4/Formulario/Modulo.php:19
+#: SAECO_4/Formulario/Perfil.php:23
+msgid "codigo"
+msgstr "código"
+
+#: SAECO_4/Formulario/Modulo.php:51
+msgid "agregar datagrid al formulario"
+msgstr "adicionar datagrid para a forma"
+
+#: SAECO_4/Formulario/Modulo.php:67
+msgid "asignar a los perfiles"
+msgstr "atribuir perfis"
+
+#: SAECO_4/Formulario/Modulo.php:72
+#: SAECO_4/Formulario/Perfil.php:63
+msgid "operaciones"
+msgstr "operações"
+
+#: SAECO_4/Formulario/motivonotas.php:2
+msgid "administracion de motivo de notas de credito/debito"
+msgstr "administração razão notas de crédito / débito"
+
+#: SAECO_4/Formulario/motivonotas.php:16
+msgid "nombre motivo"
+msgstr "razão nome"
+
+#: SAECO_4/Formulario/motivonotas.php:56
+msgid "motivos agregados"
+msgstr "razões adicionais"
+
+#: SAECO_4/Formulario/nota_de_credito.php:19
+msgid "nota de credito"
+msgstr "nota de crédito"
+
+#: SAECO_4/Formulario/nota_de_credito.php:26
+msgid "a la factura"
+msgstr "a factura"
+
+#: SAECO_4/Formulario/nota_de_credito.php:247
+msgid "registrar nota de credito"
+msgstr "rating de crédito registrado"
+
+#: SAECO_4/Formulario/ordenes_tecnicos.php:114
+msgid "normal"
+msgstr "normal"
+
+#: SAECO_4/Formulario/ordenes_tecnicos.php:115
+msgid "urgente"
+msgstr "urgente"
+
+#: SAECO_4/Formulario/ordenes_tecnicos.php:116
+msgid "emergencia"
+msgstr "emergência"
+
+#: SAECO_4/Formulario/ordenes_tecnicos.php:177
+msgid "datos de impresion"
+msgstr "dados de impressão"
+
+#: SAECO_4/Formulario/ordenes_tecnicos.php:204
+msgid "ordenes pendientes"
+msgstr "ordens pendentes"
+
+#: SAECO_4/Formulario/orden_grupo.php:4
+msgid "administracion de orden grupo"
+msgstr "grupo para administração"
+
+#: SAECO_4/Formulario/orden_grupo.php:11
+msgid "id orden"
+msgstr "fim ID"
+
+#: SAECO_4/Formulario/otros_datos.php:4
+msgid "administracion de otros datos"
+msgstr "a administração de outros dados"
+
+#: SAECO_4/Formulario/pagos.php:35
+msgid "modulo de cobro a clientes"
+msgstr "módulo de faturamento do cliente"
+
+#: SAECO_4/Formulario/pagos.php:182
+msgid "datos de pago"
+msgstr "Dados de pagamento"
+
+#: SAECO_4/Formulario/pagos.php:301
+msgid "estado de cuenta"
+msgstr "afirmação"
+
+#: SAECO_4/Formulario/pagos.php:313
+#: SAECO_4/Formulario/reimp_cierre_diario.php:28
+#: SAECO_4/Formulario/reimp_cierre_diario1.php:28
+msgid "imprimir"
+msgstr "imprimir"
+
+#: SAECO_4/Formulario/pago_comisiones.php:9
+msgid "administracion de pago comisiones"
+msgstr "pagamento taxas de administração"
+
+#: SAECO_4/Formulario/pago_comisiones.php:16
+msgid "comisiones para"
+msgstr "comissões"
+
+#: SAECO_4/Formulario/pago_comisiones.php:20
+msgid "vendedores"
+msgstr "Lojas"
+
+#: SAECO_4/Formulario/pago_comisiones.php:21
+msgid "compradores"
+msgstr "compradores"
+
+#: SAECO_4/Formulario/pago_comisiones.php:49
+msgid "fecha desde"
+msgstr "data a partir da"
+
+#: SAECO_4/Formulario/pago_comisiones.php:58
+msgid "fecha hasta"
+msgstr ", até à data"
+
+#: SAECO_4/Formulario/pago_comisiones.php:67
+msgid "porcentaje aplicado"
+msgstr "percentual aplicado"
+
+#: SAECO_4/Formulario/pago_comisiones.php:76
+msgid "monto comision"
+msgstr "quantidade comissão"
+
+#: SAECO_4/Formulario/pago_servicio.php:9
+msgid "administracion de pago servicio"
+msgstr "administração de serviços de pagamento"
+
+#: SAECO_4/Formulario/parametros.php:8
+msgid "parametros generales del sistema"
+msgstr "parâmetros gerais do sistema"
+
+#: SAECO_4/Formulario/parametros.php:41
+msgid "parametro"
+msgstr "parâmetro"
+
+#: SAECO_4/Formulario/parametros.php:50
+msgid "valor parametro"
+msgstr "valor do parâmetro"
+
+#: SAECO_4/Formulario/parametros.php:87
+msgid "parametros agregados"
+msgstr "parâmetros adicionada"
+
+#: SAECO_4/Formulario/Perfil.php:12
+msgid "administracion de perfil de usuario"
+msgstr "administração o perfil do usuário"
+
+#: SAECO_4/Formulario/Perfil.php:18
+msgid "datos personales"
+msgstr "dados pessoais"
+
+#: SAECO_4/Formulario/Perfil.php:58
+msgid "asignar modulos"
+msgstr "atribuir módulos"
+
+#: SAECO_4/Formulario/Perfil.php:90
+msgid "perfiles de usuarios agregados"
+msgstr "agregados perfis de usuário"
+
+#: SAECO_4/Formulario/Persona.php:12
+msgid "administracion de personas"
+msgstr "gestão de pessoas"
+
+#: SAECO_4/Formulario/reclamo_denuncia.php:9
+msgid "administracion de reclamo denuncia"
+msgstr "relatórios de administração reivindicação"
+
+#: SAECO_4/Formulario/reclamo_denuncia.php:18
+msgid "nro reclamo"
+msgstr "reivindicação nro"
+
+#: SAECO_4/Formulario/reclamo_denuncia.php:31
+msgid "reclamo"
+msgstr "reivindicar"
+
+#: SAECO_4/Formulario/reclamo_denuncia.php:32
+msgid "denuncia"
+msgstr "reclamação"
+
+#: SAECO_4/Formulario/reclamo_denuncia.php:77
+msgid "motivo"
+msgstr "razão"
+
+#: SAECO_4/Formulario/reclamo_denuncia.php:95
+msgid "denunciado"
+msgstr "denunciado"
+
+#: SAECO_4/Formulario/reclamo_denuncia.php:104
+msgid "status reclamo"
+msgstr "reivindicam um estatuto"
+
+#: SAECO_4/Formulario/reimp_cierre_caja.php:9
+msgid "reimprimir cierre caja"
+msgstr "reimprimir caixa de fechamento"
+
+#: SAECO_4/Formulario/reimp_cierre_caja.php:16
+#: SAECO_4/Formulario/reimp_cierre_diario.php:16
+#: SAECO_4/Formulario/reimp_cierre_diario1.php:16
+msgid "datos de la busqueda"
+msgstr "dados de pesquisa"
+
+#: SAECO_4/Formulario/reimp_cierre_caja.php:61
+msgid "puntos de cobros encontrados"
+msgstr "pontos de coleta encontrado"
+
+#: SAECO_4/Formulario/reimp_cierre_diario.php:9
+#: SAECO_4/Formulario/reimp_cierre_diario1.php:9
+msgid "reimprimir cierre diario"
+msgstr "reimprimir fechamento diário"
+
+#: SAECO_4/Formulario/reimp_factura.php:23
+msgid "reimprimir ultima factura de pago"
+msgstr "reimprimir pagamento da conta passada"
+
+#: SAECO_4/Formulario/reimp_factura.php:37
+msgid "reimprimir factura"
+msgstr "reimprimir factura"
+
+#: SAECO_4/Formulario/reimp_ordenes.php:8
+msgid "reimprimir ordenes de servicios"
+msgstr "reimprimir ordens de serviço"
+
+#: SAECO_4/Formulario/reimp_ordenes.php:82
+msgid "ordenes de servicios encontradas"
+msgstr "ordens de serviço encontrado"
+
+#: SAECO_4/Formulario/Rep_calle.php:2
+msgid "reporte de calles"
+msgstr "Rua relatório"
+
+#: SAECO_4/Formulario/Rep_calle.php:8
+#: SAECO_4/Formulario/Rep_deudacalle.php:8
+#: SAECO_4/Formulario/Rep_deudafran.php:8
+#: SAECO_4/Formulario/Rep_deudasector.php:55
+#: SAECO_4/Formulario/Rep_deudazona.php:8
+#: SAECO_4/Formulario/Rep_fran.php:8
+msgid "datos encontrados"
+msgstr "foram encontrados dados"
+
+#: SAECO_4/Formulario/Rep_Cobro.php:9
+msgid "reporte de cobro"
+msgstr "relatório coleção"
+
+#: SAECO_4/Formulario/Rep_Cobro.php:16
+msgid "datos requerido"
+msgstr "dados necessários"
+
+#: SAECO_4/Formulario/Rep_Cobro.php:32
+msgid "cobradores"
+msgstr "colecionadores"
+
+#: SAECO_4/Formulario/Rep_Cobro.php:68
+#: SAECO_4/Formulario/Rep_libroventa.php:57
+#: SAECO_4/Formulario/Rep_libroventa1.php:57
+#: SAECO_4/Formulario/Rep_libro_cobrador.php:71
+msgid "facturas encontradas"
+msgstr "contas encontrado"
+
+#: SAECO_4/Formulario/Rep_detallecobros.php:8
+msgid "detalle de cobros"
+msgstr "elementos relativos aos encargos"
+
+#: SAECO_4/Formulario/Rep_deudacalle.php:2
+msgid "reporte de deudas por calles"
+msgstr "comunicar ruas em dívidas"
+
+#: SAECO_4/Formulario/Rep_deudafran.php:2
+msgid "reporte de deudas por franquicias"
+msgstr "dívidas relatório para franquias"
+
+#: SAECO_4/Formulario/Rep_deudasector.php:2
+msgid "reporte de deudas por sectores"
+msgstr "Informe Dívida por setor"
+
+#: SAECO_4/Formulario/Rep_deudazona.php:2
+msgid "reporte de deudas por zonas"
+msgstr "áreas relatando dívidas"
+
+#: SAECO_4/Formulario/Rep_estadocuenta.php:15
+#: SAECO_4/Formulario/Rep_historialpago.php:14
+msgid "datos de busqueda"
+msgstr "dados de pesquisa"
+
+#: SAECO_4/Formulario/Rep_fran.php:2
+msgid "reporte de clientes por franquicias"
+msgstr "clientes franquia relatar"
+
+#: SAECO_4/Formulario/Rep_libroventa.php:9
+#: SAECO_4/Formulario/Rep_libroventa1.php:9
+msgid "libro de ventas"
+msgstr "livro de vendas"
+
+#: SAECO_4/Formulario/Rep_libroventa.php:16
+#: SAECO_4/Formulario/Rep_libroventa1.php:16
+msgid "facturas impresas"
+msgstr "notas de papel"
+
+#: SAECO_4/Formulario/Rep_libro_cobrador.php:9
+msgid "reporte de cobranza por cobrador"
+msgstr "relatar colecção com coletor"
+
+#: SAECO_4/Formulario/Rep_libro_cobrador.php:16
+msgid "facturas cobradas"
+msgstr "faturas cobradas"
+
+#: SAECO_4/Formulario/Rep_libro_cobrador.php:40
+msgid "comision"
+msgstr "comissão"
+
+#: SAECO_4/Formulario/Rep_notas.php:10
+msgid "reporte auditoria de notas de debito y credito"
+msgstr "relatório de auditoria de notas de débito e crédito"
+
+#: SAECO_4/Formulario/Rep_notas.php:77
+msgid "datos de la nota"
+msgstr "dados da nota"
+
+#: SAECO_4/Formulario/Rep_notas.php:81
+msgid "generado por"
+msgstr "gerado"
+
+#: SAECO_4/Formulario/Rep_notas.php:88
+msgid "sistema"
+msgstr "sistema"
+
+#: SAECO_4/Formulario/Rep_notas.php:111
+msgid "nota de debito"
+msgstr "nota de débito"
+
+#: SAECO_4/Formulario/Rep_notas.php:127
+msgid "ip del equipo"
+msgstr "equipe de ip"
+
+#: SAECO_4/Formulario/Rep_notas.php:140
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:106
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOSC.php:106
+msgid "por fecha"
+msgstr "por data"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:11
+msgid "reporte de ordenes de servicios"
+msgstr "ordens de serviço denunciar"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:88
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOSC.php:88
+msgid "asignado"
+msgstr "atribuído"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:89
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOSC.php:89
+msgid "impreso"
+msgstr "impresso"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:90
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOSC.php:90
+msgid "finalizado"
+msgstr "finalizado"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:91
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOSC.php:91
+msgid "devuelta"
+msgstr "de volta"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:92
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOSC.php:92
+msgid "cancelada"
+msgstr "cancelado"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOS.php:139
+#: SAECO_4/Formulario/Rep_recuperados.php:78
+msgid "otros parametros"
+msgstr "outros parâmetros"
+
+#: SAECO_4/Formulario/Rep_ORDENESTECNICOSC.php:11
+msgid "reporte de ordenes de servicio completa"
+msgstr "relatam ordens de serviço completos"
+
+#: SAECO_4/Formulario/Rep_recuperados.php:11
+msgid "reporte de recuperados"
+msgstr "relatório recuperado"
+
+#: SAECO_4/Formulario/Rep_recuperados.php:82
+msgid "status actualmente"
+msgstr "status atual"
+
+#: SAECO_4/Formulario/Rep_recuperados.php:92
+msgid "meses transcurridos"
+msgstr "mês"
+
+#: SAECO_4/Formulario/Rep_recuperados.php:122
+msgid "por rango de fechas"
+msgstr "por intervalo de datas"
+
+#: SAECO_4/Formulario/Rep_sector.php:2
+msgid "reporte de sectores"
+msgstr "setores relatam"
+
+#: SAECO_4/Formulario/Rep_totalclientes.php:11
+msgid "reporte de todos los clientes"
+msgstr "relatório de todos os clientes"
+
+#: SAECO_4/Formulario/Rep_totalclientes.php:102
+msgid "por fecha de inscripcion"
+msgstr "por data de registo"
+
+#: SAECO_4/Formulario/Rep_zona.php:2
+msgid "reporte de zonas"
+msgstr "áreas de comunicar"
+
+#: SAECO_4/Formulario/sector.php:14
+msgid "administracion de sectores"
+msgstr "administração de sectores"
+
+#: SAECO_4/Formulario/sector.php:46
+msgid "nro sector"
+msgstr "setores nr"
+
+#: SAECO_4/Formulario/sector.php:53
+msgid "nombre sector"
+msgstr "nome do setor"
+
+#: SAECO_4/Formulario/sector.php:104
+msgid "sectores agregados"
+msgstr "setores agregados"
+
+#: SAECO_4/Formulario/Sesion.php:3
+msgid "inicio de sesion"
+msgstr "Logon"
+
+#: SAECO_4/Formulario/Sesion.php:30
+msgid "contrase&ntilde;a"
+msgstr "senha"
+
+#: SAECO_4/Formulario/Sesion.php:39
+msgid "entrar"
+msgstr "entrar"
+
+#: SAECO_4/Formulario/statuscont.php:2
+msgid "administracion de status de contratos"
+msgstr "status de administração do contrato"
+
+#: SAECO_4/Formulario/statuscont.php:16
+msgid "nombre status"
+msgstr "status de nome"
+
+#: SAECO_4/Formulario/statuscont.php:25
+msgid "status cont"
+msgstr "status de cont"
+
+#: SAECO_4/Formulario/statuscont.php:56
+msgid "status agregados"
+msgstr "status adicionado"
+
+#: SAECO_4/Formulario/status_contrato.php:7
+#: SAECO_4/Formulario/status_contrato1.php:7
+msgid "listado de clientes para cortes"
+msgstr "lista de clientes para os cortes"
+
+#: SAECO_4/Formulario/status_contrato.php:39
+msgid "y deuda mayor a"
+msgstr "e aumento da dívida a"
+
+#: SAECO_4/Formulario/status_contrato.php:112
+#: SAECO_4/Formulario/status_contrato1.php:107
+msgid "imprimir listado"
+msgstr "imprimir lista"
+
+#: SAECO_4/Formulario/status_contrato1.php:69
+msgid "mes pagado"
+msgstr "mês de pagamento"
+
+#: SAECO_4/Formulario/tarifa_servicio.php:7
+msgid "registro de las tarifas de los servicios"
+msgstr "taxas de inscrição para os serviços"
+
+#: SAECO_4/Formulario/tarifa_servicio.php:50
+msgid "tarifa"
+msgstr "taxa"
+
+#: SAECO_4/Formulario/tarifa_servicio.php:114
+msgid "tarifa actuales"
+msgstr "actual taxa"
+
+#: SAECO_4/Formulario/tecnico.php:7
+msgid "administracion de tecnicos"
+msgstr "administração de técnica"
+
+#: SAECO_4/Formulario/tecnico.php:20
+msgid "nro tecnico"
+msgstr "nro técnico"
+
+#: SAECO_4/Formulario/tecnico.php:107
+msgid "tecnicos agregados"
+msgstr "técnico agregado"
+
+#: SAECO_4/Formulario/tipo_orden.php:7
+msgid "administracion de tipos ordenes "
+msgstr "administração de tipos de pedidos"
+
+#: SAECO_4/Formulario/tipo_orden.php:49
+msgid "tipos de ordenes agregadas"
+msgstr "tipos de ordens adicionada"
+
+#: SAECO_4/Formulario/tipo_pago.php:7
+msgid "administracion de tipo de pagos"
+msgstr "administração de tais pagamentos"
+
+#: SAECO_4/Formulario/tipo_pago.php:19
+msgid "tipo_pago"
+msgstr "tipo de pagamento"
+
+#: SAECO_4/Formulario/tipo_pago.php:57
+msgid "tipos de pagos agregados"
+msgstr "tipos de agregados pagamentos"
+
+#: SAECO_4/Formulario/tipo_servicio.php:7
+msgid "administracion de tipos de servicios"
+msgstr "administração de tipos de serviço"
+
+#: SAECO_4/Formulario/tipo_servicio.php:69
+msgid "tipos de servicios agregados"
+msgstr "adicionadas as taxas de serviços"
+
+#: SAECO_4/Formulario/Usuario.php:9
+msgid "administracion de usuarios"
+msgstr "gerenciamento de usuários"
+
+#: SAECO_4/Formulario/Usuario.php:62
+msgid "datos de la cuenta de usuario"
+msgstr "dados da conta de usuário"
+
+#: SAECO_4/Formulario/Usuario.php:91
+msgid "confirmar contrase&ntilde;a"
+msgstr "confirmar a senha"
+
+#: SAECO_4/Formulario/variables_sms.php:7
+msgid "administracion de variable"
+msgstr "administração de variável"
+
+#: SAECO_4/Formulario/variables_sms.php:20
+msgid "nombre variable"
+msgstr "nome da variável"
+
+#: SAECO_4/Formulario/variables_sms.php:37
+msgid "orden"
+msgstr "ordem"
+
+#: SAECO_4/Formulario/variables_sms.php:43
+msgid "cierre caja"
+msgstr "caixa de fechamento"
+
+#: SAECO_4/Formulario/variables_sms.php:53
+msgid "informe tecnico"
+msgstr "relatório técnico"
+
+#: SAECO_4/Formulario/variables_sms.php:101
+msgid "variables agregadas"
+msgstr "variáveis agregadas"
+
+#: SAECO_4/Formulario/vendedor.php:7
+msgid "administracion de vendedores"
+msgstr "fornecedores de administração"
+
+#: SAECO_4/Formulario/vendedor.php:20
+msgid "nro vendedor"
+msgstr "vendedor nro"
+
+#: SAECO_4/Formulario/vendedor.php:88
+msgid "vendedores agregados"
+msgstr "vendedores agregados"
+
+#: SAECO_4/Formulario/verVisitas.php:8
+msgid "visitas de orden de servicio"
+msgstr "ordem de visitas de serviço"
+
+#: SAECO_4/Formulario/verVisitas.php:17
+#: SAECO_4/Formulario/visitas.php:70
+msgid "visitas agregadas para esta orden"
+msgstr "visitas acrescentado para este fim"
+
+#: SAECO_4/Formulario/visitas.php:8
+msgid "administrar visitas a las ordenes de servicios"
+msgstr "visitas para gerenciar as ordens de serviço"
+
+#: SAECO_4/Formulario/visitas.php:17
+msgid "datos de la visita"
+msgstr "dados de visitação"
+
+#: SAECO_4/Formulario/zona.php:7
+msgid "administracion de zonas"
+msgstr "administração de zonas"
+
+#: SAECO_4/Formulario/zona.php:38
+msgid "nombre zona"
+msgstr "nome da zona"
+
+#: SAECO_4/Formulario/zona.php:66
+msgid "zonas agregadas"
+msgstr "agregar áreas"
+
+#: SAECO_4/Graficos/ejemplografico.php:231
+msgid "bs"
+msgstr "bs"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:136
+msgid "cantidad de clientes activos y cortados de la calle "
+msgstr "número de clientes ativos e afastados da rua"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:175
+#: SAECO_4/Graficos/est_a_c_calle.php:196
+#: SAECO_4/Graficos/est_a_c_calle.php:221
+#: SAECO_4/Graficos/est_a_c_calle.php:321
+#: SAECO_4/Graficos/est_a_c_calle.php:589
+#: SAECO_4/Graficos/est_a_c_calle.php:593
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:184
+#: SAECO_4/Graficos/est_a_c_fran.php:157
+#: SAECO_4/Graficos/est_a_c_fran.php:178
+#: SAECO_4/Graficos/est_a_c_fran.php:203
+#: SAECO_4/Graficos/est_a_c_fran.php:302
+#: SAECO_4/Graficos/est_a_c_fran.php:544
+#: SAECO_4/Graficos/est_a_c_fran.php:548
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:173
+#: SAECO_4/Graficos/est_a_c_sector.php:194
+#: SAECO_4/Graficos/est_a_c_sector.php:318
+#: SAECO_4/Graficos/est_a_c_sector.php:577
+#: SAECO_4/Graficos/est_a_c_sector.php:581
+msgid "activos"
+msgstr "ativos"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:183
+#: SAECO_4/Graficos/est_a_c_calle.php:206
+#: SAECO_4/Graficos/est_a_c_calle.php:236
+#: SAECO_4/Graficos/est_a_c_calle.php:326
+#: SAECO_4/Graficos/est_a_c_calle.php:596
+#: SAECO_4/Graficos/est_a_c_calle.php:600
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:184
+#: SAECO_4/Graficos/est_a_c_fran.php:165
+#: SAECO_4/Graficos/est_a_c_fran.php:188
+#: SAECO_4/Graficos/est_a_c_fran.php:218
+#: SAECO_4/Graficos/est_a_c_fran.php:307
+#: SAECO_4/Graficos/est_a_c_fran.php:551
+#: SAECO_4/Graficos/est_a_c_fran.php:555
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:173
+#: SAECO_4/Graficos/est_a_c_sector.php:181
+#: SAECO_4/Graficos/est_a_c_sector.php:204
+#: SAECO_4/Graficos/est_a_c_sector.php:234
+#: SAECO_4/Graficos/est_a_c_sector.php:323
+#: SAECO_4/Graficos/est_a_c_sector.php:584
+#: SAECO_4/Graficos/est_a_c_sector.php:588
+msgid "cortados"
+msgstr "cortar"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:272
+#: SAECO_4/Graficos/est_a_c_fran.php:254
+#: SAECO_4/Graficos/est_a_c_sector.php:270
+msgid "clientes activos en porcentajes"
+msgstr "clientes ativos em percentagens"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:291
+#: SAECO_4/Graficos/est_a_c_fran.php:273
+#: SAECO_4/Graficos/est_a_c_sector.php:289
+msgid "clientes cortados en porcentajes"
+msgstr "clientes a cortar percentagens"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:328
+#: SAECO_4/Graficos/est_a_c_fran.php:309
+#: SAECO_4/Graficos/est_a_c_sector.php:325
+msgid "promedio de clientes activos y cortados"
+msgstr "Média de ativos de clientes e de corte"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:448
+#: SAECO_4/Graficos/est_a_c_calle.php:457
+#: SAECO_4/Graficos/est_a_c_fran.php:427
+#: SAECO_4/Graficos/est_a_c_fran.php:437
+#: SAECO_4/Graficos/est_a_c_sector.php:445
+#: SAECO_4/Graficos/est_a_c_sector.php:454
+msgid "error, el anio de inicio no puede ser mayor al anio fin"
+msgstr "erro, o ano de início não pode exceder o final do ano"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:476
+#: SAECO_4/Graficos/est_a_c_fran.php:456
+#: SAECO_4/Graficos/est_a_c_sector.php:473
+msgid "estadisticas anuales de"
+msgstr "estatísticas anuais"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:476
+msgid " clientes activos y cortados por calles"
+msgstr "clientes ativos e cortam ruas"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:485
+#: SAECO_4/Graficos/est_a_c_fran.php:493
+#: SAECO_4/Graficos/est_a_c_sector.php:482
+msgid "tipo de grafico"
+msgstr "tipo de gráfico"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:489
+#: SAECO_4/Graficos/est_a_c_fran.php:497
+#: SAECO_4/Graficos/est_a_c_sector.php:486
+msgid "grafico de barra"
+msgstr "gráfico de barras"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:490
+#: SAECO_4/Graficos/est_a_c_fran.php:498
+#: SAECO_4/Graficos/est_a_c_sector.php:487
+msgid "grafico de linea"
+msgstr "gráfico de linha"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:491
+#: SAECO_4/Graficos/est_a_c_fran.php:499
+#: SAECO_4/Graficos/est_a_c_sector.php:488
+msgid "grafico de area"
+msgstr "área gráfica"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:495
+#: SAECO_4/Graficos/est_a_c_fran.php:464
+#: SAECO_4/Graficos/est_a_c_sector.php:492
+msgid "a&ntilde;o inicio"
+msgstr "ano de início"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:503
+#: SAECO_4/Graficos/est_a_c_fran.php:472
+#: SAECO_4/Graficos/est_a_c_sector.php:500
+msgid "a&ntilde;o fin"
+msgstr "final do ano"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:581
+msgid "resumen de clientes activos y cortados de la calle "
+msgstr "resumo de clientes ativos e afastados da rua"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:605
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:220
+#: SAECO_4/Graficos/est_a_c_fran.php:560
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:209
+#: SAECO_4/Graficos/est_a_c_sector.php:593
+msgid "promedio"
+msgstr "cierremédia"
+
+#: SAECO_4/Graficos/est_a_c_calle.php:650
+msgid "iniciar sesi&Oacute;n"
+msgstr "login"
+
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:39
+msgid "estadisticas anuales de clientes activos y cortados por calle"
+msgstr "estatísticas anuais de clientes ativos e corte de rua"
+
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:78
+msgid "anio incio"
+msgstr "ano de início"
+
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:78
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:59
+msgid "anio fin"
+msgstr "final do ano"
+
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:179
+msgid "resumen de clientes activos y cortados de la calle"
+msgstr "resumo de clientes ativos e afastados da rua"
+
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:184
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:173
+msgid "descripcion "
+msgstr "descrição"
+
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:184
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:173
+msgid "activos "
+msgstr "ativos"
+
+#: SAECO_4/Graficos/est_a_c_calle_impreso.php:210
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:199
+msgid "anio"
+msgstr "ano"
+
+#: SAECO_4/Graficos/est_a_c_fran.php:118
+msgid "cantidad de clientes activos y cortados de"
+msgstr "número de clientes ativos e cortar"
+
+#: SAECO_4/Graficos/est_a_c_fran.php:456
+msgid " clientes activos y cortados por franquicia"
+msgstr "clientes ativos e franquia de corte"
+
+#: SAECO_4/Graficos/est_a_c_fran.php:536
+msgid "resumen de clientes activos y cortados"
+msgstr "resumo de clientes ativos e cortar"
+
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:38
+msgid "estadisticas anuales de clientes activos y cortados por franquicia"
+msgstr "estatísticas anuais de clientes ativos e franquia de corte"
+
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:59
+msgid "anio inicio"
+msgstr "ano de início"
+
+#: SAECO_4/Graficos/est_a_c_fran_impreso.php:168
+msgid "resumen de clientes activos y cortados de"
+msgstr "resumo de clientes ativos e cortar"
+
+#: SAECO_4/Graficos/est_a_c_sector.php:134
+msgid "cantidad de clientes activos y cortados del sector "
+msgstr "corte número de clientes ativos e setor"
+
+#: SAECO_4/Graficos/est_a_c_sector.php:473
+msgid " clientes activos y cortados por sectores"
+msgstr "clientes ativos e de corte por setor"
+
+#: SAECO_4/Graficos/est_a_c_sector.php:569
+msgid "resumen de clientes activos y cortados del sector "
+msgstr "corte sumário de clientes ativos e setor"
+
+#: SAECO_4/Graficos/est_a_c_sector_impreso.php:39
+msgid "estadisticas anuales de clientes activos y cortados por sector"
+msgstr "estatísticas anuais de clientes ativos e cortada por Indústria"
+
+#: SAECO_4/Graficos/est_a_c_zona.php:126
+msgid "cantidad de clientes activos y cortado de la zona"
+msgstr "número de clientes ativos na área e corte"
+
+#: SAECO_4/Graficos/est_a_c_zona.php:464
+msgid " clientes activos y cortados por zonas"
+msgstr "clientes ativos e áreas de corte"
+
+#: SAECO_4/Graficos/est_a_c_zona_impreso.php:175
+msgid "resumen de clientes activos y cortados de la zona"
+msgstr "resumo de clientes ativos na área e corte"
+
+#: SAECO_4/Graficos/est_a_i_calle.php:101
+#: SAECO_4/Graficos/est_a_i_fran.php:77
+#: SAECO_4/Graficos/est_a_i_sector.php:106
+#: SAECO_4/Graficos/est_a_i_zona.php:98
+msgid "ingresos y deudas en bolivares"
+msgstr "renda e dívida em bolívares"
+
+#: SAECO_4/Graficos/est_a_i_calle.php:148
+#: SAECO_4/Graficos/est_a_i_calle.php:171
+#: SAECO_4/Graficos/est_a_i_calle.php:201
+#: SAECO_4/Graficos/est_a_i_calle.php:289
+#: SAECO_4/Graficos/est_a_i_calle.php:556
+#: SAECO_4/Graficos/est_a_i_calle.php:560
+#: SAECO_4/Graficos/est_a_i_fran.php:124
+#: SAECO_4/Graficos/est_a_i_fran.php:147
+#: SAECO_4/Graficos/est_a_i_fran.php:177
+#: SAECO_4/Graficos/est_a_i_fran.php:265
+#: SAECO_4/Graficos/est_a_i_fran.php:510
+#: SAECO_4/Graficos/est_a_i_fran.php:514
+#: SAECO_4/Graficos/est_a_i_sector.php:153
+#: SAECO_4/Graficos/est_a_i_sector.php:176
+#: SAECO_4/Graficos/est_a_i_sector.php:206
+#: SAECO_4/Graficos/est_a_i_sector.php:294
+#: SAECO_4/Graficos/est_a_i_sector.php:555
+#: SAECO_4/Graficos/est_a_i_sector.php:559
+#: SAECO_4/Graficos/est_a_i_zona.php:147
+#: SAECO_4/Graficos/est_a_i_zona.php:170
+#: SAECO_4/Graficos/est_a_i_zona.php:200
+#: SAECO_4/Graficos/est_a_i_zona.php:294
+#: SAECO_4/Graficos/est_a_i_zona.php:548
+#: SAECO_4/Graficos/est_a_i_zona.php:552
+msgid "deudas"
+msgstr "passivo"
+
+#: SAECO_4/Graficos/est_a_i_calle.php:237
+#: SAECO_4/Graficos/est_a_i_fran.php:213
+#: SAECO_4/Graficos/est_a_i_sector.php:242
+#: SAECO_4/Graficos/est_a_i_zona.php:242
+msgid "ingresos en porcentajes"
+msgstr "renda como um percentual"
+
+#: SAECO_4/Graficos/est_a_i_calle.php:256
+#: SAECO_4/Graficos/est_a_i_fran.php:232
+#: SAECO_4/Graficos/est_a_i_sector.php:261
+#: SAECO_4/Graficos/est_a_i_zona.php:261
+msgid "deudas en porcentajes "
+msgstr "dívida como uma percentagem"
+
+#: SAECO_4/Graficos/est_a_i_calle.php:291
+#: SAECO_4/Graficos/est_a_i_fran.php:267
+#: SAECO_4/Graficos/est_a_i_sector.php:296
+#: SAECO_4/Graficos/est_a_i_zona.php:296
+msgid "promedio de ingresos y egresos"
+msgstr "renda média e despesas"
+
+#: SAECO_4/Graficos/est_a_i_calle.php:437
+msgid " ingresos y egresos por calles"
+msgstr "receitas e despesas para ruas"
+
+#: SAECO_4/Graficos/est_a_i_calle.php:541
+#: SAECO_4/Graficos/est_a_i_fran.php:495
+#: SAECO_4/Graficos/est_a_i_sector.php:540
+#: SAECO_4/Graficos/est_a_i_zona.php:533
+msgid "resumen de ingresos y deudas"
+msgstr "resumo de renda e dívida"
+
+#: SAECO_4/Graficos/est_a_i_calle_impreso.php:39
+msgid "estadisticas anuales de ingreso y deudas por calles"
+msgstr "estatísticas anuais das ruas renda e dívidas"
+
+#: SAECO_4/Graficos/est_a_i_calle_impreso.php:167
+#: SAECO_4/Graficos/est_a_i_fran_impreso.php:144
+#: SAECO_4/Graficos/est_a_i_sector_impreso.php:172
+#: SAECO_4/Graficos/est_a_i_zona_impreso.php:165
+msgid "resumen de ingreso y deudas"
+msgstr "resumo das receitas e dívidas"
+
+#: SAECO_4/Graficos/est_a_i_calle_impreso.php:172
+#: SAECO_4/Graficos/est_a_i_fran_impreso.php:149
+#: SAECO_4/Graficos/est_a_i_sector_impreso.php:177
+#: SAECO_4/Graficos/est_a_i_zona_impreso.php:170
+msgid "ingreso"
+msgstr "entrada"
+
+#: SAECO_4/Graficos/est_a_i_calle_impreso.php:172
+#: SAECO_4/Graficos/est_a_i_fran_impreso.php:149
+#: SAECO_4/Graficos/est_a_i_sector_impreso.php:177
+#: SAECO_4/Graficos/est_a_i_zona_impreso.php:170
+msgid "ingreso "
+msgstr "entrada"
+
+#: SAECO_4/Graficos/est_a_i_calle_impreso.php:172
+#: SAECO_4/Graficos/est_a_i_fran_impreso.php:149
+#: SAECO_4/Graficos/est_a_i_sector_impreso.php:177
+#: SAECO_4/Graficos/est_a_i_zona_impreso.php:170
+msgid "deuda"
+msgstr "dívida"
+
+#: SAECO_4/Graficos/est_a_i_fran.php:415
+msgid " ingreso y deudas por franquicia"
+msgstr "renda e alívio da dívida"
+
+#: SAECO_4/Graficos/est_a_i_fran_impreso.php:38
+msgid "estadisticas anuales de ingresos y deudas por franquicias "
+msgstr "estatísticas anuais de receitas e dívidas para franquias"
+
+#: SAECO_4/Graficos/est_a_i_sector.php:442
+msgid " ingresos y deudas por sectores"
+msgstr "renda e dívida por setor"
+
+#: SAECO_4/Graficos/est_a_i_sector_impreso.php:39
+msgid "estadisticas anuales de ingresos y deudas por sectores"
+msgstr "estatísticas anuais de rendimentos e de dívida pelo sector"
+
+#: SAECO_4/Graficos/est_a_i_zona.php:444
+msgid " ingresos y deudas por zonas"
+msgstr "cierreáreas de renda e dívidas"
+
+#: SAECO_4/Graficos/est_a_i_zona_impreso.php:39
+msgid "estadisticas anuales de ingresos y deudas por zonas"
+msgstr "As estatísticas anuais de rendimentos da área e da dívida"
+
+#: SAECO_4/Graficos/est_a_o_calle.php:136
+#: SAECO_4/Graficos/est_a_o_fran.php:119
+#: SAECO_4/Graficos/est_a_o_sector.php:132
+msgid "cantidad de"
+msgstr "quantidade de"
+
+#: SAECO_4/Graficos/est_a_o_calle.php:387
+#: SAECO_4/Graficos/est_a_o_calle_impreso.php:56
+msgid "por calle"
+msgstr "pela rua"
+
+#: SAECO_4/Graficos/est_a_o_calle.php:499
+#: SAECO_4/Graficos/est_a_o_calle_impreso.php:166
+#: SAECO_4/Graficos/est_a_o_fran.php:450
+#: SAECO_4/Graficos/est_a_o_fran_impreso.php:157
+msgid "resumen de ordenes de servicios"
+msgstr "Resumo das ordens de serviço"
+
+#: SAECO_4/Graficos/est_a_o_fran.php:365
+#: SAECO_4/Graficos/est_a_o_fran_impreso.php:57
+msgid "por franquicias"
+msgstr "para franquias"
+
+#: SAECO_4/Graficos/est_a_o_sector.php:132
+msgid "de"
+msgstr "de"
+
+#: SAECO_4/Graficos/est_a_o_sector.php:383
+msgid "por sector"
+msgstr "por setor"
+
+#: SAECO_4/Graficos/est_a_o_sector.php:486
+msgid "resumen de ordenes de servicios "
+msgstr "Resumo das ordens de serviço"
+
+#: SAECO_4/Graficos/est_a_o_zona.php:376
+msgid "por zona"
+msgstr "por área"
+
+#: SAECO_4/Graficos/est_a_o_zona.php:471
+msgid "resumen de ordenes por servicios"
+msgstr "resumo dos pedidos de serviços"
+
+#: SAECO_4/Graficos/est_m_c_calle.php:118
+msgid "cantidad de clientes activos y cortados de la calle"
+msgstr "número de clientes ativos e afastados da rua"
+
+#: SAECO_4/Graficos/est_m_c_calle.php:447
+msgid "estadisticas mensuales de clientes activos y cortados por calles"
+msgstr "As estatísticas mensais de clientes ativos e cortam ruas"
+
+#: SAECO_4/Graficos/est_m_c_calle.php:455
+#: SAECO_4/Graficos/est_m_c_fran.php:438
+#: SAECO_4/Graficos/est_m_c_sector.php:449
+#: SAECO_4/Graficos/est_m_c_zona.php:441
+#: SAECO_4/Graficos/est_m_i_calle.php:445
+#: SAECO_4/Graficos/est_m_i_fran.php:421
+#: SAECO_4/Graficos/est_m_i_sector.php:440
+msgid "a&ntilde;o"
+msgstr "ano"
+
+#: SAECO_4/Graficos/est_m_c_calle_impreso.php:32
+msgid "estadistica mensuales de clientes activos y cortados por calles"
+msgstr "As estatísticas mensais de clientes ativos e cortam ruas"
+
+#: SAECO_4/Graficos/est_m_c_fran.php:430
+msgid "estadistica mensuales de clientes activos y cortados por franquicias"
+msgstr "As estatísticas mensais de clientes ativos e franquias de corte"
+
+#: SAECO_4/Graficos/est_m_c_fran_impreso.php:31
+msgid "estadistica de clientes activos y cortados por franquicias"
+msgstr "estatísticas de clientes ativos e franquias de corte"
+
+#: SAECO_4/Graficos/est_m_c_fran_impreso.php:143
+msgid "resumen de clientes activos y cortados de "
+msgstr "resumo de clientes ativos e cortar"
+
+#: SAECO_4/Graficos/est_m_c_sector.php:441
+#: SAECO_4/Graficos/est_m_c_zona.php:433
+msgid "estadistica mensuales de clientes activos y cortados por zonas"
+msgstr "As estatísticas mensais de clientes ativos e áreas de corte"
+
+#: SAECO_4/Graficos/est_m_c_sector_impreso.php:32
+msgid "estadistica de clientes activos y cortados por sector"
+msgstr "estatísticas de clientes ativos e cortada por Indústria"
+
+#: SAECO_4/Graficos/est_m_c_sector_impreso.php:159
+msgid "resumen de clientes activos y cortados del sector"
+msgstr "corte sumário de clientes ativos e setor"
+
+#: SAECO_4/Graficos/est_m_c_zona_impreso.php:32
+msgid "estadistica mensuales de clientes activos y cortados por zonas "
+msgstr "As estatísticas mensais de clientes ativos e áreas de corte"
+
+#: SAECO_4/Graficos/est_m_i_calle.php:436
+msgid "estadisticas mensuales de ingresos y deudas por calles"
+msgstr "As estatísticas mensais das ruas renda e dívidas"
+
+#: SAECO_4/Graficos/est_m_i_fran.php:412
+#: SAECO_4/Graficos/est_m_i_fran_impreso.php:36
+msgid "estadisticas mensuales de ingresos y deudas por franquicias"
+msgstr "As estatísticas mensais de receitas e dívidas para franquias"
+
+#: SAECO_4/Graficos/est_m_i_sector.php:431
+msgid "estadisticas mensuales de ingresos y deudas por sectores"
+msgstr "As estatísticas mensais de receita e dívida por setor"
+
+#: SAECO_4/Graficos/est_m_i_zona.php:422
+#: SAECO_4/Graficos/est_m_i_zona_impreso.php:36
+msgid "estadisticas mensuales de ingresos y deudas por zonas"
+msgstr "As estatísticas mensais das áreas de renda e dívidas"
+
+#: SAECO_4/Graficos/est_m_o_calle.php:363
+#: SAECO_4/Graficos/est_m_o_fran.php:341
+#: SAECO_4/Graficos/est_m_o_sector.php:358
+#: SAECO_4/Graficos/est_m_o_zona.php:351
+msgid "estadisticas mensuales de"
+msgstr "As estatísticas mensais"
+
+#: SAECO_4/Graficos/est_m_o_fran_impreso.php:56
+msgid "por franquicia"
+msgstr "franquia"
+
+#: SAECO_4/Graficos/est_m_o_sector.php:454
+msgid "resumen por ordenes de servicios"
+msgstr "serviço ordens sumárias"
+
+#: SAECO_4/Graficos/est_t_g.php:137
+#: SAECO_4/Graficos/est_t_i.php:141
+msgid "ordenes realizadas por"
+msgstr "pedidos feitos por"
+
+#: SAECO_4/Graficos/est_t_g.php:382
+msgid "estadisticas generales de ordenes realizadas por tecnicos"
+msgstr "estatísticas gerais de encomendas feitas por técnicos"
+
+#: SAECO_4/Graficos/est_t_g.php:462
+msgid "resumen de ordenes realizadas por tecnicos"
+msgstr "resumo dos comandos realizados por técnicas"
+
+#: SAECO_4/Graficos/est_t_i.php:386
+msgid "estadisticas por tecnicos"
+msgstr "Estatísticas para Técnico"
+
+#: SAECO_4/Graficos/est_t_i.php:423
+msgid "cedula tecnico"
+msgstr "cierreCédula técnico"
+
+#: SAECO_4/Graficos/est_t_i.php:438
+msgid "por tipo de orden"
+msgstr "por tipo de ordem"
+
+#: SAECO_4/Graficos/est_t_i.php:439
+msgid "por detalle de ordenes"
+msgstr "para detalhes de pedidos"
+
+#: SAECO_4/Graficos/est_t_i.php:469
+msgid "resumen de ordenes realizadas por tipos de ordenes"
+msgstr "resumo dos comandos realizados por tipos de ordens"
+
+#: SAECO_4/idiomas/index.php:3
+msgid "Hola  Mundo!"
+msgstr "Olá Mundo!"
+
+#: SAECO_4/javascript/file_js.php:5
+msgid "Error"
+msgstr "erro"
+
+#: SAECO_4/javascript/file_js.php:6
+msgid "Error: no puede dejar este espacio vacio"
+msgstr "Erro: Não pode deixar esse espaço vazio"
+
+#: SAECO_4/javascript/file_js.php:7
+msgid "ingrese un texto que contenga solo letras y/o numeros"
+msgstr "Digite um texto contendo apenas letras e / ou números"
+
+#: SAECO_4/javascript/file_js.php:8
+msgid "ingrese un texto que contenga solo letras"
+msgstr "Digite um texto contendo apenas letras"
+
+#: SAECO_4/javascript/file_js.php:9
+msgid "ingrese un numero entero"
+msgstr "Digite um número inteiro"
+
+#: SAECO_4/javascript/file_js.php:10
+msgid "ingrese un numero"
+msgstr "Digite um número inteiro"
+
+#: SAECO_4/javascript/file_js.php:11
+msgid "ingrese un numero de telefono de 11 digitos"
+msgstr "insira um número de telefone de 11 dígitos"
+
+#: SAECO_4/javascript/file_js.php:12
+msgid "ingrese una direccion de correo electronico valida"
+msgstr "digite um endereço de e-mail válido"
+
+#: SAECO_4/javascript/file_js.php:13
+msgid "ingrese un numero de cedula de 8 digitos"
+msgstr "insira um número recorde de 8 dígitos"
+
+#: SAECO_4/javascript/file_js.php:14
+msgid "la contrasena debe ser minimo 6 digitos"
+msgstr "a senha deve ter pelo menos 6 dígitos"
+
+#: SAECO_4/javascript/file_js.php:15
+msgid "no ha Seleccionado ninguna opcion en el Select"
+msgstr "não selecionar nenhuma opção na Seleção"
+
+#: SAECO_4/javascript/file_js.php:16
+msgid "debe introducir una fecha en este formato  DD/MM/AAAA"
+msgstr "deve digitar uma data no formato DD / MM / AAAA"
+
+#: SAECO_4/javascript/file_js.php:17
+msgid "ingrese un numero de rif en este formato xxxxxxxx-x"
+msgstr "rif introduzir um número neste formato xxxxxxxx-x"
+
+#: SAECO_4/javascript/file_js.php:18
+msgid "ingrese un texto que contenga solo letras numeros"
+msgstr "Digite um texto contendo apenas números cartas"
+
+#: SAECO_4/javascript/file_js.php:19
+#: SAECO_4/javascript/file_js.php:20
+msgid "Error, debe introducir una fecha en este formato  DD/MM/AAAA"
+msgstr "Erro, você deve inserir uma data no formato DD / MM / AAAA"
+
+#: SAECO_4/javascript/file_js.php:21
+msgid "Error, debe introducir una fecha valida en este formato  DD/MM/AAAA"
+msgstr "De erro, você deve digitar uma data válida no formato DD / MM / AAAA"
+
+#: SAECO_4/javascript/file_js.php:22
+#: SAECO_4/javascript/file_js.php:50
+msgid "Error. Intento de Violacion de Seguridad, la Sesion sera reiniciada"
+msgstr "Erro. Tentativa de violação de segurança, a sessão será reiniciada"
+
+#: SAECO_4/javascript/file_js.php:23
+#: SAECO_4/javascript/file_js.php:36
+msgid "TRANSACCION COMPLETADA CON EXITO"
+msgstr "TRANSAÇÃO Terminou com sucesso"
+
+#: SAECO_4/javascript/file_js.php:24
+msgid "Validacion Completada Con exito"
+msgstr "Validação concluída com êxito"
+
+#: SAECO_4/javascript/file_js.php:25
+msgid "Error, consulta SQL Erronea"
+msgstr "Errado, errado consulta SQL"
+
+#: SAECO_4/javascript/file_js.php:26
+msgid "Aviso, Tiene una orden asignada"
+msgstr "Aviso prévio, uma ordem atribuiu"
+
+#: SAECO_4/javascript/file_js.php:27
+msgid "Aviso, Tiene una orden Impresa"
+msgstr "Aviso, tem um comando de impressão"
+
+#: SAECO_4/javascript/file_js.php:28
+msgid "Error, este contrato no tiene una orden para finalizar"
+msgstr "Erro, este contrato não tem um fim para terminar"
+
+#: SAECO_4/javascript/file_js.php:29
+#: SAECO_4/javascript/file_js.php:30
+msgid "PROCESO REALIZADO"
+msgstr "processo feito"
+
+#: SAECO_4/javascript/file_js.php:31
+msgid "Error, no se puede anular una factura de un dia anterior"
+msgstr "Erro, não pode cancelar um projeto de lei de um dia anterior"
+
+#: SAECO_4/javascript/file_js.php:32
+#: SAECO_4/javascript/file_js.php:33
+msgid "No se encontro ningun resultado"
+msgstr "Não foi encontrado nenhum resultado"
+
+#: SAECO_4/javascript/file_js.php:34
+msgid "Idioma Cambiado con Exito"
+msgstr "Mudou a linguagem para o Sucesso"
+
+#: SAECO_4/javascript/file_js.php:35
+msgid "Error, al cambiar idioma"
+msgstr "Erro ao alterar o idioma"
+
+#: SAECO_4/javascript/file_js.php:37
+msgid "ERROR DURANTE TRANSACCION"
+msgstr "ERRO DURANTE OPERAÇÃO"
+
+#: SAECO_4/javascript/file_js.php:38
+msgid "error el nombre de usuario ya corresponde a otra persona"
+msgstr "nome do erro que o usuário já pertence a outra pessoa"
+
+#: SAECO_4/javascript/file_js.php:39
+msgid "Error, el numero de factura"
+msgstr "Erro, o número da fatura"
+
+#: SAECO_4/javascript/file_js.php:40
+msgid "ya esta registrado"
+msgstr "já registrado"
+
+#: SAECO_4/javascript/file_js.php:41
+msgid "Error, El pago no esta registrado"
+msgstr "Pagamento de erro, não registrado"
+
+#: SAECO_4/javascript/file_js.php:42
+msgid "Error, La cedula no corresponde a un cliente"
+msgstr "De erro, o programa não corresponde a um cliente"
+
+#: SAECO_4/javascript/file_js.php:43
+msgid "El contrato no esta registrado"
+msgstr "O contrato não está registrado"
+
+#: SAECO_4/javascript/file_js.php:44
+msgid "Error, el nombre de usuario no esta registrado"
+msgstr "Erro, o nome não está registrado"
+
+#: SAECO_4/javascript/file_js.php:45
+msgid "ERROR DEL SISTEMA"
+msgstr "ERRO DE SISTEMA"
+
+#: SAECO_4/javascript/file_js.php:46
+msgid "Error, el Usuario y/o Contrasena ingresados no son validos.\tPor favor intente de nuevo"
+msgstr "Usuário de erro, e / ou a senha digitada não é válido. \ Tremove por favor tente novamente"
+
+#: SAECO_4/javascript/file_js.php:47
+#: SAECO_4/javascript/file_js.php:51
+msgid "Sincronizacion realizada con exito"
+msgstr "Sincronize feito com sucesso"
+
+#: SAECO_4/javascript/file_js.php:48
+#: SAECO_4/javascript/file_js.php:49
+#: SAECO_4/javascript/file_js.php:52
+#: SAECO_4/javascript/file_js.php:53
+msgid "Mensaje enviado con exito"
+msgstr "Mensagem enviada com sucesso"
+
+#: SAECO_4/javascript/file_js.php:54
+msgid "La Contrasena no coincide con la otra"
+msgstr "A senha não combina com o outro"
+
+#: SAECO_4/javascript/file_js.php:55
+msgid "La nueva contrasena no coincide con la de confirmacion"
+msgstr "A nova senha não coincide com a confirmação"
+
+#: SAECO_4/javascript/file_js.php:56
+#: SAECO_4/javascript/file_js.php:57
+msgid "Error, Debe Seleccionar al menos un servicio"
+msgstr "De erro, você deve selecionar pelo menos um serviço"
+
+#: SAECO_4/javascript/file_js.php:58
+msgid "Error, debe seleccionar algun cargo"
+msgstr "De erro, você deve selecionar todas as cargas"
+
+#: SAECO_4/javascript/file_js.php:59
+msgid "Error, debe seleccionar maximo 6 cargos"
+msgstr "De erro, você deve selecionar um máximo de 6 posições"
+
+#: SAECO_4/javascript/file_js.php:60
+msgid "Error, la cantidad debe ser mayor que cero(0)"
+msgstr "De erro, a quantidade deve ser maior que zero (0)"
+
+#: SAECO_4/javascript/file_js.php:61
+msgid "Error, no hay sufiente material en almacen para esta salida verifique el Stock"
+msgstr "Erro, nenhum material suficente armazém para verificar este estoque"
+
+#: SAECO_4/javascript/file_js.php:62
+#: SAECO_4/javascript/file_js.php:65
+#: SAECO_4/javascript/file_js.php:66
+#: SAECO_4/javascript/file_js.php:67
+#: SAECO_4/javascript/file_js.php:68
+msgid "Error, debe seleccionar al menos un Item de la lista"
+msgstr "Erro, você deve selecionar pelo menos um item na lista"
+
+#: SAECO_4/javascript/file_js.php:63
+msgid "Error, debe seleccionar al menos un Pago"
+msgstr "Erro, você deve selecionar pelo menos um pagamento"
+
+#: SAECO_4/javascript/file_js.php:64
+msgid "Error, debe seleccionar el grupo que realizo la orden"
+msgstr "De erro, você deve selecionar o grupo que executou a ordem"
+
+#: SAECO_4/javascript/file_js.php:69
+msgid "Error, debe describir el motivo del cambio del cargo"
+msgstr "Erro, deve descrever a razão para a mudança de escritório"
+
+#: SAECO_4/javascript/file_js.php:70
+msgid "Error, debe introducir el mensaje a enviar"
+msgstr "De erro, você deve digitar a mensagem a enviar"
+
+#: SAECO_4/javascript/file_js.php:71
+msgid "Los mensajes se estan enviando internamente."
+msgstr "Mensagens estão sendo enviadas internamente."
+
+#: SAECO_4/javascript/file_js.php:72
+#: SAECO_4/javascript/file_js.php:73
+#: SAECO_4/javascript/file_js.php:74
+#: SAECO_4/javascript/file_js.php:75
+msgid "Error, debe cargar un contrato valido"
+msgstr "Erro, você deve fazer upload de um contrato válido"
+
+#: SAECO_4/javascript/file_js.php:76
+msgid "Error, el campo debe ser un entero"
+msgstr "Erro, o campo deve ser um inteiro"
+
+#: SAECO_4/javascript/file_js.php:77
+#: SAECO_4/javascript/file_js.php:78
+#: SAECO_4/javascript/file_js.php:79
+#: SAECO_4/javascript/file_js.php:80
+msgid "Error, Debe cargar un contrato"
+msgstr "Erro, deve cobrar um contrato"
+
+#: SAECO_4/javascript/file_js.php:81
+#: SAECO_4/javascript/file_js.php:83
+msgid "Error, debe seleccionar al menos un tecnico de la lista"
+msgstr "De erro, você deve selecionar pelo menos um técnico da lista"
+
+#: SAECO_4/javascript/file_js.php:82
+msgid "AVISO, los datos de los tecnicos no se modifican."
+msgstr "AVISO, los datos de los tecnicos no se modifican."
+
+#: SAECO_4/javascript/file_js.php:84
+msgid "Sincronizacion con el celular detenida"
+msgstr "A sincronização com o celular preso"
+
+#: SAECO_4/javascript/file_js.php:85
+msgid "Error, debe escribir una descripcion en el Editor Wysiwyg"
+msgstr "De erro, você deve digitar uma descrição em editor WYSIWYG"
+
+#: SAECO_4/javascript/file_js.php:86
+#: SAECO_4/javascript/file_js.php:87
+msgid "Error, debe seleccionar al menos un mensaje de la lista"
+msgstr "De erro, você deve selecionar pelo menos uma mensagem da lista"
+
+#: SAECO_4/javascript/file_js.php:88
+msgid "ERROR, debe instroducir el mensaje a responder"
+msgstr "ERROR, você deve digitar a mensagem para responder"
+
+#: SAECO_4/javascript/file_js.php:89
+msgid "Error, el numero de contrato ya corresponde a un Cliente"
+msgstr "Erro, o número do contrato e corresponde a um cliente"
+
+#: SAECO_4/javascript/file_js.php:90
+#: SAECO_4/javascript/file_js.php:91
+#: SAECO_4/javascript/file_js.php:104
+msgid "seguro que desea enviar este formulario"
+msgstr "Certifique-se de apresentar este formulário"
+
+#: SAECO_4/javascript/file_js.php:92
+msgid "Confirma que desea eliminar estos datos"
+msgstr "Claro que você deseja excluir esses dados"
+
+#: SAECO_4/javascript/file_js.php:93
+msgid "Confirma que desea Finalizar esta Orden de Servicio"
+msgstr "Claro que você quer Termine esta Ordem de Serviço"
+
+#: SAECO_4/javascript/file_js.php:95
+msgid "Confirma que NO SE REALIZO esta orden de servicio"
+msgstr "Confirma que esta ordem não foi realizado serviço"
+
+#: SAECO_4/javascript/file_js.php:96
+msgid "Confirma que desea devolver esta orden de servicio"
+msgstr "Claro que você quer retornar esta ordem de serviço"
+
+#: SAECO_4/javascript/file_js.php:97
+msgid "Confirma que desea Imprimir estas ordenes de servicios"
+msgstr "Imprimir certeza de que quer encomendar estes serviços"
+
+#: SAECO_4/javascript/file_js.php:98
+msgid "Confirma que desea Imprimir estas facturas seleccionadas"
+msgstr "Claro que você deseja imprimir essas facturas selecionados"
+
+#: SAECO_4/javascript/file_js.php:99
+msgid "Confirma que desea finalizar estas ordenes de servicios"
+msgstr "Confirme que pretende acabar com estas ordens de serviço"
+
+#: SAECO_4/javascript/file_js.php:100
+msgid "Seguro que desea enviar los mensajes de textos"
+msgstr "Claro que você deseja enviar mensagens de texto"
+
+#: SAECO_4/javascript/file_js.php:101
+msgid "Confirma que desea imprimir esta Orden de Servicio"
+msgstr "Claro que você deseja imprimir esta Ordem de Serviço"
+
+#: SAECO_4/javascript/file_js.php:102
+msgid "seguro que desea generar estas falla"
+msgstr "certeza de que quer gerar esses falha"
+
+#: SAECO_4/javascript/file_js.php:103
+msgid "seguro que desea rechazar estas fallas"
+msgstr "certeza de que quer rejeitar essas falhas"
+
+#: SAECO_4/javascript/file_js.php:105
+#: SAECO_4/javascript/file_js.php:106
+#: SAECO_4/javascript/file_js.php:107
+msgid "El contrato no esta registrado. Desea cargar la busqueda avanzada"
+msgstr "O contrato não está registrado. Para carregar a busca avançada"
+
+#: SAECO_4/javascript/file_js.php:108
+msgid "El contrato o la cedula no esta registrado. Desea cargar la busqueda avanzada"
+msgstr "O contrato ou a carta para não registrada. Para carregar a busca avançada"
+
+#: SAECO_4/javascript/file_js.php:109
+msgid "CARGANDO MENSUALIDAD POR FAVOR ESPERE!!!"
+msgstr "LOADING MENSAL AGUARDE!"
+
+#: SAECO_4/javascript/file_js.php:110
+msgid "Esto puede Tardar varios minutos"
+msgstr "Isto pode levar alguns minutos"
+
+#: SAECO_4/javascript/file_js.php:111
+msgid "USUARIO"
+msgstr "USUÁRIO"
+
+#: SAECO_4/javascript/file_js.php:112
+msgid "PERFIL"
+msgstr "PERFIL"
+
+#: SAECO_4/javascript/file_js.php:113
+msgid "Cerrar Sesion"
+msgstr "Fechar Sessão"
+
+#: SAECO_4/javascript/file_js.php:115
+#: SAECO_4/javascript/file_js.php:124
+msgid "Total Clientes"
+msgstr "total de clientes"
+
+#: SAECO_4/javascript/file_js.php:116
+#: SAECO_4/javascript/file_js.php:125
+msgid "Respaldar"
+msgstr "apoiar"
+
+#: SAECO_4/javascript/file_js.php:121
+msgid "Cirre Diario"
+msgstr "Encerramento Jornal"
+
+#: SAECO_4/javascript/file_js.php:126
+#: SAECO_4/javascript/file_js.php:135
+msgid "Nuevo Contrato"
+msgstr "novo Contrato"
+
+#: SAECO_4/javascript/file_js.php:128
+#: SAECO_4/javascript/file_js.php:137
+#: SAECO_4/javascript/file_js.php:144
+#: SAECO_4/javascript/file_js.php:147
+#: SAECO_4/javascript/file_js.php:151
+msgid "Asignar Ordenes"
+msgstr "atribuir ordens"
+
+#: SAECO_4/javascript/file_js.php:129
+#: SAECO_4/javascript/file_js.php:138
+#: SAECO_4/javascript/file_js.php:148
+msgid "Imprimir Ordenes"
+msgstr "ordens de impressão"
+
+#: SAECO_4/javascript/file_js.php:130
+#: SAECO_4/javascript/file_js.php:139
+#: SAECO_4/javascript/file_js.php:149
+msgid "Finalizar Ordenes"
+msgstr "concluir Ordem"
+
+#: SAECO_4/javascript/file_js.php:131
+msgid "Cortar Servicio"
+msgstr "Corte de serviço"
+
+#: SAECO_4/javascript/file_js.php:140
+msgid "Pagos"
+msgstr "pagamentos"
+
+#: SAECO_4/javascript/file_js.php:142
+msgid "Abrir Punto"
+msgstr "Ponto Aberto"
+
+#: SAECO_4/javascript/file_js.php:143
+msgid "Cerrar Punto"
+msgstr "Ponto Fechar"
+
+#: SAECO_4/procesos/datagrid_caja.php:11
+msgid "nro caja"
+msgstr "caixa nro"
+
+#: SAECO_4/procesos/datagrid_caja_cobrador.php:22
+msgid "nro cont."
+msgstr "nro cont."
+
+#: SAECO_4/procesos/datagrid_caja_cobrador.php:23
+msgid "nro fact."
+msgstr "nro fact"
+
+#: SAECO_4/procesos/datagrid_caja_cobrador.php:24
+msgid "montos"
+msgstr "quantidades"
+
+#: SAECO_4/procesos/datagrid_caja_cobrador.php:63
+msgid "imprimir detalles cobro"
+msgstr "imprimir os detalhes de coleta"
+
+#: SAECO_4/procesos/datagrid_calle.php:12
+msgid "nombre calle"
+msgstr "nome da rua"
+
+#: SAECO_4/procesos/datagrid_devolver_ordenes_tecnicos.php:11
+#: SAECO_4/procesos/datagrid_imprimir_ordenes_tecnicos.php:11
+msgid "nro orden"
+msgstr "nr fim"
+
+#: SAECO_4/procesos/datagrid_devolver_ordenes_tecnicos.php:12
+#: SAECO_4/procesos/datagrid_final_ordenes_tecnicos.php:16
+#: SAECO_4/procesos/datagrid_imprimir_ordenes_tecnicos.php:12
+msgid "nro cont"
+msgstr "nro cont"
+
+#: SAECO_4/procesos/datagrid_devolver_ordenes_tecnicos.php:13
+#: SAECO_4/procesos/datagrid_imprimir_ordenes_tecnicos.php:13
+msgid "cliente"
+msgstr "cliente"
+
+#: SAECO_4/procesos/datagrid_devolver_ordenes_tecnicos.php:17
+#: SAECO_4/procesos/datagrid_final_ordenes_tecnicos.php:21
+#: SAECO_4/procesos/datagrid_imprimir_ordenes_tecnicos.php:17
+msgid "fecha orden"
+msgstr "data do pedido"
+
+#: SAECO_4/procesos/datagrid_devolver_ordenes_tecnicos.php:65
+msgid "imprimir ordenes selecionadas"
+msgstr "imprimir ordens selecionadas"
+
+#: SAECO_4/procesos/datagrid_final_ordenes_tecnicos.php:66
+msgid "finalizar ordenes seleccionadas"
+msgstr "final de ordens seleccionados"
+
+#: SAECO_4/procesos/datagrid_formato_sms.php:12
+#: SAECO_4/procesos/datagrid_formato_sms_cons.php:12
+msgid "formato"
+msgstr "formato"
+
+#: SAECO_4/procesos/datagrid_formato_sms_cons.php:11
+msgid "nombre Formato"
+msgstr "nome do formato"
+
+#: SAECO_4/procesos/datagrid_gerentes_permitidos.php:15
+msgid "tipo Gerente"
+msgstr "Type Manager"
+
+#: SAECO_4/procesos/datagrid_grupo_tecnico.php:14
+msgid "nro Tecnico"
+msgstr "técnico nro"
+
+#: SAECO_4/procesos/datagrid_grupo_trabajo.php:11
+msgid "nombre Grupo"
+msgstr "nome do grupo"
+
+#: SAECO_4/procesos/datagrid_grupo_trabajo.php:12
+msgid "fecha Creacion"
+msgstr "data de criação"
+
+#: SAECO_4/procesos/datagrid_grupo_trabajo.php:14
+msgid "tecnicos"
+msgstr "técnico"
+
+#: SAECO_4/procesos/datagrid_imprimir_ordenes_tecnicos.php:63
+msgid "imprimir ordenes seleccionadas"
+msgstr "imprimir ordens selecionadas"
+
+#: SAECO_4/procesos/datagrid_imprimir_ordenes_tecnicos.php:64
+msgid "guardar ordenes seleccionadas"
+msgstr "salve pedidos selecionados"
+
+#: SAECO_4/procesos/datagrid_pagos.php:28
+msgid "seleccione los cargos a cobrar"
+msgstr "optar por cobrar taxas"
+
+#: SAECO_4/procesos/datagrid_pagos.php:32
+msgid "cobro a Domicilio"
+msgstr "coleção em casa"
+
+#: SAECO_4/procesos/datagrid_pagos.php:35
+msgid "agregar_punto"
+msgstr "adicionar ponto"
+
+#: SAECO_4/procesos/datagrid_pagos.php:38
+msgid "agregar_mes"
+msgstr "adicionar meses"
+
+#: SAECO_4/procesos/datagrid_pago_comisiones.php:16
+msgid "porcenteje"
+msgstr "percentagem"
+
+#: SAECO_4/procesos/datagrid_parametros.php:11
+msgid "nro"
+msgstr "nro"
+
+#: SAECO_4/procesos/datagrid_parametros.php:13
+msgid "valor"
+msgstr "valor"
+
+#: SAECO_4/procesos/datagrid_perfil.php:9
+msgid "nombre perfil"
+msgstr "nome do perfil"
+
+#: SAECO_4/procesos/datagrid_perfil.php:10
+msgid "Status perfil"
+msgstr "Perfil estado"
+
+#: SAECO_4/procesos/datagrid_reclamo_denuncia.php:11
+msgid "cedula cli"
+msgstr "Cédula cli"
+
+#: SAECO_4/procesos/datagrid_reclamo_denuncia.php:12
+msgid "nombre cli"
+msgstr "cli nome"
+
+#: SAECO_4/procesos/datagrid_reclamo_denuncia.php:13
+msgid "apellido cli"
+msgstr "nome do clie"
+
+#: SAECO_4/procesos/datagrid_reclamo_denuncia.php:14
+msgid "nro rec"
+msgstr "nro rec"
+
+#: SAECO_4/procesos/datagrid_sector.php:11
+msgid "nro Sector"
+msgstr "nro Setor"
+
+#: SAECO_4/procesos/datagrid_sector.php:12
+msgid "nombre Sector"
+msgstr "nome setor"
+
+#: SAECO_4/procesos/datagrid_servicios.php:11
+msgid "nombre Servicio"
+msgstr "nome do serviço"
+
+#: SAECO_4/procesos/datagrid_servicios.php:13
+msgid "tipo Costo"
+msgstr "tipo de custo"
+
+#: SAECO_4/procesos/datagrid_servicios.php:14
+msgid "tipo de Servicio"
+msgstr "Tipo de Serviço"
+
+#: SAECO_4/procesos/datagrid_statuscont.php:12
+msgid "nombre del Status"
+msgstr "nome de estado"
+
+#: SAECO_4/procesos/datagrid_status_contrato.php:92
+#: SAECO_4/procesos/listar_datos_mensajes.php:122
+msgid "nro Cont"
+msgstr "nro Cont"
+
+#: SAECO_4/procesos/datagrid_status_contrato.php:100
+msgid "referencia"
+msgstr "referência"
+
+#: SAECO_4/procesos/datagrid_tipo_pago.php:12
+msgid "tipo Pago"
+msgstr "tipo de pagamento"
+
+#: SAECO_4/procesos/datagrid_variables_sms.php:12
+msgid "tipo de Variable"
+msgstr "taxa variável"
+
+#: SAECO_4/procesos/datagrid_verVisitas.php:14
+#: SAECO_4/procesos/datagrid_visitas.php:14
+msgid "comentario Visita"
+msgstr "visite comentar"
+
+#: SAECO_4/procesos/datagrid_zona.php:11
+msgid "nro Zona"
+msgstr "área nro"
+
+#: SAECO_4/procesos/list_denuncia.php:11
+#: SAECO_4/procesos/list_falla.php:11
+#: SAECO_4/procesos/list_reclamo.php:11
+msgid "cont"
+msgstr "cont"
+
+#: SAECO_4/ReporteJava/cortar_servicio.php:87
+msgid "    listado de clientes para cobros "
+msgstr "lista de clientes por dinheiro"
+
+#: SAECO_4/ReporteJava/cortar_servicio.php:105
+msgid "precinto"
+msgstr "selar"
+
+#: SAECO_4/ReporteJava/cortar_servicio.php:105
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:315
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:318
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:273
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:276
+#: SAECO_4/ReporteJava/nota_credito_imp.php:331
+#: SAECO_4/ReporteJava/nota_credito_imp.php:334
+#: SAECO_4/ReporteJava/Rep_cobroImpreso.php:57
+msgid "iva"
+msgstr "iva"
+
+#: SAECO_4/ReporteJava/cortar_servicio.php:105
+#: SAECO_4/ReporteJava/facturaPago.php:293
+#: SAECO_4/ReporteJava/facturaPago.php:296
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:308
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:311
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:266
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:269
+#: SAECO_4/ReporteJava/nota_credito_imp.php:324
+#: SAECO_4/ReporteJava/nota_credito_imp.php:327
+#: SAECO_4/ReporteJava/Rep_cobroImpreso.php:57
+msgid "base"
+msgstr "base"
+
+#: SAECO_4/ReporteJava/cortar_servicio.php:280
+#: SAECO_4/ReporteJava/facturaPago.php:140
+#: SAECO_4/ReporteJava/facturaPago.php:141
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:162
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:163
+#: SAECO_4/ReporteJava/nota_credito_imp.php:171
+#: SAECO_4/ReporteJava/nota_credito_imp.php:172
+msgid "ref"
+msgstr "ref"
+
+#: SAECO_4/ReporteJava/facturaPago.php:109
+#: SAECO_4/ReporteJava/facturaPago.php:113
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:141
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:145
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:108
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:112
+#: SAECO_4/ReporteJava/nota_credito_imp.php:140
+#: SAECO_4/ReporteJava/nota_credito_imp.php:144
+msgid "telf"
+msgstr "telf"
+
+#: SAECO_4/ReporteJava/facturaPago.php:126
+#: SAECO_4/ReporteJava/facturaPago.php:127
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:158
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:159
+#: SAECO_4/ReporteJava/imp_orden_serv.php:148
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:175
+#: SAECO_4/ReporteJava/nota_credito_imp.php:157
+#: SAECO_4/ReporteJava/nota_credito_imp.php:158
+msgid "presinto"
+msgstr "selar"
+
+#: SAECO_4/ReporteJava/facturaPago.php:132
+#: SAECO_4/ReporteJava/facturaPago.php:135
+#: SAECO_4/ReporteJava/nota_credito_imp.php:163
+#: SAECO_4/ReporteJava/nota_credito_imp.php:166
+msgid "edif"
+msgstr "construção"
+
+#: SAECO_4/ReporteJava/facturaPago.php:145
+#: SAECO_4/ReporteJava/facturaPago.php:146
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:167
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:168
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:125
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:126
+#: SAECO_4/ReporteJava/nota_credito_imp.php:176
+#: SAECO_4/ReporteJava/nota_credito_imp.php:177
+msgid "datos de la factura"
+msgstr "dados da fatura"
+
+#: SAECO_4/ReporteJava/facturaPago.php:171
+#: SAECO_4/ReporteJava/facturaPago.php:176
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:188
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:193
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:146
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:151
+#: SAECO_4/ReporteJava/nota_credito_imp.php:202
+#: SAECO_4/ReporteJava/nota_credito_imp.php:207
+msgid "detalle"
+msgstr "detalhe"
+
+#: SAECO_4/ReporteJava/facturaPago.php:300
+#: SAECO_4/ReporteJava/facturaPago.php:303
+msgid "iva "
+msgstr "IVA"
+
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:170
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:171
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:128
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:129
+msgid "factura control"
+msgstr "controle de conta"
+
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:182
+#: SAECO_4/ReporteJava/facturaPago_lotes.php:183
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:140
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:141
+msgid "banco "
+msgstr "banco"
+
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:94
+#: SAECO_4/ReporteJava/facturaPago_lotes1.php:95
+msgid "datos de cliente"
+msgstr "dados de clientes"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:26
+msgid "orden de servicios"
+msgstr "ordem de serviço"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:29
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:28
+msgid "orden nro"
+msgstr "nr ordem"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:116
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:143
+msgid "fecha de emision"
+msgstr "data de emissão"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:122
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:149
+msgid "saldo a la fecha"
+msgstr "equilibrar a data"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:226
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:253
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:265
+msgid "asignada a"
+msgstr "atribuído para"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:325
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:352
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:52
+msgid "visitas"
+msgstr "visitas"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:332
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:359
+msgid "notas"
+msgstr "notas"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:369
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:396
+msgid "observaciones"
+msgstr "comentários"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:383
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:410
+msgid "fecha de culminacion"
+msgstr "data da rescisão"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:388
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:415
+msgid "firma del tecnico"
+msgstr "assinatura do técnico"
+
+#: SAECO_4/ReporteJava/imp_orden_serv.php:390
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:417
+msgid "firma del cliente"
+msgstr "assinatura do cliente"
+
+#: SAECO_4/ReporteJava/imp_orden_serv_varias.php:24
+msgid "orden de servicio de"
+msgstr "ordem de serviço"
+
+#: SAECO_4/ReporteJava/nota_credito_imp.php:117
+#: SAECO_4/ReporteJava/nota_credito_imp.php:118
+msgid "nro "
+msgstr "nro"
+
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso.php:16
+#: SAECO_4/ReporteJava/Rep_cobroImpreso.php:16
+msgid "tv por cable"
+msgstr "TV a cabo"
+
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso.php:74
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso1.php:74
+msgid "total acumulado"
+msgstr "total cumulativo"
+
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso.php:232
+msgid "detalle de los puntos de cobros1"
+msgstr "detalhe do colecção pontos 1"
+
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso.php:266
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso1.php:266
+msgid "error, no existe el cierre diario para esta fecha"
+msgstr "erro, não há nenhuma data limite para a revista"
+
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso1.php:50
+msgid "hora a."
+msgstr "horas uma"
+
+#: SAECO_4/ReporteJava/Rep_CierreDiarioImpreso1.php:50
+msgid "hora c."
+msgstr "horas. c."
+
+#: SAECO_4/ReporteJava/Rep_cobroImpreso.php:145
+msgid "resumen general"
+msgstr "visão global"
+
+#: SAECO_4/ReporteJava/Rep_cobroImpreso.php:150
+msgid "total base"
+msgstr "base total"
+
+#: SAECO_4/ReporteJava/Rep_cobroImpreso.php:156
+msgid "total iva"
+msgstr "total de impostos"
+
+#: SAECO_4/ReporteJava/Rep_cobroImpreso.php:162
+msgid "total general"
+msgstr "total geral"
+
+#: SAECO_4/ReporteJava/Rep_detallecobrosImpreso.php:39
+msgid "cierre de puntos de cobros"
+msgstr "pontos de coleta próximos"
+
+#: SAECO_4/ReporteJava/Rep_detallecobrosImpreso.php:92
+msgid "fecha de cobro"
+msgstr "data de recepção"
+
+#: SAECO_4/ReporteJava/Rep_detallecobrosImpreso.php:254
+msgid "detalle de los pagos"
+msgstr "detalhes dos pagamentos"
+
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:40
+msgid "estado de cuenta del cliente"
+msgstr "declaração do cliente"
+
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:52
+msgid "fecha f."
+msgstr "f data."
+
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:144
+#: SAECO_4/ReporteJava/Rep_historialpagoImpreso.php:138
+msgid "telf casa"
+msgstr "tel em casa"
+
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:149
+#: SAECO_4/ReporteJava/Rep_historialpagoImpreso.php:143
+msgid "telf adic"
+msgstr "tel adi"
+
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:171
+#: SAECO_4/ReporteJava/Rep_historialpagoImpreso.php:165
+msgid "datos de ubicacion"
+msgstr "dados de localização"
+
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:202
+#: SAECO_4/ReporteJava/Rep_historialpagoImpreso.php:196
+msgid "nro casa"
+msgstr "nro casa"
+
+#: SAECO_4/ReporteJava/Rep_estadocuentaImpreso.php:235
+msgid "asignaciones"
+msgstr "alocações"
+
+#: SAECO_4/ReporteJava/Rep_historialpagoImpreso.php:48
+msgid "f. pago"
+msgstr "f. pagamento"
+
+#: SAECO_4/ReporteJava/Rep_historialpagoImpreso.php:48
+msgid "f. cargo"
+msgstr "f. carga"
+
+#: SAECO_4/ReporteJava/Rep_libro_cobradorImpreso.php:80
+msgid "c.i."
+msgstr "c.i."
+
+#: SAECO_4/ReporteJava/Rep_libro_cobradorImpreso.php:190
+msgid "comision "
+msgstr "comissão"
+
+#: SAECO_4/ReporteJava/Rep_notasImpreso.php:111
+msgid "reporte de notas de debitos y de creditos"
+msgstr "relatório de débitos de cartões e créditos"
+
+#: SAECO_4/ReporteJava/Rep_notasImpreso.php:134
+#: SAECO_4/ReporteJava/Rep_totalclientesImpreso.php:56
+msgid "cont."
+msgstr "cont."
+
+#: SAECO_4/ReporteJava/Rep_notasImpreso.php:134
+msgid "ip equipo"
+msgstr "equipe de ip"
+
+#: SAECO_4/ReporteJava/Rep_notasImpreso.php:134
+msgid "monto a."
+msgstr "montante a."
+
+#: SAECO_4/ReporteJava/Rep_notasImpreso.php:134
+msgid "monto p."
+msgstr "quantidade p."
+
+#: SAECO_4/ReporteJava/Rep_notasImpreso.php:134
+msgid "gen. por"
+msgstr "gen. por"
+
+#: SAECO_4/ReporteJava/Rep_recuperadosImpreso.php:18
+msgid "reporte de clientes recuperados"
+msgstr "Os clientes relatam recuperado"
+
+#: SAECO_4/ReporteJava/Rep_recuperadosImpreso.php:41
+msgid "fecha rec."
+msgstr "rec data."
+
+#: SAECO_4/ReporteJava/Rep_recuperadosImpreso.php:109
+#: SAECO_4/ReporteJava/Rep_totalclientesImpreso.php:199
+msgid "piso"
+msgstr "andar"
+
+#: SAECO_4/ReporteJava/Rep_totalclientesImpreso.php:33
+msgid "total clientes"
+msgstr "todos os clientes"
+
+#: SAECO_4/ReporteJava/Rep_totalclientesImpreso.php:56
+msgid "f. cont."
+msgstr "f. cont."
+
+#: SAECO_4/ReportePDF/cortar_servicio.php:87
+msgid "listado de clientes para cobro"
+msgstr "lista de clientes para a coleta"
+
+#: SAECO_4/ReportePDF/imp_orden_serv.php:26
+msgid "orden de servicio"
+msgstr "ordem de serviço"
+
+#: SAECO_4/ReportePDF/imp_orden_serv.php:186
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:206
+msgid "edificio "
+msgstr "construção"
+
+#: SAECO_4/ReportePDF/imp_orden_serv.php:189
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:209
+msgid "nro piso "
+msgstr "piso nro"
+
+#: SAECO_4/ReportePDF/imp_orden_serv.php:193
+msgid "poste "
+msgstr "postar"
+
+#: SAECO_4/ReportePDF/imp_orden_serv.php:196
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:216
+msgid "taps "
+msgstr "torneiras"
+
+#: SAECO_4/ReportePDF/imp_orden_serv.php:241
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:261
+msgid "otros detalles"
+msgstr "outros detalhes"
+
+#: SAECO_4/ReportePDF/imp_orden_serv.php:457
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:480
+msgid "observaciones "
+msgstr "comentários"
+
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:24
+msgid "orden de servicio de "
+msgstr "ordem de serviço"
+
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:213
+msgid "postel "
+msgstr "postar"
+
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:229
+msgid "pto "
+msgstr "pto "
+
+#: SAECO_4/ReportePDF/imp_orden_serv_varias.php:365
+msgid "nota"
+msgstr "nota"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:16
+msgid "tv por cable."
+msgstr "TV a cabo."
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:49
+msgid "Caja"
+msgstr "caixa"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:49
+msgid "hora apert"
+msgstr "aberturas horas"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:242
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso1.php:241
+msgid "nombre_caja"
+msgstr "caixa de nome"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:243
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso1.php:242
+msgid "monto_acum"
+msgstr "montante acum"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:245
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso1.php:244
+msgid "fecha_caja"
+msgstr "caixa de data"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:246
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso1.php:245
+msgid "apertura_caja"
+msgstr "abertura da caixa"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:247
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso1.php:246
+msgid "cierre_caja"
+msgstr "caixa de fechamento"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso.php:261
+msgid "error,  no existe el cierre diario para esta fecha"
+msgstr "erro, não há nenhuma data limite para a revista"
+
+#: SAECO_4/ReportePDF/Rep_CierreDiarioImpreso1.php:49
+msgid "hora Cierre"
+msgstr "horas de fechamento"
+
+#: SAECO_4/ReportePDF/Rep_cobroImpreso.php:36
+msgid "libro de venta"
+msgstr "livro de vendas"
+
+#: SAECO_4/ReportePDF/Rep_historialpagoImpreso.php:137
+msgid "telf adicional"
+msgstr "tel adicional"
+
+#: SAECO_4/ReportePDF/Rep_historialpagoImpreso.php:279
+msgid "total pagado"
+msgstr "total pago"
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:59
+msgid "ingresos por servicios       analisis para el mes de"
+msgstr "análise de receitas de serviços para o mês de"
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "mant. Z1"
+msgstr "mant. Z1"
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "n f."
+msgstr "n f."
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "mant. Z2"
+msgstr "mant. Z2"
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "mant. Z3"
+msgstr "mant. Z3"
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "cable"
+msgstr "cabo"
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "afil. y der."
+msgstr "afil. y der."
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "trasl. y rec."
+msgstr "trasl. y rec."
+
+#: SAECO_4/ReportePDF/Rep_ingreso_x_serv1Impreso.php:87
+msgid "otros"
+msgstr "outros"
+
+#: SAECO_4/ReportePDF/Rep_inventarioImpreso.php:19
+msgid "inventario de materiales"
+msgstr "inventário de materiais"
+
+#: SAECO_4/ReportePDF/Rep_inventarioImpreso.php:42
+msgid "nro mat"
+msgstr "nro mat"
+
+#: SAECO_4/ReportePDF/Rep_inventarioImpreso.php:42
+msgid "unidad"
+msgstr "unidade"
+
+#: SAECO_4/ReportePDF/Rep_inventarioImpreso.php:42
+msgid "stock"
+msgstr "estoque"
+
+#: SAECO_4/ReportePDF/Rep_inventarioImpreso.php:71
+msgid "fecha inventario"
+msgstr "inventário data"
+
+#: SAECO_4/ReportePDF/Rep_inventarioImpreso.php:72
+msgid "hora inventario"
+msgstr "Banco de horas"
+
+#: SAECO_4/ReportePDF/Rep_libro_cobradorImpreso.php:71
+msgid "cobrador "
+msgstr "condutor"
+
+#: SAECO_4/ReportePDF/Rep_libro_cobradorImpreso.php:71
+msgid "cedula "
+msgstr "Cédula"
+
+#: SAECO_4/ReportePDF/Rep_libro_cobradorImpreso.php:75
+msgid "fecha Desde "
+msgstr "data a partir da"
+
+#: SAECO_4/ReportePDF/Rep_libro_cobradorImpreso.php:75
+msgid "     hasta "
+msgstr "para"
+
+#: SAECO_4/ReportePDF/Rep_libro_cobradorImpreso.php:170
+msgid "total iva "
+msgstr "total de impostos"
+
+#: SAECO_4/ReportePDF/Rep_notasImpreso.php:135
+msgid "login"
+msgstr "login"
+
+#: SAECO_4/ReportePDF/Rep_notasImpreso.php:135
+msgid "monto ant."
+msgstr "quantidade ant."
+
+#: SAECO_4/ReportePDF/Rep_notasImpreso.php:135
+msgid "monto pos."
+msgstr "quantidade pos."
+
+#: SAECO_4/ReportePDF/Rep_notasImpreso.php:180
+msgid "motivo "
+msgstr "razão"
+
+#: SAECO_4/ReportePDF/Rep_notasImpreso.php:182
+msgid "detalle "
+msgstr "detalhe"
+
+#: SAECO_4/ReportePDF/Rep_totalclientesImpreso.php:54
+#: SAECO_4/reportes/descuento.php:90
+msgid "fecha cont"
+msgstr "data cont"
+
+#: SAECO_4/ReportePDF/sorteo.php:18
+msgid "listado de contratos para sorteo "
+msgstr "lista de contratos para desenhar"
+
+#: SAECO_4/ReportePDF/sorteo.php:59
+msgid "total participante "
+msgstr "participante total"
+
+#: SAECO_4/reportes/cortar_servicio1.php:110
+msgid "Etiqueta"
+msgstr "rótulo"
+
+#: SAECO_4/reportes/est_m_c_zona.php:80
+msgid "cantidad de clientes activos y cortados"
+msgstr "número de clientes ativos e cortar"
+
+#: SAECO_4/reportes/est_m_c_zona.php:205
+msgid "clientes cortador en porcentajes"
+msgstr "Cortador de clientes em percentagens"
+
+#: SAECO_4/reportes/est_m_c_zona.php:380
+msgid "estadisticas mensuales de clientes activos y cortados  por franquicia"
+msgstr "As estatísticas mensais de clientes ativos e franquia de corte"
+
+#: SAECO_4/reportes/est_m_c_zona.php:385
+msgid "ano"
+msgstr "ano"
+
+#: SAECO_4/reportes/est_m_c_zona.php:393
+msgid "seleccione...."
+msgstr "selecione ...."
+
+#: SAECO_4/reportes/historialpago.php:18
+msgid "historial de pago"
+msgstr "histórico de pagamentos"
+
+#: SAECO_4/reportes/historialpago.php:78
+msgid "guardar reporte"
+msgstr "salvar o relatório"
+
+#: SAECO_4/reportes/Rep_calle.php:20
+#: SAECO_4/reportes/Rep_deudacalle.php:19
+#: SAECO_4/reportes/Rep_deudacalleImpreso.php:48
+msgid "nro calle"
+msgstr "nro rua"
+
+#: SAECO_4/reportes/Rep_cobro.php:16
+msgid "nro Factura"
+msgstr "Número da Fatura"
+
+#: SAECO_4/reportes/Rep_cobro.php:21
+msgid "debito fiscal"
+msgstr "débito tributário"
+
+#: SAECO_4/reportes/Rep_detallecobros.php:195
+msgid "detalle de las factura"
+msgstr "detalhe das facturas"
+
+#: SAECO_4/reportes/Rep_deudacalle.php:25
+#: SAECO_4/reportes/Rep_deudacalleImpreso.php:48
+#: SAECO_4/reportes/Rep_deudafran.php:90
+#: SAECO_4/reportes/Rep_deudafranImpreso.php:50
+#: SAECO_4/reportes/Rep_deudasector.php:46
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+#: SAECO_4/reportes/Rep_deudazona.php:42
+msgid "pagado"
+msgstr "pago"
+
+#: SAECO_4/reportes/Rep_deudacalleImpreso.php:48
+#: SAECO_4/reportes/Rep_deudafranImpreso.php:50
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+msgid "total cli"
+msgstr "total do cli"
+
+#: SAECO_4/reportes/Rep_deudafran.php:87
+#: SAECO_4/reportes/Rep_deudafranImpreso.php:50
+msgid "nro franquicia"
+msgstr "franquia nro"
+
+#: SAECO_4/reportes/Rep_deudafran.php:88
+msgid "nombre franquicia"
+msgstr "nome franquia"
+
+#: SAECO_4/reportes/Rep_deudafranImpreso.php:38
+msgid "reporte de deuda por zonas"
+msgstr "áreas relatar dívida"
+
+#: SAECO_4/reportes/Rep_deudasector.php:48
+msgid "cli con deuda"
+msgstr "dívida cliente"
+
+#: SAECO_4/reportes/Rep_deudasector.php:49
+msgid "cli con pago"
+msgstr "pagamento do cliente"
+
+#: SAECO_4/reportes/Rep_deudasector.php:105
+msgid "total cliente"
+msgstr "total do cliente"
+
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+msgid "nro sec."
+msgstr "nro sec."
+
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+msgid "cli. d."
+msgstr "cli. d."
+
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+msgid "cli. p."
+msgstr "cli. p."
+
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+msgid "rec."
+msgstr "rec."
+
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+msgid "reco."
+msgstr "reco."
+
+#: SAECO_4/reportes/Rep_deudasectorImpreso.php:56
+msgid "c."
+msgstr "c."
+
+#: SAECO_4/reportes/Rep_estadocuenta.php:124
+msgid "datos de ubicaci&oacute"
+msgstr "dados de localização"
+
+#: SAECO_4/reportes/Rep_estadocuenta.php:242
+#: SAECO_4/reportes/Rep_historialpago.php:245
+msgid "error, el numero de contrato o la cedula no estan registrados"
+msgstr "erro, o número do contrato ou da carta para não são registrados"
+
+#: SAECO_4/reportes/Rep_fran.php:22
+#: SAECO_4/reportes/Rep_franImpreso.php:50
+msgid "ac"
+msgstr "ac"
+
+#: SAECO_4/reportes/Rep_fran.php:23
+#: SAECO_4/reportes/Rep_franImpreso.php:50
+msgid "co"
+msgstr "co"
+
+#: SAECO_4/reportes/Rep_fran.php:25
+#: SAECO_4/reportes/Rep_franImpreso.php:50
+msgid "su"
+msgstr "su"
+
+#: SAECO_4/reportes/Rep_fran.php:26
+#: SAECO_4/reportes/Rep_franImpreso.php:50
+msgid "ex"
+msgstr "ex"
+
+#: SAECO_4/reportes/Rep_franImpreso.php:38
+msgid "reporte de clientes por franquicia"
+msgstr "clientes franquia relatar"
+
+#: SAECO_4/reportes/Rep_notas.php:106
+msgid "detalle motivo"
+msgstr "detalhadamente porque é que"
+
+#: SAECO_4/reportes/Rep_notas.php:108
+msgid "monto. pos."
+msgstr "quantidade pos"
+
+#: SAECO_4/reportes/Rep_ORDENESTECNICOS.php:104
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSC.php:106
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSCImpreso.php:143
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSImpreso.php:143
+msgid "status orden"
+msgstr "estado ordem"
+
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSC.php:135
+msgid "corte de servicios"
+msgstr "cierreserviços judiciais"
+
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSC.php:141
+msgid "reconexiones"
+msgstr "reconexões"
+
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSC.php:147
+msgid "instalaciones nuevas"
+msgstr "novas instalações"
+
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSCImpreso.php:131
+#: SAECO_4/reportes/Rep_ORDENESTECNICOSImpreso.php:131
+msgid "reporte de ordenes de tecnicos"
+msgstr "técnicas ordens relatório"
+
+#: SAECO_4/reportes/Rep_recuperados.php:121
+msgid "fecha rec"
+msgstr "data de rec"
+
+#, fuzzy
+#~ msgid "datos de Ubicacion del cliente"
+#~ msgstr "Localização dos dados de clientes"
+
+#~ msgid "ADMINISTRACION DE BANCOS"
+#~ msgstr "ADMINISTRAÇÃO DE BANCOS"
+
+#~ msgid "Datos de Ubicacion del Cliente"
+#~ msgstr "Localização dos dados de clientes"
+
+#~ msgid "REGISTRAR"
+#~ msgstr "CADASTRE-SE"
+
+#~ msgid "MODIFICAR"
+#~ msgstr "MODIFICAR"
+
+#~ msgid "ELIMINAR"
+#~ msgstr "APAGAR"
+
+#~ msgid "LIMPIAR"
+#~ msgstr "LIMPAR"
+
+#~ msgid "BANCOS AGREGADOS"
+#~ msgstr "Os bancos ADICIONADO"
+
+#, fuzzy
+#~ msgid "estdo de cuenta del cliente"
+#~ msgstr "Localização dos dados de clientes"
+
+#, fuzzy
+#~ msgid "Apellido"
+#~ msgstr "hola en ingles"
+
+#, fuzzy
+#~ msgid "estado de cuenta del cliete"
+#~ msgstr "Localização dos dados de clientes"
+
+#~ msgid "how_are_you"
+#~ msgstr "how en ingles"

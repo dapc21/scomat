@@ -1,0 +1,1076 @@
+/*Unseen Column*/
+
+@media only screen and (max-width: 1280px) {
+
+	/*tabla material-proveedor*/
+	#tabla-material-proveedor table th:nth-child(1),
+    #tabla-material-proveedor table td:nth-child(1){display: none;}
+
+	/*tabla material-deposito*/
+	#tabla-material-deposito table th:nth-child(1),
+    #tabla-material-deposito table td:nth-child(1),
+	#tabla-material-deposito table th:nth-child(5),
+    #tabla-material-deposito table td:nth-child(5),
+	#tabla-material-deposito table th:nth-child(7),
+    #tabla-material-deposito table td:nth-child(7),
+	#tabla-material-deposito table th:nth-child(8),
+    #tabla-material-deposito table td:nth-child(8),
+	#tabla-material-deposito table th:nth-child(9),
+    #tabla-material-deposito table td:nth-child(9){display: none;}
+
+	/*tabla aprobarinventario*/
+	#tabla-aprobarinventario table th:nth-child(1),
+    #tabla-aprobarinventario table td:nth-child(1),
+	#tabla-aprobarinventario table th:nth-child(2),
+    #tabla-aprobarinventario table td:nth-child(2),
+	#tabla-aprobarinventario table th:nth-child(5),
+    #tabla-aprobarinventario table td:nth-child(5){display: none;}
+
+	/*tabla inventario*/
+	#tabla-inventario table th:nth-child(1),
+    #tabla-inventario table td:nth-child(1){display: none;}
+
+	/*tabla pedido-aprobado*/
+	#tabla-pedido-aprobado table th:nth-child(1),
+    #tabla-pedido-aprobado table td:nth-child(1),
+	#tabla-pedido-aprobado table th:nth-child(4),
+    #tabla-pedido-aprobado table td:nth-child(4){display: none;}
+
+	/*tabla pedido*/
+	#tabla-pedido table th:nth-child(1),
+    #tabla-pedido table td:nth-child(1),
+	#tabla-pedido table th:nth-child(3),
+    #tabla-pedido table td:nth-child(3),
+	#tabla-pedido table th:nth-child(5),
+    #tabla-pedido table td:nth-child(5),
+	#tabla-pedido table th:nth-child(6),
+    #tabla-pedido table td:nth-child(6),
+	#tabla-pedido table th:nth-child(8),
+    #tabla-pedido table td:nth-child(8){display: none;}
+
+	/*tabla entidad*/
+	#tabla-entidad table th:nth-child(1),
+    #tabla-entidad table td:nth-child(1),
+	#tabla-entidad table th:nth-child(6),
+    #tabla-entidad table td:nth-child(6){display: none;}
+
+	/*tabla proveedor*/
+	#tabla-proveedor table th:nth-child(1),
+    #tabla-proveedor table td:nth-child(1),
+	#tabla-proveedor table th:nth-child(5),
+    #tabla-proveedor table td:nth-child(5),
+	#tabla-proveedor table th:nth-child(6),
+    #tabla-proveedor table td:nth-child(6),
+	#tabla-proveedor table th:nth-child(7),
+    #tabla-proveedor table td:nth-child(7){display: none;}
+
+	/*tabla unidad-medida*/
+	#tabla-unidad-medida table th:nth-child(1),
+    #tabla-unidad-medida table td:nth-child(1),
+	#tabla-unidad-medida table th:nth-child(4),
+    #tabla-unidad-medida table td:nth-child(4){display: none;}
+
+	/*tabla deposito*/
+	#tabla-deposito table th:nth-child(1),
+    #tabla-deposito table td:nth-child(1),
+	#tabla-deposito table th:nth-child(4),
+    #tabla-deposito table td:nth-child(4){display: none;}
+
+	/*tabla material*/
+	#tabla-material table th:nth-child(1),
+    #tabla-material table td:nth-child(1),
+	#tabla-material table th:nth-child(4),
+    #tabla-material table td:nth-child(4){display: none;}
+
+	/*tabla anular_pagos*/
+	#tabla-asigna-recibo table th:nth-child(3),
+    #tabla-asigna-recibo table td:nth-child(3),
+	#tabla-asigna-recibo table th:nth-child(4),
+    #tabla-asigna-recibo table td:nth-child(4),
+	#tabla-asigna-recibo table th:nth-child(6),
+    #tabla-asigna-recibo table td:nth-child(6){display: none;}
+
+	/*tabla convenio-pendiente*/
+	#tabla-convenio-pendiente table th:nth-child(1),
+    #tabla-convenio-pendiente table td:nth-child(1),
+	#tabla-convenio-pendiente table th:nth-child(2),
+    #tabla-convenio-pendiente table td:nth-child(2),
+	#tabla-convenio-pendiente table th:nth-child(3),
+    #tabla-convenio-pendiente table td:nth-child(3),
+	#tabla-convenio-pendiente table th:nth-child(5),
+    #tabla-convenio-pendiente table td:nth-child(5),
+	#tabla-convenio-pendiente table th:nth-child(6),
+    #tabla-convenio-pendiente table td:nth-child(6),
+	#tabla-convenio-pendiente table th:nth-child(7),
+    #tabla-convenio-pendiente table td:nth-child(7){display: none;}
+
+	/*tabla debitocredito*/
+	#tabla-autorizar-debitocredito table th:nth-child(2),
+    #tabla-autorizar-debitocredito table td:nth-child(2),
+	#tabla-autorizar-debitocredito table th:nth-child(4),
+    #tabla-autorizar-debitocredito table td:nth-child(4),
+	#tabla-autorizar-debitocredito table th:nth-child(6),
+    #tabla-autorizar-debitocredito table td:nth-child(6),
+	#tabla-autorizar-debitocredito table th:nth-child(7),
+    #tabla-autorizar-debitocredito table td:nth-child(7){display: none;}
+
+	/*tabla conf comisiones*/
+	#tabla-configuracion-comision table th:nth-child(1),
+    #tabla-configuracion-comision table td:nth-child(1),
+	#tabla-configuracion-comision table th:nth-child(4),
+    #tabla-configuracion-comision table td:nth-child(4),
+	#tabla-configuracion-comision table th:nth-child(5),
+    #tabla-configuracion-comision table td:nth-child(5),
+	#tabla-configuracion-comision table th:nth-child(7),
+    #tabla-configuracion-comision table td:nth-child(7){display: none;}
+
+	/*tabla anular_pagos (anular facturas)*/
+	#tabla-anular_pagos table th:nth-child(1),
+    #tabla-anular_pagos table td:nth-child(1),
+	#tabla-anular_pagos table th:nth-child(6),
+    #tabla-anular_pagos table td:nth-child(6){display: none;}
+
+	/*tabla servicio-promocion*/
+	#tabla-servicio-promocion table th:nth-child(1),
+    #tabla-servicio-promocion table td:nth-child(1),
+	#tabla-servicio-promocion table th:nth-child(4),
+    #tabla-servicio-promocion table td:nth-child(4){display: none;}
+
+	/*tabla promocion*/
+
+	#tabla-promocion table th:nth-child(4),
+    #tabla-promocion table td:nth-child(4),
+	#tabla-promocion table th:nth-child(5),
+    #tabla-promocion table td:nth-child(5),
+	#tabla-promocion table th:nth-child(6),
+    #tabla-promocion table td:nth-child(6){display: none;}
+
+
+	/*tabla factura (Cerrar Caja)*/
+    #tabla-factura table th:nth-child(4),
+	#tabla-factura table td:nth-child(4),
+    #tabla-factura table th:nth-child(7),
+    #tabla-factura table td:nth-child(7),
+    #tabla-factura table th:nth-child(8),
+    #tabla-factura table td:nth-child(8),
+	#tabla-factura table th:nth-child(11),
+    #tabla-factura table td:nth-child(11) {display: none;}
+
+	/*tabla pago (Cerrar Caja)*/
+	#tabla-pago table th:nth-child(2),
+	#tabla-pago table td:nth-child(2),
+	#tabla-pago table th:nth-child(8),
+    #tabla-pago table td:nth-child(8) {display: none;}
+
+	/*tabla pago (Cerrar Caja)*/
+	#tabla-pago table th:nth-child(2),
+	#tabla-pago table td:nth-child(2),
+	#tabla-pago table th:nth-child(8),
+    #tabla-pago table td:nth-child(8) {display: none;}
+
+	/*tabla exoneracion (débito/crédito)*/
+	#tabla-exoneracion table th:nth-child(7),
+	#tabla-exoneracion table td:nth-child(7),
+	#tabla-exoneracion table th:nth-child(9),
+    #tabla-exoneracion table td:nth-child(9) {display: none;}
+
+	/*tabla historialpago*/
+	/*#tabla-historialpago table th:nth-child(4),
+	#tabla-historialpago table td:nth-child(4),
+	#tabla-historialpago table th:nth-child(5),
+	#tabla-historialpago table td:nth-child(5),
+	#tabla-historialpago table th:nth-child(8),
+	#tabla-historialpago table td:nth-child(8),
+	#tabla-historialpago table th:nth-child(9),
+    #tabla-historialpago table td:nth-child(9) {display: none;}*/
+
+	#tabla-factura table th,
+	#tabla-pago table th,
+	#tabla-servicio table th ,
+	#tabla-caja table th,
+	#tabla-historico table th,
+	#tabla-exoneracion table th,
+	#tabla-bitacora table th,
+	#tabla-historialpago table th,
+	#tabla-estadocuenta table th,
+	#tabla-cargos table th,
+	#tabla-estadocargos table th,
+	#tabla-pagodeposito table th,
+	#tabla-promocontrato table th{font-size: 80%;}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	/*tabla factura (Cerrar Caja)*/
+    #tabla-factura table th:nth-child(4),
+	#tabla-factura table td:nth-child(4),
+    #tabla-factura table th:nth-child(7),
+    #tabla-factura table td:nth-child(7),
+    #tabla-factura table th:nth-child(8),
+    #tabla-factura table td:nth-child(8),
+	#tabla-factura table th:nth-child(10),
+    #tabla-factura table td:nth-child(10),
+	#tabla-factura table th:nth-child(11),
+    #tabla-factura table td:nth-child(11) {display: none;}
+
+	/*tabla caja (Cierre de estación)*/
+	#tabla-caja table th:nth-child(6),
+	#tabla-caja table td:nth-child(6),
+	#tabla-caja table th:nth-child(8),
+    #tabla-caja table td:nth-child(8) {display: none;}
+
+	/*tabla históricos*/
+	#tabla-historico table th:nth-child(6),
+	#tabla-historico table td:nth-child(6) {display: none;}
+
+	/*tabla exoneracion (débito/crédito)*/
+	#tabla-exoneracion table th:nth-child(6),
+	#tabla-exoneracion table td:nth-child(6),
+	#tabla-exoneracion table th:nth-child(7),
+	#tabla-exoneracion table td:nth-child(7),
+	#tabla-exoneracion table th:nth-child(9),
+    #tabla-exoneracion table td:nth-child(9) {display: none;}
+
+	/*tabla historialpago*/
+	#tabla-historialpago table th:nth-child(4),
+	#tabla-historialpago table td:nth-child(4),
+	#tabla-historialpago table th:nth-child(5),
+	#tabla-historialpago table td:nth-child(5),
+	#tabla-historialpago table th:nth-child(8),
+	#tabla-historialpago table td:nth-child(8),
+	#tabla-historialpago table th:nth-child(9),
+    #tabla-historialpago table td:nth-child(9),
+	#tabla-historialpago table th:nth-child(10),
+    #tabla-historialpago table td:nth-child(10){display: none;}
+
+	/*tabla estadocuenta*/
+	#tabla-estadocuenta table th:nth-child(6),
+    #tabla-estadocuenta table td:nth-child(6) {display: none;}
+
+	/*tabla cargos*/
+	#tabla-cargos table th:nth-child(2),
+    #tabla-cargos table td:nth-child(2) {display: none;}
+
+	/*tabla estado cuenta en cargos*/
+	#tabla-estadocargos table th:nth-child(5),
+    #tabla-estadocargos table td:nth-child(5) {display: none;}
+
+	/*tabla pagodeposito */
+	#tabla-pagodeposito table th:nth-child(1),
+	#tabla-pagodeposito table td:nth-child(1),
+	#tabla-pagodeposito table th:nth-child(8),
+    #tabla-pagodeposito table td:nth-child(8) {display: none;}
+
+}
+
+@media only screen and (max-width: 991px) {
+
+	/*tabla factura (Cerrar Caja)*/
+	#tabla-factura table th:nth-child(2),
+	#tabla-factura table td:nth-child(2),
+    #tabla-factura table th:nth-child(4),
+	#tabla-factura table td:nth-child(4),
+	#tabla-factura table th:nth-child(6),
+	#tabla-factura table td:nth-child(6),
+    #tabla-factura table th:nth-child(7),
+    #tabla-factura table td:nth-child(7),
+    #tabla-factura table th:nth-child(8),
+    #tabla-factura table td:nth-child(8),
+	#tabla-factura table th:nth-child(10),
+    #tabla-factura table td:nth-child(10),
+	#tabla-factura table th:nth-child(11),
+    #tabla-factura table td:nth-child(11) {display: none;}
+
+	/*tabla servicio (Contrato)*/
+	#tabla-servicio table th:nth-child(6),
+	#tabla-servicio table td:nth-child(6),
+	#tabla-servicio table th:nth-child(7),
+    #tabla-servicio table td:nth-child(7) {display: none;}
+
+	/*tabla caja (Cierre de estación)*/
+	#tabla-caja table th:nth-child(6),
+	#tabla-caja table td:nth-child(6),
+	#tabla-caja table th:nth-child(7),
+	#tabla-caja table td:nth-child(7),
+	#tabla-caja table th:nth-child(8),
+    #tabla-caja table td:nth-child(8),
+	#tabla-caja table th:nth-child(10),
+    #tabla-caja table td:nth-child(10) {display: none;}
+
+	/*tabla históricos*/
+	#tabla-historico table th:nth-child(2),
+	#tabla-historico table td:nth-child(2),
+	#tabla-historico table th:nth-child(4),
+	#tabla-historico table td:nth-child(4),
+	#tabla-historico table th:nth-child(6),
+	#tabla-historico table td:nth-child(6) {display: none;}
+
+	/*tabla exoneracion (débito/crédito)*/
+	#tabla-exoneracion table th:nth-child(4),
+	#tabla-exoneracion table td:nth-child(4),
+	#tabla-exoneracion table th:nth-child(6),
+	#tabla-exoneracion table td:nth-child(6),
+	#tabla-exoneracion table th:nth-child(7),
+	#tabla-exoneracion table td:nth-child(7),
+	#tabla-exoneracion table th:nth-child(9),
+    #tabla-exoneracion table td:nth-child(9) {display: none;}
+
+	/*tabla historialpago*/
+	#tabla-historialpago table th:nth-child(3),
+	#tabla-historialpago table td:nth-child(3),
+	#tabla-historialpago table th:nth-child(4),
+	#tabla-historialpago table td:nth-child(4),
+	#tabla-historialpago table th:nth-child(5),
+	#tabla-historialpago table td:nth-child(5),
+	#tabla-historialpago table th:nth-child(8),
+	#tabla-historialpago table td:nth-child(8),
+	#tabla-historialpago table th:nth-child(9),
+    #tabla-historialpago table td:nth-child(9),
+	#tabla-historialpago table th:nth-child(10),
+    #tabla-historialpago table td:nth-child(10){display: none;}
+
+	/*tabla estadocuenta*/
+	#tabla-estadocuenta table th:nth-child(5),
+	#tabla-estadocuenta table td:nth-child(5),
+	#tabla-estadocuenta table th:nth-child(6),
+    #tabla-estadocuenta table td:nth-child(6) {display: none;}
+
+	/*tabla cargos*/
+	#tabla-cargos table th:nth-child(2),
+	#tabla-cargos table td:nth-child(2),
+	#tabla-cargos table th:nth-child(6),
+    #tabla-cargos table td:nth-child(6) {display: none;}
+
+	/*tabla estado cuenta en cargos*/
+	#tabla-estadocargos table th:nth-child(1),
+	#tabla-estadocargos table td:nth-child(1),
+	#tabla-estadocargos table th:nth-child(5),
+    #tabla-estadocargos table td:nth-child(5) {display: none;}
+
+	/*tabla pagodeposito */
+	#tabla-pagodeposito table th:nth-child(1),
+	#tabla-pagodeposito table td:nth-child(1),
+	#tabla-pagodeposito table th:nth-child(7),
+	#tabla-pagodeposito table td:nth-child(7),
+	#tabla-pagodeposito table th:nth-child(8),
+    #tabla-pagodeposito table td:nth-child(8) {display: none;}
+
+	#tabla-vendedor table th,
+	#tabla-cobrador table th,
+	#tabla-tecnico-adm table th,
+	#tabla-tecnico table th,
+	#tabla-factura table th,
+	#tabla-edificio table th,
+	#tabla-calle table th,
+	#tabla-urbanizacion table th,
+	#tabla-sector table th,
+	#tabla-zona table th,
+	#tabla-ciudad table th,
+	#tabla-municipio table th,
+	#tabla-estado table th,
+	#tabla-franquicia table th,
+	#tabla-sincroniza-servidor table th,
+	#tabla-servidor table th,
+	#tabla-inicial-id table th,
+	#tabla-parametro table th,
+	#tabla-caja-adm table th,
+	#tabla-banco table th,
+	#tabla-tipo-pago table th,
+	#tabla-comando-cliente table th,
+	#tabla-comando-tecnico table th,
+	#tabla-comando-gerente table th,
+	#tabla-envio-cliente table th,
+	#tabla-envio-gerente table th,
+	#tabla-estacion-trabajo table th,
+	#tabla-perfil-usuario table th,
+	#tabla-usuario-sistema table th,
+	#tabla-descuento-pronto-pago table th,
+	#tabla-grupo-afinidad table th,
+	#tabla-motivo-llamada table th,
+	#tabla-motivo-nota table th,
+	#tabla-tarifa-servicio table th,
+	#tabla-servicio-adm table th,
+	#tabla-tipo-servicio table th,
+	#tabla-detalle-orden table th,
+	#tabla-tipo-orden table th,
+	#tabla-persona-atc table th,
+	#tabla-gerente-permitido table th,
+	#tabla-devolver-orden-servicio table th,
+	#tabla-finalizar-orden-servicio table th,
+	#tabla-imprimir-orden-servicio table th,
+	#tabla-orden-servicio-pendiente table th,
+	#tabla-orden-tecnico-corte table th,
+	#tabla-cierre-dario-general table th,
+	#tabla-tecnico-grupo_ubicacion table th,
+	#tabla-tecnico-grupo_activo table th,
+	#tabla-estatus-contrato table th,
+	#tabla-pago table th,
+	#tabla-servicio table th,
+	#tabla-caja table th,
+	#tabla-historico table th,
+	#tabla-exoneracion table th,
+	#tabla-bitacora table th,
+	#tabla-historialpago table th,
+	#tabla-estadocuenta table th,
+	#tabla-cargos table th,
+	#tabla-estadocargos table th,
+	#tabla-pagodeposito table th,
+	#tabla-promocontrato table th {font-size: 78.5%;}
+
+}
+
+@media only screen and (max-width: 768px) {inicial-id
+
+	/*tabla inicial-id*/
+	#tabla-inicial-id {display: none;}
+
+	/*tabla inicial-id*/
+	#tabla-inicial-id table th:nth-child(3),
+	#tabla-inicial-id table td:nth-child(3){display: none;}
+
+	/*tabla sincroniza-servidor*/
+	#tabla-sincroniza-servidor table th:nth-child(2),
+	#tabla-sincroniza-servidor table td:nth-child(2),
+	#tabla-sincroniza-servidor table th:nth-child(3),
+	#tabla-sincroniza-servidor table td:nth-child(3){display: none;}
+
+	/*tabla servidor*/
+	#tabla-servidor table th:nth-child(4),
+	#tabla-servidor table td:nth-child(4),
+	#tabla-servidor table th:nth-child(5),
+	#tabla-servidor table td:nth-child(5){display: none;}
+
+	/*tabla parametro*/
+	#tabla-parametro table th:nth-child(1),
+	#tabla-parametro table td:nth-child(1),
+	#tabla-parametro table th:nth-child(2),
+	#tabla-parametro table td:nth-child(2){display: none;}
+
+	/*tabla caja-adm*/
+	#tabla-caja-adm table th:nth-child(3),
+	#tabla-caja-adm table td:nth-child(3),
+	#tabla-caja-adm table th:nth-child(4),
+	#tabla-caja-adm table td:nth-child(4),
+	#tabla-caja-adm table th:nth-child(5),
+	#tabla-caja-adm table td:nth-child(5),
+	#tabla-caja-adm table th:nth-child(7),
+	#tabla-caja-adm table td:nth-child(7),
+	#tabla-caja-adm table th:nth-child(9),
+	#tabla-caja-adm table td:nth-child(9){display: none;}
+
+	/*tabla comando-cliente*/
+	#tabla-comando-cliente table th:nth-child(1),
+	#tabla-comando-cliente table td:nth-child(1),
+	#tabla-comando-cliente table th:nth-child(4),
+	#tabla-comando-cliente table td:nth-child(4),
+	#tabla-comando-cliente table th:nth-child(5),
+	#tabla-comando-cliente table td:nth-child(5){display: none;}
+
+	/*tabla comando-tecnico*/
+	#tabla-comando-tecnico table th:nth-child(1),
+	#tabla-comando-tecnico table td:nth-child(1),
+	#tabla-comando-tecnico table th:nth-child(4),
+	#tabla-comando-tecnico table td:nth-child(4),
+	#tabla-comando-tecnico table th:nth-child(5),
+	#tabla-comando-tecnico table td:nth-child(5){display: none;}
+
+	/*tabla comando-gerente*/
+	#tabla-comando-gerente table th:nth-child(1),
+	#tabla-comando-gerente table td:nth-child(1),
+	#tabla-comando-gerente table th:nth-child(4),
+	#tabla-comando-gerente table td:nth-child(4),
+	#tabla-comando-gerente table th:nth-child(5),
+	#tabla-comando-gerente table td:nth-child(5){display: none;}
+
+	/*tabla envio-cliente*/
+	#tabla-envio-cliente table th:nth-child(1),
+	#tabla-envio-cliente table td:nth-child(1),
+	#tabla-envio-cliente table th:nth-child(3),
+	#tabla-envio-cliente table td:nth-child(3),
+	#tabla-envio-cliente table th:nth-child(4),
+	#tabla-envio-cliente table td:nth-child(4){display: none;}
+
+	/*tabla envio-gerente*/
+	#tabla-envio-gerente table th:nth-child(1),
+	#tabla-envio-gerente table td:nth-child(1),
+	#tabla-envio-gerente table th:nth-child(3),
+	#tabla-envio-gerente table td:nth-child(3),
+	#tabla-envio-gerente table th:nth-child(4),
+	#tabla-envio-gerente table td:nth-child(4){display: none;}
+
+	/*tabla estacion-trabajo*/
+	#tabla-estacion-trabajo table th:nth-child(2),
+	#tabla-estacion-trabajo table td:nth-child(2),
+	#tabla-estacion-trabajo table th:nth-child(3),
+	#tabla-estacion-trabajo table td:nth-child(3),
+	#tabla-estacion-trabajo table th:nth-child(4),
+	#tabla-estacion-trabajo table td:nth-child(4){display: none;}
+
+	/*tabla perfil-usuario*/
+	#tabla-perfil-usuario table th:nth-child(1),
+	#tabla-perfil-usuario table td:nth-child(1),
+	#tabla-perfil-usuario table th:nth-child(4),
+	#tabla-perfil-usuario table td:nth-child(4){display: none;}
+
+	/*tabla usuario-sistema*/
+	#tabla-usuario-sistema table th:nth-child(2),
+	#tabla-usuario-sistema table td:nth-child(2),
+	#tabla-usuario-sistema table th:nth-child(3),
+	#tabla-usuario-sistema table td:nth-child(3),
+	#tabla-usuario-sistema table th:nth-child(6),
+	#tabla-usuario-sistema table td:nth-child(6),
+	#tabla-usuario-sistema table th:nth-child(7),
+	#tabla-usuario-sistema table td:nth-child(7){display: none;}
+
+	/*tabla descuento-pronto-pago*/
+	#tabla-descuento-pronto-pago table th:nth-child(4),
+	#tabla-descuento-pronto-pago table td:nth-child(4),
+	#tabla-descuento-pronto-pago table th:nth-child(5),
+	#tabla-descuento-pronto-pago table td:nth-child(5){display: none;}
+
+	/*tabla tarifa-servicio*/
+	#tabla-tarifa-servicio table th:nth-child(3),
+	#tabla-tarifa-servicio table td:nth-child(3),
+	#tabla-tarifa-servicio table th:nth-child(5),
+	#tabla-tarifa-servicio table td:nth-child(5),
+	#tabla-tarifa-servicio table th:nth-child(6),
+	#tabla-tarifa-servicio table td:nth-child(6){display: none;}
+
+	/*tabla servicio-adm*/
+	#tabla-servicio-adm table th:nth-child(3),
+	#tabla-servicio-adm table td:nth-child(3),
+	#tabla-servicio-adm table th:nth-child(4),
+	#tabla-servicio-adm table td:nth-child(4),
+	#tabla-servicio-adm table th:nth-child(5),
+	#tabla-servicio-adm table td:nth-child(5){display: none;}
+
+	/*tabla tipo-servicio*/
+	#tabla-tipo-servicio table th:nth-child(3),
+	#tabla-tipo-servicio table td:nth-child(3){display: none;}
+
+	/*tabla detalle-orden*/
+	#tabla-detalle-orden table th:nth-child(3),
+	#tabla-detalle-orden table td:nth-child(3){display: none;}
+
+	/*tabla persona-atc*/
+	#tabla-persona-atc table th:nth-child(4),
+	#tabla-persona-atc table td:nth-child(4){display: none;}
+
+	/*tabla gerente-permitido*/
+	#tabla-gerente-permitido table th:nth-child(1),
+	#tabla-gerente-permitido table td:nth-child(1),
+	#tabla-gerente-permitido table th:nth-child(5),
+	#tabla-gerente-permitido table td:nth-child(5),
+	#tabla-gerente-permitido table th:nth-child(6),
+	#tabla-gerente-permitido table td:nth-child(6),
+	#tabla-gerente-permitido table th:nth-child(7),
+	#tabla-gerente-permitido table td:nth-child(7){display: none;}
+
+	/*tabla vendedor*/
+	#tabla-vendedor table th:nth-child(1),
+	#tabla-vendedor table td:nth-child(1),
+	#tabla-vendedor table th:nth-child(5),
+	#tabla-vendedor table td:nth-child(5),
+	#tabla-vendedor table th:nth-child(6),
+	#tabla-vendedor table td:nth-child(6){display: none;}
+
+	/*tabla cobrador*/
+	#tabla-cobrador table th:nth-child(1),
+	#tabla-cobrador table td:nth-child(1),
+	#tabla-cobrador table th:nth-child(5),
+	#tabla-cobrador table td:nth-child(5),
+	#tabla-cobrador table th:nth-child(5),
+	#tabla-cobrador table td:nth-child(5),
+	#tabla-cobrador table th:nth-child(6),
+	#tabla-cobrador table td:nth-child(6),
+	#tabla-cobrador table th:nth-child(7),
+	#tabla-cobrador table td:nth-child(7){display: none;}
+
+	/*tabla tecnico*/
+	#tabla-tecnico-adm table th:nth-child(1),
+	#tabla-tecnico-adm table td:nth-child(1),
+	#tabla-tecnico-adm table th:nth-child(5),
+	#tabla-tecnico-adm table td:nth-child(5),
+	#tabla-tecnico-adm table th:nth-child(5),
+	#tabla-tecnico-adm table td:nth-child(5),
+	#tabla-tecnico-adm table th:nth-child(6),
+	#tabla-tecnico-adm table td:nth-child(6),
+	#tabla-tecnico-adm table th:nth-child(7),
+	#tabla-tecnico-adm table td:nth-child(7),
+	#tabla-tecnico-adm table th:nth-child(8),
+    #tabla-tecnico-adm table td:nth-child(8){display: none;}
+
+	/*tabla edificio*/
+	#tabla-edificio table th:nth-child(1),
+	#tabla-edificio table td:nth-child(1),
+	#tabla-edificio table th:nth-child(4),
+	#tabla-edificio table td:nth-child(4),
+	#tabla-edificio table th:nth-child(5),
+	#tabla-edificio table td:nth-child(5),
+	#tabla-edificio table th:nth-child(5),
+	#tabla-edificio table td:nth-child(5),
+	#tabla-edificio table th:nth-child(6),
+	#tabla-edificio table td:nth-child(6),
+	#tabla-edificio table th:nth-child(7),
+    #tabla-edificio table td:nth-child(7){display: none;}
+
+	/*tabla calle*/
+	#tabla-calle table th:nth-child(1),
+	#tabla-calle table td:nth-child(1),
+	#tabla-calle table th:nth-child(4),
+	#tabla-calle table td:nth-child(4),
+	#tabla-calle table th:nth-child(5),
+	#tabla-calle table td:nth-child(5),
+	#tabla-calle table th:nth-child(5),
+	#tabla-calle table td:nth-child(5),
+	#tabla-calle table th:nth-child(6),
+	#tabla-calle table td:nth-child(6),
+	#tabla-calle table th:nth-child(7),
+    #tabla-calle table td:nth-child(7){display: none;}
+
+	/*tabla urbanizacion*/
+	#tabla-urbanizacion table th:nth-child(2),
+	#tabla-urbanizacion table td:nth-child(2),
+	#tabla-urbanizacion table th:nth-child(3),
+	#tabla-urbanizacion table td:nth-child(3),
+	#tabla-urbanizacion table th:nth-child(5),
+	#tabla-urbanizacion table td:nth-child(5),
+	#tabla-urbanizacion table th:nth-child(5),
+	#tabla-urbanizacion table td:nth-child(5),
+	#tabla-urbanizacion table th:nth-child(6),
+    #tabla-urbanizacion table td:nth-child(6){display: none;}
+
+	/*tabla sector*/
+	#tabla-sector table th:nth-child(1),
+	#tabla-sector table td:nth-child(1),
+	#tabla-sector table th:nth-child(3),
+	#tabla-sector table td:nth-child(3),
+	#tabla-sector table th:nth-child(5),
+	#tabla-sector table td:nth-child(5),
+	#tabla-sector table th:nth-child(7),
+    #tabla-sector table td:nth-child(7){display: none;}
+
+	/*tabla zona*/
+	#tabla-zona table th:nth-child(1),
+	#tabla-zona table td:nth-child(1),
+	#tabla-zona table th:nth-child(4),
+	#tabla-zona table td:nth-child(4),
+	#tabla-zona table th:nth-child(5),
+    #tabla-zona table td:nth-child(5){display: none;}
+
+	/*tabla ciudad*/
+	#tabla-ciudad table th:nth-child(1),
+	#tabla-ciudad table td:nth-child(1),
+	#tabla-ciudad table th:nth-child(3),
+	#tabla-ciudad table td:nth-child(3),
+	#tabla-ciudad table th:nth-child(6),
+    #tabla-ciudad table td:nth-child(6){display: none;}
+
+	/*tabla municipio*/
+	#tabla-municipio table th:nth-child(1),
+	#tabla-municipio table td:nth-child(1),
+	#tabla-municipio table th:nth-child(5),
+    #tabla-municipio table td:nth-child(5){display: none;}
+
+	/*tabla estado*/
+	#tabla-estado table th:nth-child(1),
+	#tabla-estado table td:nth-child(1),
+	#tabla-estado table th:nth-child(4),
+    #tabla-estado table td:nth-child(4){display: none;}
+
+	/*tabla franquicia*/
+	#tabla-franquicia table th:nth-child(1),
+    #tabla-franquicia table td:nth-child(1),
+	#tabla-franquicia table th:nth-child(4),
+    #tabla-franquicia table td:nth-child(4),
+	#tabla-franquicia table th:nth-child(5),
+    #tabla-franquicia table td:nth-child(5),
+	#tabla-franquicia table th:nth-child(6),
+    #tabla-franquicia table td:nth-child(6){display: none;}
+
+	/*tabla estatus-contrato*/
+	#tabla-estatus-contrato table th:nth-child(1),
+    #tabla-estatus-contrato table td:nth-child(1),
+	#tabla-estatus-contrato table th:nth-child(4),
+    #tabla-estatus-contrato table td:nth-child(4),
+	#tabla-estatus-contrato table th:nth-child(5),
+    #tabla-estatus-contrato table td:nth-child(5){display: none;}
+
+	/*tabla exoneracion (débito/crédito)*/
+	#tabla-exoneracion table th:nth-child(4),
+	#tabla-exoneracion table td:nth-child(4),
+	#tabla-exoneracion table th:nth-child(6),
+	#tabla-exoneracion table td:nth-child(6),
+	#tabla-exoneracion table th:nth-child(7),
+	#tabla-exoneracion table td:nth-child(7),
+	#tabla-exoneracion table th:nth-child(9),
+    #tabla-exoneracion table td:nth-child(9),
+	#tabla-exoneracion table th:nth-child(10),
+    #tabla-exoneracion table td:nth-child(10){display: none;}
+
+	/*tabla cierre-dario-general (cierre diario)*/
+	#tabla-cierre-dario-general table th:nth-child(4),
+    #tabla-cierre-dario-general table td:nth-child(4){display: none;}
+
+	/*tabla tecnico (grupos de trabajo)*/
+	#tabla-tecnico table th:nth-child(1),
+	#tabla-tecnico table td:nth-child(1),
+	#tabla-tecnico table th:nth-child(2),
+    #tabla-tecnico table td:nth-child(2){display: none;}
+
+	/*tabla tecnico-grupo_ubicacion (grupos de trabajo)*/
+	#tabla-tecnico-grupo_ubicacion table th:nth-child(1),
+    #tabla-tecnico-grupo_ubicacion table td:nth-child(1){display: none;}
+
+	/*tabla tecnico-grupo_activo (grupos de trabajo)*/
+	#tabla-tecnico-grupo_activo table th:nth-child(1),
+	#tabla-tecnico-grupo_activo table td:nth-child(1),
+	#tabla-tecnico-grupo_activo table th:nth-child(3),
+	#tabla-tecnico-grupo_activo table td:nth-child(3),
+	#tabla-tecnico-grupo_activo table th:nth-child(4),
+	#tabla-tecnico-grupo_activo table td:nth-child(4),
+	#tabla-tecnico-grupo_activo table th:nth-child(6),
+    #tabla-tecnico-grupo_activo table td:nth-child(6){display: none;}
+
+	/*tabla orden-tecnico-corte (grupos de trabajo)*/
+	#tabla-orden-tecnico-corte table th:nth-child(1),
+	#tabla-orden-tecnico-corte table td:nth-child(1),
+	#tabla-orden-tecnico-corte table th:nth-child(3),
+	#tabla-orden-tecnico-corte table td:nth-child(3),
+	#tabla-orden-tecnico-corte table th:nth-child(5),
+	#tabla-orden-tecnico-corte table td:nth-child(5),
+	#tabla-orden-tecnico-corte table th:nth-child(6),
+	#tabla-orden-tecnico-corte table td:nth-child(6),
+	#tabla-orden-tecnico-corte table th:nth-child(7),
+    #tabla-orden-tecnico-corte table td:nth-child(7){display: none;}
+
+	/*tabla orden-servicio-pendiente (asignar orden)*/
+	#tabla-orden-servicio-pendiente table th:nth-child(2),
+	#tabla-orden-servicio-pendiente table td:nth-child(2),
+	#tabla-orden-servicio-pendiente table th:nth-child(4),
+    #tabla-orden-servicio-pendiente table td:nth-child(4){display: none;}
+
+	/*tabla imprimir-orden-servicio (imprimir orden)*/
+	#tabla-imprimir-orden-servicio table th:nth-child(1),
+	#tabla-imprimir-orden-servicio table td:nth-child(1),
+	#tabla-imprimir-orden-servicio table th:nth-child(3),
+	#tabla-imprimir-orden-servicio table td:nth-child(3),
+	#tabla-imprimir-orden-servicio table th:nth-child(6),
+	#tabla-imprimir-orden-servicio table td:nth-child(6),
+	#tabla-imprimir-orden-servicio table th:nth-child(7),
+	#tabla-imprimir-orden-servicio table td:nth-child(7),
+	#tabla-imprimir-orden-servicio table th:nth-child(8),
+    #tabla-imprimir-orden-servicio table td:nth-child(8){display: none;}
+
+	/*tabla finalizar-orden-servicio (imprimir orden)*/
+	#tabla-finalizar-orden-servicio table th:nth-child(1),
+	#tabla-finalizar-orden-servicio table td:nth-child(1),
+	#tabla-finalizar-orden-servicio table th:nth-child(3),
+	#tabla-finalizar-orden-servicio table td:nth-child(3),
+	#tabla-finalizar-orden-servicio table th:nth-child(6),
+	#tabla-finalizar-orden-servicio table td:nth-child(6),
+	#tabla-finalizar-orden-servicio table th:nth-child(7),
+	#tabla-finalizar-orden-servicio table td:nth-child(7),
+	#tabla-finalizar-orden-servicio table th:nth-child(8),
+    #tabla-finalizar-orden-servicio table td:nth-child(8){display: none;}
+
+	/*tabla devolver-orden-servicio (imprimir orden)*/
+	#tabla-devolver-orden-servicio table th:nth-child(5),
+	#tabla-devolver-orden-servicio table td:nth-child(5),
+	#tabla-devolver-orden-servicio table th:nth-child(6),
+	#tabla-devolver-orden-servicio table td:nth-child(6),
+	#tabla-devolver-orden-servicio table th:nth-child(7),
+	#tabla-devolver-orden-servicio table td:nth-child(7),
+	#tabla-devolver-orden-servicio table th:nth-child(8),
+    #tabla-devolver-orden-servicio table td:nth-child(8){display: none;}
+
+	/*tabla historialpago*/
+	#tabla-historialpago table th:nth-child(3),
+	#tabla-historialpago table td:nth-child(3),
+	#tabla-historialpago table th:nth-child(4),
+	#tabla-historialpago table td:nth-child(4),
+	#tabla-historialpago table th:nth-child(5),
+	#tabla-historialpago table td:nth-child(5),
+	#tabla-historialpago table th:nth-child(8),
+	#tabla-historialpago table td:nth-child(8),
+	#tabla-historialpago table th:nth-child(9),
+    #tabla-historialpago table td:nth-child(9),
+	#tabla-historialpago table th:nth-child(10),
+    #tabla-historialpago table td:nth-child(10),
+	#tabla-historialpago table th:nth-child(11),
+    #tabla-historialpago table td:nth-child(11){display: none;}
+
+	/*tabla estadocuenta*/
+	#tabla-estadocuenta table th:nth-child(5),
+	#tabla-estadocuenta table td:nth-child(5),
+	#tabla-estadocuenta table th:nth-child(6),
+	#tabla-estadocuenta table td:nth-child(6),
+	#tabla-estadocuenta table th:nth-child(7),
+    #tabla-estadocuenta table td:nth-child(7) {display: none;}
+
+	/*tabla estado cuenta en cargos*/
+	#tabla-estadocargos table th:nth-child(1),
+	#tabla-estadocargos table td:nth-child(1),
+	#tabla-estadocargos table th:nth-child(5),
+	#tabla-estadocargos table td:nth-child(5),
+	#tabla-estadocargos table th:nth-child(8),
+    #tabla-estadocargos table td:nth-child(8) {display: none;}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+	/*tabla pago (Cerrar Caja)*/
+	#tabla-pago table th:nth-child(2),
+	#tabla-pago table td:nth-child(2),
+	#tabla-pago table th:nth-child(8),
+	#tabla-pago table td:nth-child(8),
+	#tabla-pago table th:nth-child(9),
+    #tabla-pago table td:nth-child(9) {display: none;}
+
+	/*tabla promos activas*/
+	#tabla-promocontrato table th:nth-child(4),
+    #tabla-promocontrato table td:nth-child(4) {display: none;}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	/*tabla factura (Cerrar Caja)*/
+	#tabla-factura table th:nth-child(2),
+	#tabla-factura table td:nth-child(2),
+	#tabla-factura table th:nth-child(4),
+	#tabla-factura table td:nth-child(4),
+	#tabla-factura table th:nth-child(6),
+	#tabla-factura table td:nth-child(6),
+    #tabla-factura table th:nth-child(7),
+    #tabla-factura table td:nth-child(7),
+    #tabla-factura table th:nth-child(8),
+    #tabla-factura table td:nth-child(8),
+	#tabla-factura table th:nth-child(10),
+    #tabla-factura table td:nth-child(10),
+	#tabla-factura table th:nth-child(11),
+	#tabla-factura table td:nth-child(11),
+	#tabla-factura table th:nth-child(12),
+    #tabla-factura table td:nth-child(12) {display: none;}
+
+	/*tabla pago (Cerrar Caja)*/
+	#tabla-pago table th:nth-child(2),
+	#tabla-pago table td:nth-child(2),
+	#tabla-pago table th:nth-child(5),
+	#tabla-pago table td:nth-child(5),
+	#tabla-pago table th:nth-child(6),
+	#tabla-pago table td:nth-child(6),
+	#tabla-pago table th:nth-child(8),
+	#tabla-pago table td:nth-child(8),
+	#tabla-pago table th:nth-child(9),
+    #tabla-pago table td:nth-child(9) {display: none;}
+
+	/*tabla servicio (Contrato)*/
+	#tabla-servicio table th:nth-child(3),
+	#tabla-servicio table td:nth-child(3),
+	#tabla-servicio table th:nth-child(4),
+	#tabla-servicio table td:nth-child(4),
+	#tabla-servicio table th:nth-child(6),
+	#tabla-servicio table td:nth-child(6),
+	#tabla-servicio table th:nth-child(7),
+    #tabla-servicio table td:nth-child(7) {display: none;}
+
+	/*tabla exoneracion (débito/crédito)*/
+	#tabla-exoneracion table th:nth-child(2),
+	#tabla-exoneracion table td:nth-child(2),
+	#tabla-exoneracion table th:nth-child(4),
+	#tabla-exoneracion table td:nth-child(4),
+	#tabla-exoneracion table th:nth-child(6),
+	#tabla-exoneracion table td:nth-child(6),
+	#tabla-exoneracion table th:nth-child(7),
+	#tabla-exoneracion table td:nth-child(7),
+	#tabla-exoneracion table th:nth-child(8),
+    #tabla-exoneracion table td:nth-child(8),
+	#tabla-exoneracion table th:nth-child(9),
+    #tabla-exoneracion table td:nth-child(9),
+	#tabla-exoneracion table th:nth-child(10),
+    #tabla-exoneracion table td:nth-child(10){display: none;}
+
+	/*tabla estadocuenta*/
+	#tabla-estadocuenta table th:nth-child(2),
+	#tabla-estadocuenta table td:nth-child(2),
+	#tabla-estadocuenta table th:nth-child(3),
+	#tabla-estadocuenta table td:nth-child(3),
+	#tabla-estadocuenta table th:nth-child(5),
+	#tabla-estadocuenta table td:nth-child(5),
+	#tabla-estadocuenta table th:nth-child(6),
+	#tabla-estadocuenta table td:nth-child(6),
+	#tabla-estadocuenta table th:nth-child(7),
+    #tabla-estadocuenta table td:nth-child(7) {display: none;}
+
+	/*tabla cargos*/
+	#tabla-cargos table th:nth-child(2),
+	#tabla-cargos table td:nth-child(2),
+	#tabla-cargos table th:nth-child(3),
+	#tabla-cargos table td:nth-child(3),
+	#tabla-cargos table th:nth-child(6),
+    #tabla-cargos table td:nth-child(6) {display: none;}
+
+	/*tabla estado cuenta en cargos*/
+	#tabla-estadocargos table th:nth-child(1),
+	#tabla-estadocargos table td:nth-child(1),
+	#tabla-estadocargos table th:nth-child(3),
+	#tabla-estadocargos table td:nth-child(3),
+	#tabla-estadocargos table th:nth-child(4),
+	#tabla-estadocargos table td:nth-child(4),
+	#tabla-estadocargos table th:nth-child(5),
+	#tabla-estadocargos table td:nth-child(5),
+	#tabla-estadocargos table th:nth-child(8),
+    #tabla-estadocargos table td:nth-child(8) {display: none;}
+
+	/*tabla pagodeposito */
+	#tabla-pagodeposito table th:nth-child(1),
+	#tabla-pagodeposito table td:nth-child(1),
+	#tabla-pagodeposito table th:nth-child(4),
+	#tabla-pagodeposito table td:nth-child(4),
+	#tabla-pagodeposito table th:nth-child(6),
+	#tabla-pagodeposito table td:nth-child(6),
+	#tabla-pagodeposito table th:nth-child(7),
+	#tabla-pagodeposito table td:nth-child(7),
+	#tabla-pagodeposito table th:nth-child(8),
+    #tabla-pagodeposito table td:nth-child(8) {display: none;}
+
+	/*tabla historialpago*/
+	#tabla-historialpago table th:nth-child(2),
+	#tabla-historialpago table td:nth-child(2),
+	#tabla-historialpago table th:nth-child(3),
+	#tabla-historialpago table td:nth-child(3),
+	#tabla-historialpago table th:nth-child(4),
+	#tabla-historialpago table td:nth-child(4),
+	#tabla-historialpago table th:nth-child(5),
+	#tabla-historialpago table td:nth-child(5),
+	#tabla-historialpago table th:nth-child(8),
+	#tabla-historialpago table td:nth-child(8),
+	#tabla-historialpago table th:nth-child(9),
+    #tabla-historialpago table td:nth-child(9),
+	#tabla-historialpago table th:nth-child(10),
+    #tabla-historialpago table td:nth-child(10),
+	#tabla-historialpago table th:nth-child(11),
+    #tabla-historialpago table td:nth-child(11){display: none;}
+
+	/*tabla bitacora*/
+	#tabla-bitacora table th:nth-child(2),
+    #tabla-bitacora table td:nth-child(2){display: none;}
+
+	/*tabla históricos*/
+	#tabla-historico table th:nth-child(2),
+	#tabla-historico table td:nth-child(2),
+	#tabla-historico table th:nth-child(4),
+	#tabla-historico table td:nth-child(4),
+	#tabla-historico table th:nth-child(5),
+	#tabla-historico table td:nth-child(5),
+	#tabla-historico table th:nth-child(6),
+	#tabla-historico table td:nth-child(6) {display: none;}
+
+}
+
+@media only screen and (max-width: 320px) {
+
+	/*tabla factura (Cerrar Caja)*/
+	#tabla-factura table th:nth-child(2),
+	#tabla-factura table td:nth-child(2),
+	#tabla-factura table th:nth-child(4),
+	#tabla-factura table td:nth-child(4),
+	#tabla-factura table th:nth-child(6),
+	#tabla-factura table td:nth-child(6),
+    #tabla-factura table th:nth-child(7),
+    #tabla-factura table td:nth-child(7),
+    #tabla-factura table th:nth-child(8),
+    #tabla-factura table td:nth-child(8),
+	#tabla-factura table th:nth-child(10),
+    #tabla-factura table td:nth-child(10),
+	#tabla-factura table th:nth-child(11),
+	#tabla-factura table td:nth-child(11),
+	#tabla-factura table th:nth-child(12),
+	#tabla-factura table td:nth-child(12),
+	#tabla-factura table th:nth-child(13),
+    #tabla-factura table td:nth-child(13) {display: none;}
+
+
+}
+
+/*flip-scroll*/
+
+@media only screen and (max-width: 800px) {
+    #flip-scroll .cf:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+    #flip-scroll * html .cf { zoom: 1; }
+    #flip-scroll *:first-child+html .cf { zoom: 1; }
+    #flip-scroll table { width: 100%; border-collapse: collapse; border-spacing: 0; }
+
+    #flip-scroll th,
+    #flip-scroll td { margin: 0; vertical-align: top; }
+    #flip-scroll th { text-align: left; }
+    #flip-scroll table { display: block; position: relative; width: 100%; }
+    #flip-scroll thead { display: block; float: left; }
+    #flip-scroll tbody { display: block; width: auto; position: relative; overflow-x: auto; white-space: nowrap; }
+    #flip-scroll thead tr { display: block; }
+    #flip-scroll th { display: block; text-align: right; }
+    #flip-scroll tbody tr { display: inline-block; vertical-align: top; }
+    #flip-scroll td { display: block; min-height: 1.25em; text-align: left; }
+
+
+    /* sort out borders */
+
+    #flip-scroll th { border-bottom: 0; border-left: 0; }
+    #flip-scroll td { border-left: 0; border-right: 0; border-bottom: 0; }
+    #flip-scroll tbody tr { border-left: 1px solid #babcbf; }
+    #flip-scroll th:last-child,
+    #flip-scroll td:last-child { border-bottom: 1px solid #babcbf; }
+}
+
+/*no more table*/
+
+@media only screen and (max-width: 800px) {
+    /* Force table to not be like tables anymore */
+    #no-more-tables table,
+    #no-more-tables thead,
+    #no-more-tables tbody,
+    #no-more-tables th,
+    #no-more-tables td,
+    #no-more-tables tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr { border: 1px solid #ccc; }
+
+    #no-more-tables td {
+        /* Behave like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+}

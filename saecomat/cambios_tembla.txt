@@ -1,0 +1,40 @@
+*comente en controlador.js
+function valida_mat_t02(id){
+val=document.getElementById(id).value;
+//conexionPHP_mat("informacion.php","traerDeposito02",val);
+}
+
+
+*cambie en  procesos/data_grid_materiales.php
+id_m=@%id_m%')");
+id_mat=@%id_mat%')");
+
+
+
+*cree funcion para limpiarmat_dep en ajax.js
+
+					if(clase=="2=@vista_materiales" && claseGlobal=="materiales" ){
+						document.f1.id_mat.value=idglobal;
+						limpiar_mat_dep();
+					}
+function limpiar_mat_dep(){
+			document.f1.stock.value='';
+			document.f1.stock_min.value='';
+			document.f1.observacion.value='';
+}
+
+
+*cree un numGlobal  para almacenar el numero global de mat_padre al registrar un nuevo material
+cree un numero incremental en materiales para mat_padre
+
+*cree id_mGlobal
+
+ajax.js
+else if(clase=="1=@mat_padre" && claseGlobal=="materiales" ){
+						document.f1.id_mat.value=idglobal;
+						document.f1.numero_mat.value=numglobal;
+						document.f1.id_m.value=id_mglobal;
+						//id_mglobal=id_m();
+						limpiar_mat_dep();
+					}
+

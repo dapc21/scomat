@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <title>Parsley - Examples | Simple form demo</title>
+
+    <link href="Parsley_files/bootstrap.css" rel="stylesheet">
+    <link href="Parsley_files/parsley.css" rel="stylesheet">
+  </head>
+
+  <body data-twttr-rendered="true">
+
+    <div class="container">
+            <form novalidate="" id="demo-form" data-parsley-validate="">
+              <label for="fullname">Full Name * :</label>
+              <input data-parsley-id="3626" class="form-control" name="fullname" required="" type="text">
+              <ul id="parsley-id-3626" class="parsley-errors-list"></ul>
+
+              <label for="email">Email * :</label>
+              <input data-parsley-id="4232" class="form-control" name="email" data-parsley-trigger="change" required="" type="email">
+              <ul id="parsley-id-4232" class="parsley-errors-list"></ul>
+
+              <label for="gender">Gender *:</label>
+              <p>
+                M: <input data-parsley-id="0319" data-parsley-multiple="gender" name="gender" id="genderM" value="M" required="" type="radio">
+                F: <input data-parsley-id="0319" data-parsley-multiple="gender" name="gender" id="genderF" value="F" type="radio">
+              </p>
+              <ul id="parsley-id-multiple-gender" class="parsley-errors-list"></ul>
+
+              <label for="hobbies">Hobbies (2 minimum):</label>
+              <p>
+                Skiing <input data-parsley-id="0267" data-parsley-multiple="hobbies" name="hobbies[]" id="hobby1" value="ski" data-parsley-mincheck="2" type="checkbox"><br>
+                Running <input data-parsley-id="0267" data-parsley-multiple="hobbies" name="hobbies[]" id="hobby2" value="run" type="checkbox"><br>
+                Eating <input data-parsley-id="0267" data-parsley-multiple="hobbies" name="hobbies[]" id="hobby3" value="eat" type="checkbox"><br>
+                Sleeping <input data-parsley-id="0267" data-parsley-multiple="hobbies" name="hobbies[]" id="hobby4" value="sleep" type="checkbox"><br>
+                Reading <input data-parsley-id="0267" data-parsley-multiple="hobbies" name="hobbies[]" id="hobby5" value="read" type="checkbox"><br>
+                Coding <input data-parsley-id="0267" data-parsley-multiple="hobbies" name="hobbies[]" id="hobby6" value="code" type="checkbox"><br>
+              </p>
+              <ul id="parsley-id-multiple-hobbies" class="parsley-errors-list"></ul><p>
+
+              <label for="heard">Heard us by *:</label>
+              <select data-parsley-id="1348" id="heard" required="">
+                <option selected="selected" value="">Choose..</option>
+                <option value="press">Press</option>
+                <option value="net">Internet</option>
+                <option value="mouth">Word of mouth</option>
+                <option value="other">Other..</option>
+              </select>
+              <ul id="parsley-id-1348" class="parsley-errors-list"></ul>
+
+              <label for="message">Message (20 chars min, 100 max) :</label>
+              <textarea data-parsley-id="9460" id="message" class="form-control" name="message" data-parsley-trigger="keyup" data-parsley-minlength="20" data-parsley-maxlength="100" data-parsley-minlength-message="Come on! You need to enter at least a 20 caracters long comment.." data-parsley-validation-threshold="10"></textarea>
+              <ul id="parsley-id-9460" class="parsley-errors-list"></ul>
+              <br>
+              <span class="btn btn-default">validate</span>
+
+            </form>
+          
+
+
+    </div>
+
+    <script type="text/javascript" src="Parsley_files/jquery.js"></script>
+    <script type="text/javascript" src="Parsley_files/parsley.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
+        $.listen('parsley:field:validate', function () {
+          validateFront();
+        });
+*/
+        $('#demo-form .btn').on('click', function () {
+          $('#demo-form').parsley().validate();
+          validateFront();
+        });
+        var validateFront = function () {
+          if (true === $('#demo-form').parsley().isValid()) {
+            $('.bs-callout-info').removeClass('hidden');
+            $('.bs-callout-warning').addClass('hidden');
+          } else {
+            $('.bs-callout-info').addClass('hidden');
+            $('.bs-callout-warning').removeClass('hidden');
+          }
+        };
+      });
+
+    </script>
+</body></html>
+
+<?php 
+  $validacion='';
+        if($cadena[6]=='isInteger'){
+          $validacion=' required="" data-parsley-type="integer"';
+        } else if($cadena[6]=='isAlphanumeric'){
+          $validacion='required=""  data-parsley-type="alphanum"';
+        } else if($cadena[6]=='isNumber'){
+          $validacion='required="" data-parsley-type="number"';
+        } else if($cadena[6]=='isEmail'){
+          $validacion='required="" data-parsley-type="email"';
+        } else if($cadena[6]=='isPhoneNumber'){
+          $validacion='required="" data-parsley-length="[11, 11]" data-parsley-type="integer"';
+        } else if($cadena[6]=='isCedula'){
+          $validacion='required="" data-parsley-length="[6, 10]" data-parsley-type="integer"';
+        }
+?>

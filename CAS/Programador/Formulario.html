@@ -1,0 +1,293 @@
+<html>
+<head>
+    <title>Objetos de Formularios</title>
+	<link rel="stylesheet" type="" text/css="" href="cssFormulario.css">
+	<script language="JavaScript" type="text/javascript" src="../javascript/ajax.js"></script>
+	<script language="JavaScript" type="text/javascript" src="../javascript/validacion.js"> </script>
+	<script language="JavaScript" type="text/javascript" src="../javascript/validacionAjax.js"></script>
+	<script language="JavaScript" type="text/javascript" src="script.js"></script>
+<script>
+
+var objeto="";
+function cargaDatos(obj)
+{
+	//alert("entro a cargar datos");
+	objeto=obj;
+	conexionPHP_cas('creaFormulario.php','Plantilla',objeto);
+	botones(true,true,true,true);
+	var capa=document.getElementById("baner");
+	capa.innerHTML='Clase: '+codigoMod()+'  ||  Objeto: '+objeto;
+	if(obj=='fecha')
+	{
+	//	document.f1.tipoDato.selectedIndex=4;
+	//	document.f1.tipoDato.disabled=true;
+	}
+}
+function inicio()
+{
+	if(objeto=='lista'){
+		document.f1.tipoValidacion.selectedIndex=11;
+		document.f1.tipoValidacion.disabled=true;
+	}
+}
+
+function lectura(){
+	if(document.f1.lectura.checked == true)
+		return 'disabled';
+	else 
+		return '';
+}
+function incremento(){
+	if(document.f1.incremento.checked == true)
+		return 'true';
+	else 
+		return 'false';
+}
+function valorTipoDato(){
+	inicio();
+	if(tipoDatos()=='character' || tipoDatos()=='character varying'){
+		document.f1.longitud.disabled=false;
+		document.f1.precision.disabled=true;
+	}
+	else if(tipoDatos()=='numeric'){
+		document.f1.longitud.disabled=false;
+		document.f1.precision.disabled=false;
+	}
+	else{
+		document.f1.longitud.disabled=true;
+		document.f1.precision.disabled=true;
+	}
+}
+function validaTipoDato(){
+	if(tipoDatos()=='character' || tipoDatos()=='character varying'){
+		return validaCampo(document.f1.longitud,isInteger);
+	}
+	else if(tipoDatos()=='numeric'){
+		if(validaCampo(document.f1.longitud,isInteger) && validaCampo(document.f1.precision,isInteger))
+			return true;
+		else 
+			return false;
+	}
+	else{
+		return true;
+	}
+}
+
+function codigoModulo(){return opener.document.f1.codigomodulo.options[opener.document.f1.codigomodulo.selectedIndex].text;}
+function codigoMod(){return opener.document.f1.codigomodulo.value;}
+function ancho(){return document.f1.ancho.value;}
+function maximo(){return document.f1.maximo.value;}
+function valor(){return document.f1.valor.value;}
+function maximo(){return document.f1.maximo.value;}
+function tipoDatos(){return document.f1.tipoDato.value;}
+function tipoValidacion(){return document.f1.tipoValidacion.value;}
+function longitud(){return document.f1.longitud.value;}
+function precision(){return document.f1.precision.value;}
+function name(){return document.f1.name.value;}
+function nombre(){return document.f1.nombre.value;}
+function valornulo(){return document.f1.valornulo.value;}
+
+function administrar(tipoDato)
+{
+ // switch(tipoDato)
+ // {
+	//alert(objeto)
+  if(objeto!='fecha')
+  {
+	//alert('diferente');
+	if(validaCampo(opener.document.f1.codigomodulo,isSelect) &&
+			validaCampo(document.f1.nombre,isTexto) &&
+			validaCampo(document.f1.name,isTexto) &&
+			validaCampo(document.f1.tipoDato,isSelect) &&
+			validaCampo(document.f1.tipoValidacion,isSelect) &&
+			validaCampo(document.f1.ancho,isInteger) &&
+			validaCampo(document.f1.maximo,isInteger))
+	{
+	  if(validaTipoDato()){
+		if(confirm('¿seguro que desea enviar este formulario?')){
+				if(objeto=="texto")
+					conexionPHP_cas("Programador.php",tipoDato,codigoMod()+"=@"+objeto+"=@"+name()+"=@"+nombre()+"=@"+tipoDatos()+"=@"+tipoValidacion()+"=@"+longitud()+"=@"+precision()+"=@"+valor()+"=@"+ancho()+"=@"+maximo()+"=@"+valornulo()+"=@"+lectura()+"=@"+incremento(),tipoDato);
+				else
+					conexionPHP_cas("Programador.php",tipoDato,codigoMod()+"=@"+objeto+"=@"+name()+"=@"+nombre()+"=@"+tipoDatos()+"=@"+tipoValidacion()+"=@"+longitud()+"=@"+precision()+"=@"+valor()+"=@"+ancho()+"=@"+maximo()+"=@"+valornulo()+"=@"+lectura(),tipoDato);
+				document.f1.reset();
+		}
+	  }
+	}
+  }
+  else
+  {
+	if(validaCampo(opener.document.f1.codigomodulo,isSelect) &&
+			validaCampo(document.f1.nombre,isTexto) &&
+			validaCampo(document.f1.name,isTexto) &&
+			validaCampo(document.f1.longitud,isInteger) &&
+			validaCampo(document.f1.ancho,isInteger) &&
+			validaCampo(document.f1.valor,isInteger) &&
+			validaCampo(document.f1.precision,isInteger) &&
+			validaCampo(document.f1.maximo,isInteger))
+	{
+	  if(validaTipoDato()){
+		if(confirm('¿seguro que desea enviar este formulario?')){
+				conexionPHP_cas("Programador.php",tipoDato,codigoMod()+"=@"+objeto+"=@"+name()+"=@"+nombre()+"=@"+tipoDatos()+"=@"+tipoValidacion()+"=@"+longitud()+"=@"+precision()+"=@"+valor()+"=@"+ancho()+"=@"+maximo()+"=@"+valornulo()+"=@"+lectura(),tipoDato);
+				document.f1.reset();
+		}
+	  }
+	}
+	
+  }
+}
+
+function cerrar()
+{
+	window.close();
+	opener.focus();
+	javascript:opener.location.reload();
+}
+function validarNombre(){
+	
+	conexionPHP_cas("../informacion.php","ObjetoFormulario",codigoMod()+"=@"+nombre());
+}
+function traerDatos(cade){
+	//alert(cade);
+	cadena= cade.split("=@");
+	var i=0;
+	for(i=0;i<cadena.length;i++)
+	{
+		cadena[i]=trim(cadena[i]);
+	}
+	if(cadena[0]!='false')
+	{
+	//	alert(cadena)
+		if(cadena[2]=='texto' || cadena[2]=='area' || cadena[2]=='lista' || cadena[2]=='password' || cadena[2]=='archivo' || cadena[2]=='radio' || cadena[2]=='casilla' || cadena[2]=='oculto' || cadena[2]=='fecha')
+		{
+			var capa=document.getElementById("baner");
+			capa.innerHTML='Clase: '+opener.document.f1.codigomodulo.value+'  ||  Objeto: '+cadena[2];
+			objeto=cadena[2];
+			var i=0;
+			document.f1.name.value=cadena[3];
+			document.f1.valor.value=cadena[9];
+			document.f1.nombre.value=cadena[4];	
+			document.f1.ancho.value=cadena[10];
+			document.f1.maximo.value=cadena[11];
+			tabla(cadena);
+			document.f1.valornulo.value='null';
+			botones(true,true,false);
+			for(i=0;i<document.f1.tipoValidacion.options.length;i++)
+			{
+				if(document.f1.tipoValidacion.options[i].value==cadena[6])
+					document.f1.tipoValidacion.selectedIndex=i;	
+			}
+			if(cadena[13]=='disabled'){
+				document.f1.lectura.checked = true;
+			}
+			
+		}
+		
+		if(cadena[14]=='0')
+		{
+			botones(true,false,true);
+		}
+		else
+		{
+			document.f1.valornulo.value='null';
+			botones(true,true,false);
+		}
+		
+		if(cadena[0]=='AgregarCampoClave')
+		{
+			alert('Es un campo clave no se puede Editar');
+			botones(true,true,true);
+		}
+		
+		document.f1.incremento.checked=false;
+		document.f1.incremento.disabled=true;
+	}
+	else{
+		if(cadena[1]=='2')
+		{
+			//alert('clave');
+			document.f1.valornulo.value='not null';
+			botones(true,false,true);
+			document.f1.incremento.disabled=false;
+			document.f1.incremento.checked=true;
+		}
+		else 
+		{
+			document.f1.valornulo.value='null';
+			botones(false,true,true);
+			document.f1.incremento.checked=false;
+			document.f1.incremento.disabled=true;
+			
+		}
+	}
+	
+}
+function tabla(cadena){
+	var i=0;
+			for(i=0;i<document.f1.tipoDato.options.length;i++)
+			{
+				if(document.f1.tipoDato.options[i].value==cadena[5])
+					document.f1.tipoDato.selectedIndex=i;	
+			}	
+	document.f1.longitud.value=cadena[7];
+	document.f1.precision.value=cadena[8];		
+/*	if(cadena[12]=='not null'){
+		document.f1.valornulo.checked = true;
+	}	
+*/
+}
+function trim(s){
+	var j=0;	
+	for(var i=s.length-1; i>-1; i--){
+		if(s.substring(i,i+1) != ' '){
+			j=i;
+			break;
+		}
+	}
+	return s.substring(0, j+1);
+}
+function botones(agregar,clave,eliminar)
+{
+	document.f2.agregar.disabled =agregar;
+	document.f2.clave.disabled =clave;
+	document.f2.eliminar.disabled =eliminar;
+}
+</script>
+</head>
+<body>
+<div id="contenedor">
+	<div id="baner">		
+		Barras de objetos Formularios
+	</div>
+	<div id="cabecera" align="center">
+		<a href="#" onclick="cargaDatos('texto')" title="Campo de Texto"> <img src="imagenes/campoTexto.jpg" alt="texto" height="30" width="30"></a>
+		<a href="#" onclick="cargaDatos('area')" title="Área de Texto"> <img src="imagenes/areaTexto.jpg" alt="area" height="30" width="30"></a>
+		<a href="#" onclick="cargaDatos('lista')" title="Lista - Menú"> <img src="imagenes/listaMenu.jpg" alt="menu" height="30" width="30"></a>
+		<a href="#" onclick="cargaDatos('radio')" title="Grupo de Opción"> <img src="imagenes/GrupoOpcion.jpg" alt="opciones" height="30" width="30"></a>
+		<a href="#" onclick="cargaDatos('casilla')" title="Casilla de Verificación"> <img src="imagenes/casillaVerificacion.jpg" alt="verificacion" height="30" width="30"></a>
+		<a href="#" onclick="cargaDatos('oculto')" title="Campo Oculto"> <img src="imagenes/campoOculto.jpg" alt="oculto" height="30" width="30"></a>		
+		<a href="#" onclick="cargaDatos('password')" title="Campo Password"> <img src="imagenes/campoPassword.jpg" alt="password" height="30" width="30"></a>
+		<a href="#" onclick="cargaDatos('archivo')" title="Campo de Archivo"> <img src="imagenes/campoArchivo.jpg" alt="archvo" height="30" width="30"></a>
+		<a href="#" onclick="cargaDatos('fecha')" title="Fecha Data Picker"> <img src="imagenes/fecha.jpg" alt="fecha" height="30" width="30"></a>
+	</div>
+	<div id="cuerpo">
+		<div id="principal">
+			<h2 align="center">Area de Trabajo</h2>
+			<h3 align="center">Seleccione un Objeto</h3>
+		</div>
+		<div id="botones">
+			<div align="center">
+			<form name="f2">
+				<input type="hidden" name="dato">
+				<input type="Button" value="Agregar" name="agregar" onclick="administrar('AgregarCampo')">
+				<input type="Button" value="Clave" name="clave" onclick="administrar('AgregarCampoClave')">
+				<input type="Button" value="Eliminar" name="eliminar" onclick="administrar('EliminarCampo')">
+				<input type="Button" value="Salir" name="cancelar" onclick="cerrar()">
+			</form>
+			</div>
+		</div>
+	</div>
+	<div id="pie">
+	</div>
+</div>
+</body>
+</html>

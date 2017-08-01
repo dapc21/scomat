@@ -1,0 +1,11 @@
+1) en aprobar inventario no ajusta los materiales
+
+2) en administracion de movimientos la seleccionar transferencia deposito deposito destino agrega un solo material al tratar de agregar los otros me dice que el campo ya esta registrado en la tabla movimiento le doy imprimir movimiento y lo hace y se muestra en lo reporte.
+
+3) en finalizar materiales al seleccionar el tecnico no muestra el stock de los materiales
+
+4) en solicitud de pedido al seleccionar todo los materiales no habilita los campos y al seleccionar un muesta un sms true
+
+en materialesal finalizar un orden de suscripcion nueva no esta generando el prorrateo
+
+al finalizar una orden de reconexion no genera el prorrateo

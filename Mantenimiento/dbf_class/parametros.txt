@@ -1,0 +1,24 @@
+DEUDA
+
+pendiente
+llamar
+abono
+{vacio}
+revisar
+pago octubre
+
+
+PAGADO
+
+el resto
+
+
+
+NADA
+
+cts
+cortesia
+cts m/cub
+corte
+reconexion
+cancelo reconexion

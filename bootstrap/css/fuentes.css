@@ -1,0 +1,67 @@
+/** General */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-B.ttf') format("truetype"),
+		url('../fonts/Ubuntu-BI.ttf') format("truetype"),
+		url('../fonts/Ubuntu-C.ttf') format("truetype"),
+		url('../fonts/Ubuntu-L.ttf') format("truetype"),
+		url('../fonts/Ubuntu-LI.ttf') format("truetype"),
+		url('../fonts/Ubuntu-M.ttf') format("truetype"),
+		url('../fonts/Ubuntu-MI.ttf') format("truetype"),
+		url('../fonts/UbuntuMono-B.ttf') format("truetype"),
+		url('../fonts/UbuntuMono-BI.ttf') format("truetype"),
+		url('../fonts/UbuntuMono-R.ttf') format("truetype");
+}
+
+/** logo  */
+@font-face {
+  font-family: 'Ubuntu-logo';
+  src: url('../fonts/UbuntuMono-B.ttf') format("truetype");
+}
+
+/** títulos de los formularios */
+@font-face {
+  font-family: 'Ubuntu-titulo';
+  src: url('../fonts/UbuntuMono-R.ttf') format("truetype");
+}
+
+/** menu lateral, cerrar sesion y notificaciones */
+@font-face {
+  font-family: 'Ubuntu-menu';
+  src: url('../fonts/Ubuntu-M.ttf') format("truetype");
+}
+
+/** caja de texto buscar */
+@font-face {
+  font-family: 'Ubuntu-buscar';
+  src: url('../fonts/Ubuntu-L.ttf') format("truetype");
+}
+
+/** formularios */
+@font-face {
+  font-family: 'Ubuntu-form';
+  src: url('../fonts/Ubuntu-B.ttf') format("truetype");
+}
+
+
+/** Definición de estlos de fuentes para secciones de la página**/
+
+.logo{
+  font-family: 'Ubuntu-logo',Helvetica,Arial,sans-serif;
+}
+
+.border-head{
+  font-family: 'Ubuntu-titulo',Helvetica,Arial,sans-serif;
+}
+
+#sidebar, .top-menu, .logout, button{
+  font-family: 'Ubuntu-menu',Helvetica,Arial,sans-serif;
+}
+
+.search-word, table{
+  font-family: 'Ubuntu-buscar',Helvetica,Arial,sans-serif;
+}
+
+.panel-heading, .panel-body, .loading-text{
+  font-family: 'Ubuntu-form',Helvetica,Arial,sans-serif;
+}

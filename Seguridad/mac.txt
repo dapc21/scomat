@@ -1,0 +1,25 @@
+
+Configuración IP de Windows
+
+        Nombre del host . . . . . . . . . : server
+        Sufijo DNS principal  . . . . . . : 
+        Tipo de nodo . . . . . . . . . .  : desconocido
+        Enrutamiento habilitado. . . . . .: No
+        Proxy WINS habilitado. . . . .    : No
+        Lista de búsqueda de sufijo DNS:    cantv.net
+
+Adaptador Ethernet Conexión de área local          :
+
+        Sufijo de conexión específica DNS : cantv.net
+        Descripción. . . . . . . . . . .  : Realtek PCIe GBE Family Controller
+        Dirección física. . . . . . . . . : E0-69-95-AA-39-28
+        DHCP habilitado. . . . . . . . .  : No
+        Autoconfiguración habilitada. . . : Sí
+        Dirección IP. . . . . . . . . . . : 192.168.1.105
+        Máscara de subred . . . . . . . . : 255.255.255.0
+        Puerta de enlace predeterminada   : 192.168.1.1
+        Servidor DHCP . . . . . . . . . . : 192.168.1.1
+        Servidores DNS . . . . . . . . . .: 200.44.32.12
+                                            200.11.248.12
+        Concesión obtenida . . . . . . .  : jueves, 19 de enero de 2012 14:07:26
+        Concesión expira . . . . . . . . .: viernes, 20 de enero de 2012 14:07:26

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<title>jQuery Autocomplete Plugin</title>
+<script type="text/javascript" src="../lib/jquery.js"></script>
+<script type='text/javascript' src='../jquery.autocomplete.js'></script>
+<script type='text/javascript' src='localdata.js'></script>
+<link rel="stylesheet" type="text/css" href="../jquery.autocomplete.css" />
+
+	
+<script type="text/javascript">
+$().ready(function() {
+
+	function log(event, data, formatted) {
+		alert("hola como"+data);
+		//$("<li>").html( !data ? "No match!" : "Selected: " + formatted).appendTo("#result");
+	}
+	
+	function formatItem(row) {
+		return row[0] + " (<strong>id: " + row[1] + "</strong>)";
+	}
+	function formatResult(row) {
+		return row[0].replace(/(<.+?>)/gi, '');
+	}
+	
+	$("#month").autocomplete(cities, {
+		max: 100,
+		width: 200,
+		minChars: 0,
+		select:function (event,ui){
+			$('#result').html(
+				'hola como'
+			);
+		}
+	});
+	
+	
+	$(":text, textarea").result(log).next().click(function() {
+		$(this).prev().search();
+	});
+	
+	
+});
+
+
+</script>
+	
+</head>
+
+<body>
+
+
+		<p>
+			<label>Month (local):</label>
+			<input type="text" id="month" />
+			
+		</p>
+
+</body>
+</html>

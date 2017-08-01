@@ -1,0 +1,3900 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SAECO\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-14 11:31-0400\n"
+"PO-Revision-Date: 2012-07-14 11:31-0400\n"
+"Last-Translator: JOEL BOLIVAR <JOEL_JOSE99@HOTMAIL.COM>\n"
+"Language-Team: SAECOSOFT <saeco.ve@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: C:/wamp/www/\n"
+"Plural-Forms: criollo venezuela\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: VENEZUELA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: idio\n"
+
+#: idio/idioma.php:2
+msgid "actualizar cargo"
+msgstr ""
+
+#: idio/idioma.php:3
+msgid "monto cargo"
+msgstr ""
+
+#: idio/idioma.php:4
+msgid "clasificacion motivo"
+msgstr ""
+
+#: idio/idioma.php:5
+msgid "describa motivo"
+msgstr ""
+
+#: idio/idioma.php:10
+#: idio/idioma.php:92
+#: idio/idioma.php:355
+#: idio/idioma.php:567
+#: idio/idioma.php:584
+#: idio/idioma.php:846
+#: idio/idioma.php:1257
+#: idio/idioma.php:1521
+#: idio/idioma.php:1533
+#: idio/idioma.php:4036
+msgid "nro contrato"
+msgstr ""
+
+#: idio/idioma.php:11
+#: idio/idioma.php:311
+#: idio/idioma.php:357
+#: idio/idioma.php:568
+#: idio/idioma.php:694
+#: idio/idioma.php:746
+#: idio/idioma.php:847
+#: idio/idioma.php:1258
+#: idio/idioma.php:1522
+msgid "rif / cedula"
+msgstr ""
+
+#: idio/idioma.php:12
+#: idio/idioma.php:313
+#: idio/idioma.php:359
+#: idio/idioma.php:569
+#: idio/idioma.php:586
+#: idio/idioma.php:695
+#: idio/idioma.php:1039
+#: idio/idioma.php:1259
+#: idio/idioma.php:1404
+#: idio/idioma.php:1843
+#: idio/idioma.php:3580
+#: idio/idioma.php:3581
+#: idio/idioma.php:3677
+#: idio/idioma.php:3715
+#: idio/idioma.php:3744
+#: idio/idioma.php:3936
+#: idio/idioma.php:3974
+#: idio/idioma.php:4040
+#: idio/idioma.php:4118
+msgid "nombre"
+msgstr ""
+
+#: idio/idioma.php:13
+#: idio/idioma.php:314
+#: idio/idioma.php:360
+#: idio/idioma.php:570
+#: idio/idioma.php:587
+#: idio/idioma.php:696
+#: idio/idioma.php:1260
+#: idio/idioma.php:1405
+#: idio/idioma.php:1844
+#: idio/idioma.php:4041
+msgid "apellido"
+msgstr ""
+
+#: idio/idioma.php:14
+#: idio/idioma.php:315
+#: idio/idioma.php:361
+#: idio/idioma.php:697
+#: idio/idioma.php:1261
+msgid "celular"
+msgstr ""
+
+#: idio/idioma.php:15
+#: idio/idioma.php:316
+#: idio/idioma.php:362
+#: idio/idioma.php:698
+#: idio/idioma.php:1406
+#: idio/idioma.php:1842
+#: idio/idioma.php:3887
+#: idio/idioma.php:4139
+#: idio/idioma.php:4172
+msgid "telefono"
+msgstr ""
+
+#: idio/idioma.php:16
+#: idio/idioma.php:317
+#: idio/idioma.php:363
+#: idio/idioma.php:699
+msgid "telefono adicional"
+msgstr ""
+
+#: idio/idioma.php:17
+#: idio/idioma.php:318
+#: idio/idioma.php:364
+#: idio/idioma.php:700
+#: idio/idioma.php:4045
+msgid "email"
+msgstr ""
+
+#: idio/idioma.php:21
+#: idio/idioma.php:322
+msgid "casa"
+msgstr ""
+
+#: idio/idioma.php:22
+#: idio/idioma.php:27
+#: idio/idioma.php:85
+#: idio/idioma.php:323
+#: idio/idioma.php:328
+#: idio/idioma.php:4053
+msgid "edificio"
+msgstr ""
+
+#: idio/idioma.php:23
+#: idio/idioma.php:81
+#: idio/idioma.php:324
+#: idio/idioma.php:917
+#: idio/idioma.php:1108
+#: idio/idioma.php:1606
+#: idio/idioma.php:1630
+#: idio/idioma.php:1651
+#: idio/idioma.php:1678
+#: idio/idioma.php:1953
+#: idio/idioma.php:1970
+#: idio/idioma.php:2043
+#: idio/idioma.php:3327
+#: idio/idioma.php:3582
+#: idio/idioma.php:3584
+#: idio/idioma.php:4140
+#: idio/idioma.php:4173
+msgid "zona"
+msgstr ""
+
+#: idio/idioma.php:24
+#: idio/idioma.php:82
+#: idio/idioma.php:325
+#: idio/idioma.php:918
+#: idio/idioma.php:1109
+#: idio/idioma.php:1607
+#: idio/idioma.php:1631
+#: idio/idioma.php:1652
+#: idio/idioma.php:1679
+#: idio/idioma.php:1954
+#: idio/idioma.php:1970
+#: idio/idioma.php:2044
+#: idio/idioma.php:3328
+#: idio/idioma.php:3358
+#: idio/idioma.php:3414
+#: idio/idioma.php:3466
+#: idio/idioma.php:3586
+#: idio/idioma.php:4141
+#: idio/idioma.php:4174
+msgid "sector"
+msgstr ""
+
+#: idio/idioma.php:25
+#: idio/idioma.php:83
+#: idio/idioma.php:326
+#: idio/idioma.php:919
+#: idio/idioma.php:1110
+#: idio/idioma.php:1608
+#: idio/idioma.php:1632
+#: idio/idioma.php:1653
+#: idio/idioma.php:1680
+#: idio/idioma.php:1955
+#: idio/idioma.php:1970
+#: idio/idioma.php:3590
+#: idio/idioma.php:3591
+#: idio/idioma.php:4155
+#: idio/idioma.php:4188
+msgid "calle"
+msgstr ""
+
+#: idio/idioma.php:26
+#: idio/idioma.php:84
+#: idio/idioma.php:327
+msgid "nro casa / apto"
+msgstr ""
+
+#: idio/idioma.php:28
+#: idio/idioma.php:86
+#: idio/idioma.php:329
+#: idio/idioma.php:3367
+#: idio/idioma.php:3595
+msgid "nro piso"
+msgstr ""
+
+#: idio/idioma.php:29
+#: idio/idioma.php:90
+#: idio/idioma.php:333
+msgid "direccion adicional"
+msgstr ""
+
+#: idio/idioma.php:30
+#: idio/idioma.php:349
+#: idio/idioma.php:378
+msgid "actualizar"
+msgstr ""
+
+#: idio/idioma.php:37
+msgid "busqueda avanzada"
+msgstr ""
+
+#: idio/idioma.php:54
+msgid ""
+"editar comandos para men\n"
+"000060 | ass="
+msgstr ""
+
+#: idio/idioma.php:56
+#: idio/idioma.php:728
+#: idio/idioma.php:774
+#: idio/idioma.php:780
+#: idio/idioma.php:786
+msgid "comando"
+msgstr ""
+
+#: idio/idioma.php:57
+#: idio/idioma.php:733
+#: idio/idioma.php:775
+#: idio/idioma.php:781
+#: idio/idioma.php:787
+#: idio/idioma.php:799
+#: idio/idioma.php:1924
+#: idio/idioma.php:2090
+#: idio/idioma.php:2135
+#: idio/idioma.php:2180
+#: idio/idioma.php:2227
+#: idio/idioma.php:2273
+#: idio/idioma.php:2318
+#: idio/idioma.php:2357
+#: idio/idioma.php:2398
+#: idio/idioma.php:2438
+#: idio/idioma.php:2479
+#: idio/idioma.php:2517
+#: idio/idioma.php:2557
+#: idio/idioma.php:2596
+#: idio/idioma.php:2637
+#: idio/idioma.php:2676
+#: idio/idioma.php:2718
+#: idio/idioma.php:2759
+#: idio/idioma.php:2800
+#: idio/idioma.php:2835
+#: idio/idioma.php:2872
+#: idio/idioma.php:2908
+#: idio/idioma.php:2944
+#: idio/idioma.php:2970
+#: idio/idioma.php:4240
+msgid "descripcion"
+msgstr ""
+
+#: idio/idioma.php:58
+#: idio/idioma.php:734
+msgid "sms correcto"
+msgstr ""
+
+#: idio/idioma.php:59
+#: idio/idioma.php:735
+msgid "mensaje erroneo"
+msgstr ""
+
+#: idio/idioma.php:61
+#: idio/idioma.php:701
+#: idio/idioma.php:751
+#: idio/idioma.php:766
+#: idio/idioma.php:837
+#: idio/idioma.php:950
+#: idio/idioma.php:1028
+#: idio/idioma.php:1044
+#: idio/idioma.php:1225
+#: idio/idioma.php:1238
+#: idio/idioma.php:1266
+#: idio/idioma.php:1395
+#: idio/idioma.php:1707
+#: idio/idioma.php:1778
+#: idio/idioma.php:1818
+#: idio/idioma.php:1832
+#: idio/idioma.php:1853
+msgid "registrar"
+msgstr ""
+
+#: idio/idioma.php:62
+#: idio/idioma.php:738
+#: idio/idioma.php:838
+#: idio/idioma.php:984
+#: idio/idioma.php:1451
+msgid "guardar"
+msgstr ""
+
+#: idio/idioma.php:63
+#: idio/idioma.php:300
+#: idio/idioma.php:379
+#: idio/idioma.php:390
+#: idio/idioma.php:416
+#: idio/idioma.php:458
+#: idio/idioma.php:470
+#: idio/idioma.php:492
+#: idio/idioma.php:501
+#: idio/idioma.php:523
+#: idio/idioma.php:536
+#: idio/idioma.php:549
+#: idio/idioma.php:562
+#: idio/idioma.php:580
+#: idio/idioma.php:597
+#: idio/idioma.php:611
+#: idio/idioma.php:620
+#: idio/idioma.php:645
+#: idio/idioma.php:673
+#: idio/idioma.php:703
+#: idio/idioma.php:716
+#: idio/idioma.php:739
+#: idio/idioma.php:753
+#: idio/idioma.php:768
+#: idio/idioma.php:792
+#: idio/idioma.php:808
+#: idio/idioma.php:839
+#: idio/idioma.php:853
+#: idio/idioma.php:874
+#: idio/idioma.php:887
+#: idio/idioma.php:907
+#: idio/idioma.php:928
+#: idio/idioma.php:940
+#: idio/idioma.php:952
+#: idio/idioma.php:959
+#: idio/idioma.php:974
+#: idio/idioma.php:985
+#: idio/idioma.php:1015
+#: idio/idioma.php:1030
+#: idio/idioma.php:1046
+#: idio/idioma.php:1065
+#: idio/idioma.php:1074
+#: idio/idioma.php:1086
+#: idio/idioma.php:1095
+#: idio/idioma.php:1210
+#: idio/idioma.php:1227
+#: idio/idioma.php:1240
+#: idio/idioma.php:1293
+#: idio/idioma.php:1306
+#: idio/idioma.php:1312
+#: idio/idioma.php:1358
+#: idio/idioma.php:1367
+#: idio/idioma.php:1380
+#: idio/idioma.php:1397
+#: idio/idioma.php:1428
+#: idio/idioma.php:1709
+#: idio/idioma.php:1729
+#: idio/idioma.php:1761
+#: idio/idioma.php:1780
+#: idio/idioma.php:1797
+#: idio/idioma.php:1807
+#: idio/idioma.php:1820
+#: idio/idioma.php:1834
+#: idio/idioma.php:1855
+#: idio/idioma.php:1876
+#: idio/idioma.php:1891
+#: idio/idioma.php:1907
+#: idio/idioma.php:1918
+msgid "eliminar"
+msgstr ""
+
+#: idio/idioma.php:64
+#: idio/idioma.php:840
+#: idio/idioma.php:987
+#: idio/idioma.php:1762
+#: idio/idioma.php:1877
+msgid "cancelar"
+msgstr ""
+
+#: idio/idioma.php:67
+#: idio/idioma.php:566
+#: idio/idioma.php:583
+#: idio/idioma.php:1256
+#: idio/idioma.php:3574
+#: idio/idioma.php:3575
+#: idio/idioma.php:3845
+#: idio/idioma.php:3881
+#, fuzzy
+msgid "datos del cliente"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:79
+#: idio/idioma.php:916
+#: idio/idioma.php:1107
+#: idio/idioma.php:1605
+#: idio/idioma.php:1629
+#: idio/idioma.php:1650
+#: idio/idioma.php:1677
+#: idio/idioma.php:1827
+#: idio/idioma.php:1952
+#: idio/idioma.php:2042
+msgid "franquicia"
+msgstr ""
+
+#: idio/idioma.php:80
+msgid "residencia"
+msgstr ""
+
+#: idio/idioma.php:87
+#: idio/idioma.php:330
+#, fuzzy
+msgid "poste"
+msgstr "joel"
+
+#: idio/idioma.php:88
+#: idio/idioma.php:331
+#: idio/idioma.php:3337
+#: idio/idioma.php:3517
+msgid "taps"
+msgstr ""
+
+#: idio/idioma.php:89
+#: idio/idioma.php:332
+#: idio/idioma.php:3338
+#: idio/idioma.php:3340
+msgid "pto"
+msgstr ""
+
+#: idio/idioma.php:91
+#: idio/idioma.php:334
+#, fuzzy
+msgid "datos del contrato"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:93
+#: idio/idioma.php:335
+#: idio/idioma.php:921
+#: idio/idioma.php:1610
+#: idio/idioma.php:1634
+#: idio/idioma.php:1682
+msgid "status contrato"
+msgstr ""
+
+#: idio/idioma.php:94
+#: idio/idioma.php:336
+#: idio/idioma.php:1263
+#: idio/idioma.php:4046
+#: idio/idioma.php:4139
+#: idio/idioma.php:4172
+msgid "etiqueta"
+msgstr ""
+
+#: idio/idioma.php:95
+msgid "vendedor"
+msgstr ""
+
+#: idio/idioma.php:96
+msgid "costo contrato"
+msgstr ""
+
+#: idio/idioma.php:97
+#: idio/idioma.php:605
+#: idio/idioma.php:639
+#: idio/idioma.php:748
+#: idio/idioma.php:1249
+#: idio/idioma.php:1435
+#: idio/idioma.php:1449
+#: idio/idioma.php:1968
+#: idio/idioma.php:2011
+#: idio/idioma.php:3326
+#: idio/idioma.php:3526
+#: idio/idioma.php:3604
+#: idio/idioma.php:3606
+#: idio/idioma.php:3631
+#: idio/idioma.php:3634
+#: idio/idioma.php:3675
+#: idio/idioma.php:3677
+#: idio/idioma.php:3684
+#: idio/idioma.php:3921
+#: idio/idioma.php:3943
+#: idio/idioma.php:3946
+#: idio/idioma.php:3974
+#: idio/idioma.php:3981
+#: idio/idioma.php:4003
+#: idio/idioma.php:4037
+#: idio/idioma.php:4061
+#: idio/idioma.php:4073
+#: idio/idioma.php:4076
+#: idio/idioma.php:4104
+#: idio/idioma.php:4118
+#: idio/idioma.php:4137
+#: idio/idioma.php:4170
+#: idio/idioma.php:4210
+msgid "fecha"
+msgstr ""
+
+#: idio/idioma.php:98
+#: idio/idioma.php:1250
+#: idio/idioma.php:1969
+#: idio/idioma.php:2012
+#: idio/idioma.php:3527
+#: idio/idioma.php:3605
+#: idio/idioma.php:3607
+#: idio/idioma.php:3632
+#: idio/idioma.php:3676
+#: idio/idioma.php:3685
+#: idio/idioma.php:3922
+#: idio/idioma.php:3944
+#: idio/idioma.php:3982
+#: idio/idioma.php:4004
+#: idio/idioma.php:4062
+#: idio/idioma.php:4074
+#: idio/idioma.php:4105
+#: idio/idioma.php:4138
+#: idio/idioma.php:4171
+msgid "hora"
+msgstr ""
+
+#: idio/idioma.php:99
+#: idio/idioma.php:642
+#: idio/idioma.php:1255
+#: idio/idioma.php:3923
+msgid "observacion"
+msgstr ""
+
+#: idio/idioma.php:129
+msgid "total pagado"
+msgstr ""
+
+#: idio/idioma.php:130
+msgid "salir"
+msgstr ""
+
+#: idio/idioma.php:141
+msgid "Actualizacion"
+msgstr ""
+
+#: idio/idioma.php:142
+#: idio/idioma.php:3837
+#: idio/idioma.php:4195
+msgid "Contrato"
+msgstr ""
+
+#: idio/idioma.php:143
+msgid "Actualizar Datos"
+msgstr ""
+
+#: idio/idioma.php:144
+#, fuzzy
+msgid "Datos de Ubicacion"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:145
+msgid "Edificio"
+msgstr ""
+
+#: idio/idioma.php:146
+#: idio/idioma.php:4206
+msgid "Calle"
+msgstr ""
+
+#: idio/idioma.php:147
+#: idio/idioma.php:4205
+msgid "Sector"
+msgstr ""
+
+#: idio/idioma.php:148
+#: idio/idioma.php:4204
+msgid "Zona"
+msgstr ""
+
+#: idio/idioma.php:149
+msgid "Franquicia"
+msgstr ""
+
+#: idio/idioma.php:150
+#, fuzzy
+msgid "Datos de Empleados"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:151
+#, fuzzy
+msgid "Tecnico"
+msgstr "Banco"
+
+#: idio/idioma.php:152
+msgid "Cobrador"
+msgstr ""
+
+#: idio/idioma.php:153
+msgid "Vendedor"
+msgstr ""
+
+#: idio/idioma.php:154
+msgid "Gerentes"
+msgstr ""
+
+#: idio/idioma.php:155
+msgid "Grupo Trabajo"
+msgstr ""
+
+#: idio/idioma.php:156
+#, fuzzy
+msgid "Datos de Ordenes"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:157
+msgid "Tipo de Orden"
+msgstr ""
+
+#: idio/idioma.php:158
+#, fuzzy
+msgid "Datos de Servicios"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:159
+msgid "Servicios"
+msgstr ""
+
+#: idio/idioma.php:160
+msgid "Tipos de Servicios"
+msgstr ""
+
+#: idio/idioma.php:161
+msgid "Tarifa Servicio"
+msgstr ""
+
+#: idio/idioma.php:162
+msgid "Otros Datos"
+msgstr ""
+
+#: idio/idioma.php:163
+msgid "Status Contrato"
+msgstr ""
+
+#: idio/idioma.php:164
+msgid "Motivo Notas"
+msgstr ""
+
+#: idio/idioma.php:165
+msgid "Forma de Pago"
+msgstr ""
+
+#: idio/idioma.php:166
+#: idio/idioma.php:506
+#: idio/idioma.php:2976
+#: idio/idioma.php:2983
+msgid "Banco"
+msgstr "Banco"
+
+#: idio/idioma.php:167
+msgid "Punto de Cobro"
+msgstr ""
+
+#: idio/idioma.php:168
+msgid "Parametros Generales"
+msgstr ""
+
+#: idio/idioma.php:169
+msgid "Transacciones"
+msgstr ""
+
+#: idio/idioma.php:170
+msgid "Abrir Punto de Cobro"
+msgstr ""
+
+#: idio/idioma.php:171
+msgid "Cerrar Punto de Cobro"
+msgstr ""
+
+#: idio/idioma.php:184
+msgid "Anular Pago"
+msgstr ""
+
+#: idio/idioma.php:185
+msgid "Nota de Credito"
+msgstr ""
+
+#: idio/idioma.php:186
+msgid "Modificar Pago"
+msgstr ""
+
+#: idio/idioma.php:187
+msgid "Modificar Numero Fact"
+msgstr ""
+
+#: idio/idioma.php:190
+msgid "Libro de Venta"
+msgstr ""
+
+#: idio/idioma.php:191
+#, fuzzy
+msgid "Total Cliente"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:192
+msgid "Estado de Cuenta"
+msgstr ""
+
+#: idio/idioma.php:193
+msgid "Historial de Pagos"
+msgstr ""
+
+#: idio/idioma.php:194
+msgid "Reimprimir Archivos"
+msgstr ""
+
+#: idio/idioma.php:195
+msgid "Ultima Factura de Pago"
+msgstr ""
+
+#: idio/idioma.php:196
+msgid "Ordenes de Servicios"
+msgstr ""
+
+#: idio/idioma.php:197
+msgid "Cierre Diario"
+msgstr ""
+
+#: idio/idioma.php:198
+msgid "Cierre de Caja"
+msgstr ""
+
+#: idio/idioma.php:199
+#, fuzzy
+msgid "lientes Por Ubicacion"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:203
+#: idio/idioma.php:208
+msgid "Calles"
+msgstr ""
+
+#: idio/idioma.php:204
+#, fuzzy
+msgid "Deudas Por Ubicacion"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:205
+msgid "Franquicias"
+msgstr ""
+
+#: idio/idioma.php:206
+msgid "Zonas"
+msgstr ""
+
+#: idio/idioma.php:207
+msgid "Deudas por Sectores"
+msgstr ""
+
+#: idio/idioma.php:209
+msgid "Ordenes de Servicio"
+msgstr ""
+
+#: idio/idioma.php:210
+msgid "Ord. de Serv. Completo"
+msgstr ""
+
+#: idio/idioma.php:212
+msgid "Recuperados"
+msgstr ""
+
+#: idio/idioma.php:213
+msgid "Reporte por cobrador"
+msgstr ""
+
+#: idio/idioma.php:214
+msgid "Ingresos por Servicios"
+msgstr ""
+
+#: idio/idioma.php:215
+msgid "Ingresos por Cargos"
+msgstr ""
+
+#: idio/idioma.php:216
+msgid "Estadisticas"
+msgstr ""
+
+#: idio/idioma.php:217
+msgid "Anuales"
+msgstr ""
+
+#: idio/idioma.php:218
+#: idio/idioma.php:234
+msgid "De Ingresos"
+msgstr ""
+
+#: idio/idioma.php:219
+#: idio/idioma.php:224
+#: idio/idioma.php:229
+#: idio/idioma.php:235
+#: idio/idioma.php:240
+msgid "Por Franquicias"
+msgstr ""
+
+#: idio/idioma.php:220
+#: idio/idioma.php:225
+#: idio/idioma.php:230
+#: idio/idioma.php:236
+msgid "Por Zonas"
+msgstr ""
+
+#: idio/idioma.php:221
+#: idio/idioma.php:226
+#: idio/idioma.php:231
+#: idio/idioma.php:237
+msgid "Por Sectores"
+msgstr ""
+
+#: idio/idioma.php:222
+#: idio/idioma.php:227
+#: idio/idioma.php:232
+#: idio/idioma.php:238
+msgid "Por Calles"
+msgstr ""
+
+#: idio/idioma.php:223
+#: idio/idioma.php:239
+msgid "De Clientes"
+msgstr ""
+
+#: idio/idioma.php:228
+msgid "De Ordenes"
+msgstr ""
+
+#: idio/idioma.php:233
+msgid "Mensuales"
+msgstr ""
+
+#: idio/idioma.php:274
+msgid "mensajes"
+msgstr ""
+
+#: idio/idioma.php:275
+#: idio/idioma.php:901
+#: idio/idioma.php:922
+#: idio/idioma.php:1588
+#: idio/idioma.php:1590
+#: idio/idioma.php:1611
+#: idio/idioma.php:1635
+#: idio/idioma.php:1656
+#: idio/idioma.php:1683
+msgid "todos"
+msgstr ""
+
+#: idio/idioma.php:276
+msgid "sin leer"
+msgstr ""
+
+#: idio/idioma.php:277
+msgid "recibidos"
+msgstr ""
+
+#: idio/idioma.php:278
+msgid "enviados"
+msgstr ""
+
+#: idio/idioma.php:279
+msgid "enviar"
+msgstr ""
+
+#: idio/idioma.php:280
+msgid "impiar"
+msgstr ""
+
+#: idio/idioma.php:299
+#: idio/idioma.php:389
+#: idio/idioma.php:415
+#: idio/idioma.php:469
+#: idio/idioma.php:491
+#: idio/idioma.php:500
+#: idio/idioma.php:522
+#: idio/idioma.php:535
+#: idio/idioma.php:548
+#: idio/idioma.php:579
+#: idio/idioma.php:596
+#: idio/idioma.php:610
+#: idio/idioma.php:619
+#: idio/idioma.php:644
+#: idio/idioma.php:672
+#: idio/idioma.php:702
+#: idio/idioma.php:715
+#: idio/idioma.php:752
+#: idio/idioma.php:767
+#: idio/idioma.php:791
+#: idio/idioma.php:807
+#: idio/idioma.php:852
+#: idio/idioma.php:886
+#: idio/idioma.php:939
+#: idio/idioma.php:951
+#: idio/idioma.php:958
+#: idio/idioma.php:973
+#: idio/idioma.php:1014
+#: idio/idioma.php:1029
+#: idio/idioma.php:1045
+#: idio/idioma.php:1064
+#: idio/idioma.php:1073
+#: idio/idioma.php:1085
+#: idio/idioma.php:1094
+#: idio/idioma.php:1226
+#: idio/idioma.php:1239
+#: idio/idioma.php:1292
+#: idio/idioma.php:1305
+#: idio/idioma.php:1311
+#: idio/idioma.php:1357
+#: idio/idioma.php:1366
+#: idio/idioma.php:1379
+#: idio/idioma.php:1396
+#: idio/idioma.php:1427
+#: idio/idioma.php:1708
+#: idio/idioma.php:1728
+#: idio/idioma.php:1779
+#: idio/idioma.php:1796
+#: idio/idioma.php:1806
+#: idio/idioma.php:1819
+#: idio/idioma.php:1833
+#: idio/idioma.php:1854
+#: idio/idioma.php:1875
+#: idio/idioma.php:1890
+#: idio/idioma.php:1906
+#: idio/idioma.php:1917
+msgid "modificar"
+msgstr ""
+
+#: idio/idioma.php:301
+#: idio/idioma.php:350
+#: idio/idioma.php:459
+#: idio/idioma.php:524
+#: idio/idioma.php:537
+#: idio/idioma.php:550
+#: idio/idioma.php:598
+#: idio/idioma.php:612
+#: idio/idioma.php:646
+#: idio/idioma.php:674
+#: idio/idioma.php:717
+#: idio/idioma.php:754
+#: idio/idioma.php:793
+#: idio/idioma.php:809
+#: idio/idioma.php:875
+#: idio/idioma.php:888
+#: idio/idioma.php:908
+#: idio/idioma.php:941
+#: idio/idioma.php:953
+#: idio/idioma.php:975
+#: idio/idioma.php:1016
+#: idio/idioma.php:1047
+#: idio/idioma.php:1087
+#: idio/idioma.php:1194
+#: idio/idioma.php:1211
+#: idio/idioma.php:1228
+#: idio/idioma.php:1241
+#: idio/idioma.php:1294
+#: idio/idioma.php:1359
+#: idio/idioma.php:1368
+#: idio/idioma.php:1381
+#: idio/idioma.php:1398
+#: idio/idioma.php:1429
+#: idio/idioma.php:1710
+#: idio/idioma.php:1730
+#: idio/idioma.php:1747
+#: idio/idioma.php:1781
+#: idio/idioma.php:1798
+#: idio/idioma.php:1808
+#: idio/idioma.php:1821
+#: idio/idioma.php:1835
+#: idio/idioma.php:1856
+#: idio/idioma.php:1892
+#: idio/idioma.php:1919
+msgid "limpiar"
+msgstr ""
+
+#: idio/idioma.php:308
+#: idio/idioma.php:356
+#, fuzzy
+msgid "tipo cliente"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:309
+msgid "natural"
+msgstr ""
+
+#: idio/idioma.php:310
+#, fuzzy
+msgid "juridico"
+msgstr "Banco"
+
+#: idio/idioma.php:312
+#: idio/idioma.php:358
+msgid "razon social"
+msgstr ""
+
+#: idio/idioma.php:344
+#: idio/idioma.php:496
+#: idio/idioma.php:1831
+#: idio/idioma.php:4034
+msgid "tipo servicio"
+msgstr ""
+
+#: idio/idioma.php:345
+#: idio/idioma.php:497
+#: idio/idioma.php:576
+#: idio/idioma.php:593
+#: idio/idioma.php:3644
+#: idio/idioma.php:3665
+#: idio/idioma.php:3956
+msgid "servicio"
+msgstr ""
+
+#: idio/idioma.php:346
+#: idio/idioma.php:2060
+#: idio/idioma.php:2092
+#: idio/idioma.php:2094
+#: idio/idioma.php:2319
+#: idio/idioma.php:2358
+#: idio/idioma.php:2399
+#: idio/idioma.php:2439
+#: idio/idioma.php:2481
+#: idio/idioma.php:2483
+#: idio/idioma.php:2519
+#: idio/idioma.php:2521
+#: idio/idioma.php:2559
+#: idio/idioma.php:2561
+#: idio/idioma.php:2598
+#: idio/idioma.php:2600
+#: idio/idioma.php:2801
+#: idio/idioma.php:2836
+#: idio/idioma.php:2873
+#: idio/idioma.php:2909
+#: idio/idioma.php:2945
+#: idio/idioma.php:2971
+#: idio/idioma.php:3615
+#: idio/idioma.php:3619
+#: idio/idioma.php:3645
+#: idio/idioma.php:3666
+#: idio/idioma.php:3700
+#: idio/idioma.php:3957
+#: idio/idioma.php:4034
+msgid "cant"
+msgstr ""
+
+#: idio/idioma.php:347
+msgid "cargos pendientes"
+msgstr ""
+
+#: idio/idioma.php:457
+msgid "anular pago"
+msgstr ""
+
+#: idio/idioma.php:495
+msgid "cargar mensualidad"
+msgstr ""
+
+#: idio/idioma.php:498
+#: idio/idioma.php:571
+#: idio/idioma.php:588
+#: idio/idioma.php:745
+#: idio/idioma.php:872
+#: idio/idioma.php:1024
+#: idio/idioma.php:1220
+#: idio/idioma.php:1264
+#: idio/idioma.php:1815
+#: idio/idioma.php:1828
+#: idio/idioma.php:1850
+#: idio/idioma.php:3677
+#: idio/idioma.php:3974
+#: idio/idioma.php:4038
+#: idio/idioma.php:4118
+#: idio/idioma.php:4139
+#: idio/idioma.php:4213
+msgid "status"
+msgstr ""
+
+#: idio/idioma.php:499
+msgid "cargar mansualidad"
+msgstr ""
+
+#: idio/idioma.php:507
+msgid "REGISTRAR"
+msgstr "REGISTRAR"
+
+#: idio/idioma.php:508
+msgid "MODIFICAR"
+msgstr "MODIFICAR"
+
+#: idio/idioma.php:509
+msgid "ELIMINAR"
+msgstr "ELIMINAR"
+
+#: idio/idioma.php:510
+msgid "LIMPIAR"
+msgstr "LIMPIAR"
+
+#: idio/idioma.php:511
+msgid "BANCOS AGREGADOS"
+msgstr "BANCOS AGREGADOS"
+
+#: idio/idioma.php:551
+msgid "calles agregadas"
+msgstr ""
+
+#: idio/idioma.php:565
+#: idio/idioma.php:578
+#: idio/idioma.php:595
+msgid "cargar deuda"
+msgstr ""
+
+#: idio/idioma.php:574
+msgid "Mesual"
+msgstr ""
+
+#: idio/idioma.php:575
+#, fuzzy
+msgid "unico"
+msgstr "Banco"
+
+#: idio/idioma.php:577
+#: idio/idioma.php:594
+#: idio/idioma.php:1103
+msgid "mes"
+msgstr ""
+
+#: idio/idioma.php:585
+msgid "rifF / cedula"
+msgstr ""
+
+#: idio/idioma.php:592
+#, fuzzy
+msgid "costo unico"
+msgstr "Banco"
+
+#: idio/idioma.php:601
+msgid "cierre de caja"
+msgstr ""
+
+#: idio/idioma.php:603
+#: idio/idioma.php:1248
+#: idio/idioma.php:3634
+msgid "punto de cobro"
+msgstr ""
+
+#: idio/idioma.php:604
+#: idio/idioma.php:1434
+#: idio/idioma.php:3634
+#: idio/idioma.php:3946
+msgid "cobrador"
+msgstr ""
+
+#: idio/idioma.php:606
+msgid "monto acumulado"
+msgstr ""
+
+#: idio/idioma.php:607
+msgid "hora de apertura"
+msgstr ""
+
+#: idio/idioma.php:608
+msgid "hora de cierre"
+msgstr ""
+
+#: idio/idioma.php:609
+msgid "cerrar punto"
+msgstr ""
+
+#: idio/idioma.php:623
+msgid "reporte fiscal"
+msgstr ""
+
+#: idio/idioma.php:624
+#: idio/idioma.php:1715
+msgid "datos requeridos"
+msgstr ""
+
+#: idio/idioma.php:632
+msgid "Buscar"
+msgstr ""
+
+#: idio/idioma.php:633
+msgid "cierre x"
+msgstr ""
+
+#: idio/idioma.php:634
+msgid "cierre z"
+msgstr ""
+
+#: idio/idioma.php:637
+#: idio/idioma.php:994
+#: idio/idioma.php:1474
+#: idio/idioma.php:3633
+#: idio/idioma.php:3945
+msgid "cierre diario"
+msgstr ""
+
+#: idio/idioma.php:638
+#, fuzzy
+msgid "datos de cierre"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:640
+msgid "hora "
+msgstr ""
+
+#: idio/idioma.php:641
+#: idio/idioma.php:3616
+#: idio/idioma.php:3620
+#: idio/idioma.php:3634
+#: idio/idioma.php:3946
+msgid "monto"
+msgstr ""
+
+#: idio/idioma.php:643
+msgid "registrar cierre"
+msgstr ""
+
+#: idio/idioma.php:718
+msgid "cobradores agragados"
+msgstr ""
+
+#: idio/idioma.php:725
+#, fuzzy
+msgid "para clientes"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:726
+msgid "para tecnicos"
+msgstr ""
+
+#: idio/idioma.php:727
+msgid "para gerentes"
+msgstr ""
+
+#: idio/idioma.php:729
+msgid "tipo variable"
+msgstr ""
+
+#: idio/idioma.php:730
+#: idio/idioma.php:3348
+#: idio/idioma.php:3404
+#: idio/idioma.php:3456
+#: idio/idioma.php:3576
+#: idio/idioma.php:3846
+#: idio/idioma.php:3882
+#: idio/idioma.php:4139
+#: idio/idioma.php:4172
+msgid "contrato"
+msgstr ""
+
+#: idio/idioma.php:731
+msgid "ingreso_actual"
+msgstr ""
+
+#: idio/idioma.php:732
+msgid "cierre_diario"
+msgstr ""
+
+#: idio/idioma.php:736
+msgid "e-mail correcto"
+msgstr ""
+
+#: idio/idioma.php:737
+msgid "agregar"
+msgstr ""
+
+#: idio/idioma.php:742
+msgid "comentar clientes"
+msgstr ""
+
+#: idio/idioma.php:743
+#: idio/idioma.php:1021
+#: idio/idioma.php:1037
+#: idio/idioma.php:1813
+#: idio/idioma.php:1826
+msgid "datos a registrar"
+msgstr ""
+
+#: idio/idioma.php:744
+msgid "nro comentario"
+msgstr ""
+
+#: idio/idioma.php:747
+#, fuzzy
+msgid "nombre cliente"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:749
+msgid "fora"
+msgstr ""
+
+#: idio/idioma.php:750
+#: idio/idioma.php:3521
+#: idio/idioma.php:4215
+msgid "comentario"
+msgstr ""
+
+#: idio/idioma.php:755
+msgid "comentarios realizados"
+msgstr ""
+
+#: idio/idioma.php:760
+msgid "manejador"
+msgstr ""
+
+#: idio/idioma.php:761
+msgid "servidor"
+msgstr ""
+
+#: idio/idioma.php:762
+#: idio/idioma.php:1716
+msgid "usuario"
+msgstr ""
+
+#: idio/idioma.php:763
+msgid "contrasena"
+msgstr ""
+
+#: idio/idioma.php:764
+msgid "base de datos"
+msgstr ""
+
+#: idio/idioma.php:776
+#: idio/idioma.php:782
+#: idio/idioma.php:788
+#: idio/idioma.php:800
+#, fuzzy
+msgid "envio"
+msgstr "Banco"
+
+#: idio/idioma.php:777
+#: idio/idioma.php:783
+#: idio/idioma.php:789
+msgid "edit"
+msgstr ""
+
+#: idio/idioma.php:778
+msgid "comandos para tecnicos"
+msgstr ""
+
+#: idio/idioma.php:779
+#: idio/idioma.php:785
+#: idio/idioma.php:798
+msgid "#"
+msgstr ""
+
+#: idio/idioma.php:784
+msgid "comandos para gerentes"
+msgstr ""
+
+#: idio/idioma.php:790
+msgid "guardar cambios"
+msgstr ""
+
+#: idio/idioma.php:801
+msgid "editar"
+msgstr ""
+
+#: idio/idioma.php:819
+#: idio/idioma.php:823
+msgid "si"
+msgstr ""
+
+#: idio/idioma.php:820
+#: idio/idioma.php:824
+#, fuzzy
+msgid "no"
+msgstr "Banco"
+
+#: idio/idioma.php:826
+msgid "codigo telef. de pais"
+msgstr ""
+
+#: idio/idioma.php:827
+msgid "conexion"
+msgstr ""
+
+#: idio/idioma.php:828
+msgid "puerto com"
+msgstr ""
+
+#: idio/idioma.php:829
+msgid "bits por segundo"
+msgstr ""
+
+#: idio/idioma.php:830
+msgid "num. telf."
+msgstr ""
+
+#: idio/idioma.php:831
+msgid "marca telf."
+msgstr ""
+
+#: idio/idioma.php:832
+msgid "modelo telf."
+msgstr ""
+
+#: idio/idioma.php:833
+#, fuzzy
+msgid "datos de correo"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:834
+msgid "correo principal"
+msgstr ""
+
+#: idio/idioma.php:835
+msgid "clave corre"
+msgstr ""
+
+#: idio/idioma.php:836
+msgid "asunto correo"
+msgstr ""
+
+#: idio/idioma.php:843
+msgid "consulta de ids"
+msgstr ""
+
+#: idio/idioma.php:844
+#, fuzzy
+msgid "datos de contrato"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:845
+msgid "id contrato"
+msgstr ""
+
+#: idio/idioma.php:848
+#, fuzzy
+msgid "datos de pagos"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:849
+msgid "id pago"
+msgstr ""
+
+#: idio/idioma.php:850
+#: idio/idioma.php:1247
+msgid "nro factura"
+msgstr ""
+
+#: idio/idioma.php:851
+msgid "registrar cobro"
+msgstr ""
+
+#: idio/idioma.php:856
+#, fuzzy
+msgid "parametros de licencia"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:857
+#, fuzzy
+msgid "datos de la empresa"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:858
+msgid "empresa"
+msgstr ""
+
+#: idio/idioma.php:859
+msgid "rif"
+msgstr ""
+
+#: idio/idioma.php:860
+#: idio/idioma.php:1043
+msgid "direccion"
+msgstr ""
+
+#: idio/idioma.php:861
+#, fuzzy
+msgid "datos de licencia"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:862
+msgid "Paquete"
+msgstr ""
+
+#: idio/idioma.php:863
+msgid "saeco 2.000"
+msgstr ""
+
+#: idio/idioma.php:864
+msgid "saeco 5.000"
+msgstr ""
+
+#: idio/idioma.php:865
+msgid "saeco 10.000"
+msgstr ""
+
+#: idio/idioma.php:866
+msgid "saeco limitado"
+msgstr ""
+
+#: idio/idioma.php:867
+msgid "fecha registro"
+msgstr ""
+
+#: idio/idioma.php:868
+msgid "hora registro"
+msgstr ""
+
+#: idio/idioma.php:869
+msgid "clave de instalacion"
+msgstr ""
+
+#: idio/idioma.php:870
+msgid "clave de sistema"
+msgstr ""
+
+#: idio/idioma.php:871
+msgid "clave de licencia"
+msgstr ""
+
+#: idio/idioma.php:873
+msgid "registar sistema"
+msgstr ""
+
+#: idio/idioma.php:900
+#: idio/idioma.php:920
+#: idio/idioma.php:1609
+#: idio/idioma.php:1633
+#: idio/idioma.php:1681
+msgid "por status"
+msgstr ""
+
+#: idio/idioma.php:902
+msgid "mensaje"
+msgstr ""
+
+#: idio/idioma.php:903
+#: idio/idioma.php:1031
+msgid "formatos agregados"
+msgstr ""
+
+#: idio/idioma.php:904
+msgid "listar clientes"
+msgstr ""
+
+#: idio/idioma.php:905
+msgid "enviar mensaje"
+msgstr ""
+
+#: idio/idioma.php:906
+msgid "actualizar archivo"
+msgstr ""
+
+#: idio/idioma.php:914
+#: idio/idioma.php:1592
+#: idio/idioma.php:1603
+#: idio/idioma.php:1637
+#: idio/idioma.php:1648
+#: idio/idioma.php:1659
+#: idio/idioma.php:1675
+#: idio/idioma.php:1685
+msgid "general"
+msgstr ""
+
+#: idio/idioma.php:915
+#: idio/idioma.php:1593
+#: idio/idioma.php:1604
+#: idio/idioma.php:1628
+#: idio/idioma.php:1638
+#: idio/idioma.php:1649
+#: idio/idioma.php:1660
+#: idio/idioma.php:1676
+#: idio/idioma.php:1686
+msgid "especifico"
+msgstr ""
+
+#: idio/idioma.php:929
+msgid "cllentes encontrados"
+msgstr ""
+
+#: idio/idioma.php:946
+msgid "id_tipo_pago"
+msgstr ""
+
+#: idio/idioma.php:947
+msgid "id_pago"
+msgstr ""
+
+#: idio/idioma.php:948
+#: idio/idioma.php:1252
+#: idio/idioma.php:3610
+#: idio/idioma.php:3611
+#, fuzzy
+msgid "banco"
+msgstr "Banco"
+
+#: idio/idioma.php:949
+msgid "idetalle"
+msgstr ""
+
+#: idio/idioma.php:976
+msgid "edificios agregados"
+msgstr ""
+
+#: idio/idioma.php:986
+msgid "cargar ordenes"
+msgstr ""
+
+#: idio/idioma.php:990
+msgid "registrp de contrato"
+msgstr ""
+
+#: idio/idioma.php:995
+msgid "cierre por fecha"
+msgstr ""
+
+#: idio/idioma.php:1010
+#: idio/idioma.php:3523
+msgid "materiales utilizados"
+msgstr ""
+
+#: idio/idioma.php:1011
+msgid "finalizar orden"
+msgstr ""
+
+#: idio/idioma.php:1012
+msgid "cancelar orden"
+msgstr ""
+
+#: idio/idioma.php:1013
+msgid "devolver orden"
+msgstr ""
+
+#: idio/idioma.php:1022
+msgid "nombre plantilla"
+msgstr ""
+
+#: idio/idioma.php:1023
+msgid "nombre formato"
+msgstr ""
+
+#: idio/idioma.php:1025
+#: idio/idioma.php:1026
+#: idio/idioma.php:1221
+#: idio/idioma.php:1776
+#: idio/idioma.php:1816
+#: idio/idioma.php:1829
+#: idio/idioma.php:1851
+#, fuzzy
+msgid "activo"
+msgstr "Banco"
+
+#: idio/idioma.php:1026
+#: idio/idioma.php:1027
+#: idio/idioma.php:1222
+#: idio/idioma.php:1236
+#: idio/idioma.php:1237
+#: idio/idioma.php:1392
+#: idio/idioma.php:1777
+#: idio/idioma.php:1817
+#: idio/idioma.php:1830
+#: idio/idioma.php:1852
+msgid "inactivo"
+msgstr ""
+
+#: idio/idioma.php:1038
+#: idio/idioma.php:1253
+msgid "numero"
+msgstr ""
+
+#: idio/idioma.php:1040
+msgid "estado"
+msgstr ""
+
+#: idio/idioma.php:1041
+#, fuzzy
+msgid "municipio"
+msgstr "Banco"
+
+#: idio/idioma.php:1042
+msgid "ciudad"
+msgstr ""
+
+#: idio/idioma.php:1048
+msgid "franquicias agregadas"
+msgstr ""
+
+#: idio/idioma.php:1066
+msgid "gerentes agregados"
+msgstr ""
+
+#: idio/idioma.php:1088
+msgid "selecionar tecnicos"
+msgstr ""
+
+#: idio/idioma.php:1089
+msgid "grupo activos"
+msgstr ""
+
+#: idio/idioma.php:1096
+#: idio/idioma.php:1296
+msgid "asignar a grupo"
+msgstr ""
+
+#: idio/idioma.php:1097
+msgid "Seleccion Automatica"
+msgstr ""
+
+#: idio/idioma.php:1102
+msgid "con deuda"
+msgstr ""
+
+#: idio/idioma.php:1104
+msgid "factura inicial"
+msgstr ""
+
+#: idio/idioma.php:1105
+msgid "tipo"
+msgstr ""
+
+#: idio/idioma.php:1106
+msgid "por ubicaci&oacute;n"
+msgstr ""
+
+#: idio/idioma.php:1111
+#: idio/idioma.php:1436
+#: idio/idioma.php:1483
+#: idio/idioma.php:1542
+#: idio/idioma.php:1552
+#: idio/idioma.php:1596
+#: idio/idioma.php:1620
+#: idio/idioma.php:1641
+#: idio/idioma.php:1663
+#: idio/idioma.php:1689
+#: idio/idioma.php:1951
+#: idio/idioma.php:2041
+msgid "buscar"
+msgstr ""
+
+#: idio/idioma.php:1112
+msgid ""
+"imprimir facturas selecc\n"
+"000115 | minar"
+msgstr ""
+
+#: idio/idioma.php:1209
+msgid "modificar factura"
+msgstr ""
+
+#: idio/idioma.php:1223
+msgid "asignar a los perfiles"
+msgstr ""
+
+#: idio/idioma.php:1224
+#: idio/idioma.php:1394
+msgid "operaciones"
+msgstr ""
+
+#: idio/idioma.php:1242
+msgid "motivos agregados"
+msgstr ""
+
+#: idio/idioma.php:1245
+#: idio/idioma.php:1585
+#: idio/idioma.php:3570
+#: idio/idioma.php:3571
+msgid "nota de credito"
+msgstr ""
+
+#: idio/idioma.php:1246
+msgid "a la factura"
+msgstr ""
+
+#: idio/idioma.php:1251
+msgid "forma de Pago"
+msgstr ""
+
+#: idio/idioma.php:1254
+msgid "monto pago"
+msgstr ""
+
+#: idio/idioma.php:1262
+msgid "fecha contrato"
+msgstr ""
+
+#: idio/idioma.php:1265
+msgid "cargos pagados"
+msgstr ""
+
+#: idio/idioma.php:1295
+#, fuzzy
+msgid "datos de impresion"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1297
+msgid "seleccion automatica"
+msgstr ""
+
+#: idio/idioma.php:1298
+msgid "ordenes pendientes"
+msgstr ""
+
+#: idio/idioma.php:1382
+msgid "parametros agregados"
+msgstr ""
+
+#: idio/idioma.php:1393
+msgid "asignar modulos"
+msgstr ""
+
+#: idio/idioma.php:1403
+#: idio/idioma.php:1841
+#: idio/idioma.php:3347
+#: idio/idioma.php:3403
+#: idio/idioma.php:3455
+#: idio/idioma.php:3579
+#: idio/idioma.php:3677
+#: idio/idioma.php:3885
+#: idio/idioma.php:3974
+#: idio/idioma.php:4039
+#: idio/idioma.php:4118
+#: idio/idioma.php:4139
+#: idio/idioma.php:4172
+msgid "cedula"
+msgstr ""
+
+#: idio/idioma.php:1432
+msgid "reimprimir cierre caja"
+msgstr ""
+
+#: idio/idioma.php:1433
+#: idio/idioma.php:1448
+msgid "datos de la busqueda"
+msgstr ""
+
+#: idio/idioma.php:1450
+msgid "imprimir"
+msgstr ""
+
+#: idio/idioma.php:1475
+#: idio/idioma.php:1484
+#: idio/idioma.php:1490
+#: idio/idioma.php:1523
+#: idio/idioma.php:1535
+#: idio/idioma.php:1543
+#: idio/idioma.php:1553
+#: idio/idioma.php:1598
+#: idio/idioma.php:1622
+#: idio/idioma.php:1665
+#: idio/idioma.php:1670
+#: idio/idioma.php:1691
+#: idio/idioma.php:1696
+#: idio/idioma.php:1927
+#: idio/idioma.php:2096
+#: idio/idioma.php:2142
+#: idio/idioma.php:2187
+#: idio/idioma.php:2234
+#: idio/idioma.php:2280
+#: idio/idioma.php:2322
+#: idio/idioma.php:2361
+#: idio/idioma.php:2402
+#: idio/idioma.php:2442
+#: idio/idioma.php:2485
+#: idio/idioma.php:2523
+#: idio/idioma.php:2563
+#: idio/idioma.php:2602
+#: idio/idioma.php:2644
+#: idio/idioma.php:2683
+#: idio/idioma.php:2725
+#: idio/idioma.php:2766
+#: idio/idioma.php:2804
+#: idio/idioma.php:2839
+#: idio/idioma.php:2876
+#: idio/idioma.php:2912
+#: idio/idioma.php:4246
+msgid "imprimir reporte"
+msgstr ""
+
+#: idio/idioma.php:1478
+msgid "reporte de cobro"
+msgstr ""
+
+#: idio/idioma.php:1479
+msgid "datos requerido"
+msgstr ""
+
+#: idio/idioma.php:1480
+#: idio/idioma.php:1540
+#: idio/idioma.php:1550
+#: idio/idioma.php:1594
+#: idio/idioma.php:1615
+#: idio/idioma.php:1639
+#: idio/idioma.php:1661
+#: idio/idioma.php:1687
+msgid "desde"
+msgstr ""
+
+#: idio/idioma.php:1481
+#: idio/idioma.php:1541
+#: idio/idioma.php:1551
+#: idio/idioma.php:1595
+#: idio/idioma.php:1616
+#: idio/idioma.php:1640
+#: idio/idioma.php:1662
+#: idio/idioma.php:1688
+msgid "hasta"
+msgstr ""
+
+#: idio/idioma.php:1482
+msgid "coradores"
+msgstr ""
+
+#: idio/idioma.php:1485
+#: idio/idioma.php:1544
+#: idio/idioma.php:1554
+#: idio/idioma.php:1566
+msgid "descargar reporte"
+msgstr ""
+
+#: idio/idioma.php:1486
+msgid "facturras encontradas"
+msgstr ""
+
+#: idio/idioma.php:1489
+msgid "detalle de cobros"
+msgstr ""
+
+#: idio/idioma.php:1519
+#, fuzzy
+msgid "estado de cuenta"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1520
+#: idio/idioma.php:1532
+msgid "datos de busqueda"
+msgstr ""
+
+#: idio/idioma.php:1531
+#: idio/idioma.php:4056
+msgid "historial de pagos"
+msgstr ""
+
+#: idio/idioma.php:1534
+msgid "rif / Cedula"
+msgstr ""
+
+#: idio/idioma.php:1538
+msgid "libro de venstas"
+msgstr ""
+
+#: idio/idioma.php:1539
+#: idio/idioma.php:1549
+msgid "facturas impresas"
+msgstr ""
+
+#: idio/idioma.php:1545
+#: idio/idioma.php:1555
+#: idio/idioma.php:1567
+msgid "facturas encontradas"
+msgstr ""
+
+#: idio/idioma.php:1548
+#: idio/idioma.php:4106
+msgid "libro de vantas"
+msgstr ""
+
+#: idio/idioma.php:1586
+msgid "nota de debito"
+msgstr ""
+
+#: idio/idioma.php:1587
+msgid "motivo"
+msgstr ""
+
+#: idio/idioma.php:1589
+msgid "ip de equipo"
+msgstr ""
+
+#: idio/idioma.php:1591
+#: idio/idioma.php:1612
+#: idio/idioma.php:1636
+msgid "por fecha"
+msgstr ""
+
+#: idio/idioma.php:1597
+#: idio/idioma.php:1621
+#: idio/idioma.php:1664
+#: idio/idioma.php:1690
+msgid "clientes encontrados"
+msgstr ""
+
+#: idio/idioma.php:1613
+#: idio/idioma.php:1627
+msgid "eneral"
+msgstr ""
+
+#: idio/idioma.php:1614
+msgid "specifico"
+msgstr ""
+
+#: idio/idioma.php:1617
+#: idio/idioma.php:1654
+msgid "otros parametros"
+msgstr ""
+
+#: idio/idioma.php:1618
+msgid "tipo de orden"
+msgstr ""
+
+#: idio/idioma.php:1619
+#: idio/idioma.php:3520
+#: idio/idioma.php:3863
+msgid "detalle orden"
+msgstr ""
+
+#: idio/idioma.php:1646
+msgid "reporte de recuperados"
+msgstr ""
+
+#: idio/idioma.php:1647
+#, fuzzy
+msgid "por ubicacion"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1655
+msgid "status actualmente"
+msgstr ""
+
+#: idio/idioma.php:1657
+msgid "meses transcurridos"
+msgstr ""
+
+#: idio/idioma.php:1658
+msgid "por rango de fechas"
+msgstr ""
+
+#: idio/idioma.php:1668
+msgid "reporte de sectores"
+msgstr ""
+
+#: idio/idioma.php:1669
+#: idio/idioma.php:1695
+msgid "datos encontrados"
+msgstr ""
+
+#: idio/idioma.php:1694
+msgid "reporte de zonas"
+msgstr ""
+
+#: idio/idioma.php:1706
+#, fuzzy
+msgid "paquete de afiliacion"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1711
+msgid "sectores agragados"
+msgstr ""
+
+#: idio/idioma.php:1714
+msgid "inicio de sesion"
+msgstr ""
+
+#: idio/idioma.php:1717
+msgid "contrase&ntilde;a"
+msgstr ""
+
+#: idio/idioma.php:1718
+msgid "entrar"
+msgstr ""
+
+#: idio/idioma.php:1731
+msgid "status agregados"
+msgstr ""
+
+#: idio/idioma.php:1746
+msgid "guardar listado"
+msgstr ""
+
+#: idio/idioma.php:1748
+#: idio/idioma.php:1763
+msgid "clientes con deuda"
+msgstr ""
+
+#: idio/idioma.php:1782
+msgid "tarifa actuales"
+msgstr ""
+
+#: idio/idioma.php:1799
+msgid "tecnicos agregados"
+msgstr ""
+
+#: idio/idioma.php:1814
+msgid "tipo_pago"
+msgstr ""
+
+#: idio/idioma.php:1840
+#: idio/idioma.php:4035
+msgid "datos personales"
+msgstr ""
+
+#: idio/idioma.php:1878
+msgid "variables agregadas"
+msgstr ""
+
+#: idio/idioma.php:1893
+msgid "vendedores agregados"
+msgstr ""
+
+#: idio/idioma.php:1920
+msgid "zonas agragadas"
+msgstr ""
+
+#: idio/idioma.php:1925
+#: idio/idioma.php:2136
+#: idio/idioma.php:2137
+#: idio/idioma.php:2181
+#: idio/idioma.php:2182
+#: idio/idioma.php:2228
+#: idio/idioma.php:2229
+#: idio/idioma.php:2274
+#: idio/idioma.php:2275
+#: idio/idioma.php:2638
+#: idio/idioma.php:2639
+#: idio/idioma.php:2677
+#: idio/idioma.php:2678
+#: idio/idioma.php:2719
+#: idio/idioma.php:2720
+#: idio/idioma.php:2760
+#: idio/idioma.php:2761
+msgid "ingresos"
+msgstr ""
+
+#: idio/idioma.php:1925
+#: idio/idioma.php:2137
+#: idio/idioma.php:2139
+#: idio/idioma.php:2182
+#: idio/idioma.php:2184
+#: idio/idioma.php:2229
+#: idio/idioma.php:2231
+#: idio/idioma.php:2275
+#: idio/idioma.php:2277
+#: idio/idioma.php:2639
+#: idio/idioma.php:2641
+#: idio/idioma.php:2678
+#: idio/idioma.php:2680
+#: idio/idioma.php:2720
+#: idio/idioma.php:2722
+#: idio/idioma.php:2761
+#: idio/idioma.php:2763
+msgid "bs"
+msgstr ""
+
+#: idio/idioma.php:1926
+#: idio/idioma.php:2140
+#: idio/idioma.php:2185
+#: idio/idioma.php:2232
+#: idio/idioma.php:2278
+#: idio/idioma.php:2321
+#: idio/idioma.php:2360
+#: idio/idioma.php:2401
+#: idio/idioma.php:2441
+#: idio/idioma.php:2642
+#: idio/idioma.php:2681
+#: idio/idioma.php:2723
+#: idio/idioma.php:2764
+#: idio/idioma.php:2803
+#: idio/idioma.php:2838
+#: idio/idioma.php:2875
+#: idio/idioma.php:2911
+#: idio/idioma.php:2947
+#: idio/idioma.php:2973
+#: idio/idioma.php:3617
+#: idio/idioma.php:3621
+#: idio/idioma.php:3626
+#: idio/idioma.php:3627
+#: idio/idioma.php:3641
+#: idio/idioma.php:3642
+#: idio/idioma.php:3646
+#: idio/idioma.php:3647
+#: idio/idioma.php:3662
+#: idio/idioma.php:3663
+#: idio/idioma.php:3667
+#: idio/idioma.php:3668
+#: idio/idioma.php:3677
+#: idio/idioma.php:3696
+#: idio/idioma.php:3697
+#: idio/idioma.php:3701
+#: idio/idioma.php:3702
+#: idio/idioma.php:3953
+#: idio/idioma.php:3954
+#: idio/idioma.php:3958
+#: idio/idioma.php:3959
+#: idio/idioma.php:3974
+#: idio/idioma.php:4034
+#: idio/idioma.php:4076
+#: idio/idioma.php:4118
+msgid "total"
+msgstr ""
+
+#: idio/idioma.php:1970
+msgid "anio incio"
+msgstr ""
+
+#: idio/idioma.php:1970
+#: idio/idioma.php:2013
+#, fuzzy
+msgid "anio fin"
+msgstr "Banco"
+
+#: idio/idioma.php:2013
+msgid "anio inicio"
+msgstr ""
+
+#: idio/idioma.php:2017
+#: idio/idioma.php:2095
+#: idio/idioma.php:2141
+#: idio/idioma.php:2186
+#: idio/idioma.php:2233
+#: idio/idioma.php:2279
+#: idio/idioma.php:2359
+#: idio/idioma.php:2400
+#: idio/idioma.php:2440
+#: idio/idioma.php:2484
+#: idio/idioma.php:2522
+#: idio/idioma.php:2562
+#: idio/idioma.php:2601
+#: idio/idioma.php:2643
+#: idio/idioma.php:2682
+#: idio/idioma.php:2724
+#: idio/idioma.php:2765
+#: idio/idioma.php:2802
+#: idio/idioma.php:2837
+#: idio/idioma.php:2874
+#: idio/idioma.php:2910
+#: idio/idioma.php:2946
+#: idio/idioma.php:2972
+#: idio/idioma.php:4245
+msgid "promedio"
+msgstr ""
+
+#: idio/idioma.php:2030
+msgid "cortaods"
+msgstr ""
+
+#: idio/idioma.php:2035
+msgid "tipo de grafico"
+msgstr ""
+
+#: idio/idioma.php:2036
+msgid "grafico de barra"
+msgstr ""
+
+#: idio/idioma.php:2037
+#, fuzzy
+msgid "grafico de linea"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2038
+msgid "grafico de area"
+msgstr ""
+
+#: idio/idioma.php:2039
+msgid "a&ntilde;o inicio"
+msgstr ""
+
+#: idio/idioma.php:2040
+msgid "a&ntilde;o fin"
+msgstr ""
+
+#: idio/idioma.php:2060
+msgid "descripcion "
+msgstr ""
+
+#: idio/idioma.php:2060
+#: idio/idioma.php:2066
+#: idio/idioma.php:2068
+#: idio/idioma.php:2070
+#: idio/idioma.php:2074
+#: idio/idioma.php:2091
+#: idio/idioma.php:2092
+#: idio/idioma.php:2480
+#: idio/idioma.php:2481
+#: idio/idioma.php:2518
+#: idio/idioma.php:2519
+#: idio/idioma.php:2558
+#: idio/idioma.php:2559
+#: idio/idioma.php:2597
+#: idio/idioma.php:2598
+#: idio/idioma.php:4229
+#: idio/idioma.php:4241
+#: idio/idioma.php:4242
+msgid "activos"
+msgstr ""
+
+#: idio/idioma.php:2060
+msgid "activos "
+msgstr ""
+
+#: idio/idioma.php:2060
+#: idio/idioma.php:2067
+#: idio/idioma.php:2069
+#: idio/idioma.php:2071
+#: idio/idioma.php:2093
+#: idio/idioma.php:2094
+#: idio/idioma.php:2482
+#: idio/idioma.php:2483
+#: idio/idioma.php:2520
+#: idio/idioma.php:2521
+#: idio/idioma.php:2560
+#: idio/idioma.php:2561
+#: idio/idioma.php:2599
+#: idio/idioma.php:2600
+#: idio/idioma.php:4230
+#: idio/idioma.php:4243
+#: idio/idioma.php:4244
+msgid "cortados"
+msgstr ""
+
+#: idio/idioma.php:2061
+#, fuzzy
+msgid "anio"
+msgstr "Banco"
+
+#: idio/idioma.php:2138
+#: idio/idioma.php:2139
+#: idio/idioma.php:2183
+#: idio/idioma.php:2184
+#: idio/idioma.php:2230
+#: idio/idioma.php:2231
+#: idio/idioma.php:2276
+#: idio/idioma.php:2277
+#: idio/idioma.php:2640
+#: idio/idioma.php:2641
+#: idio/idioma.php:2679
+#: idio/idioma.php:2680
+#: idio/idioma.php:2721
+#: idio/idioma.php:2722
+#: idio/idioma.php:2762
+#: idio/idioma.php:2763
+msgid "deudas"
+msgstr ""
+
+#: idio/idioma.php:2320
+msgid "`promedio"
+msgstr ""
+
+#: idio/idioma.php:3334
+#: idio/idioma.php:3366
+#: idio/idioma.php:3594
+#: idio/idioma.php:4157
+#: idio/idioma.php:4190
+msgid "edif"
+msgstr ""
+
+#: idio/idioma.php:3335
+#: idio/idioma.php:4158
+#: idio/idioma.php:4191
+msgid "piso"
+msgstr ""
+
+#: idio/idioma.php:3336
+#, fuzzy
+msgid "postel"
+msgstr "joel"
+
+#: idio/idioma.php:3339
+#: idio/idioma.php:3598
+#: idio/idioma.php:3599
+#: idio/idioma.php:4162
+#: idio/idioma.php:4192
+msgid "ref"
+msgstr ""
+
+#: idio/idioma.php:3341
+msgid "cargo"
+msgstr ""
+
+#: idio/idioma.php:3359
+#: idio/idioma.php:3415
+#: idio/idioma.php:3467
+msgid "nro casa/apto"
+msgstr ""
+
+#: idio/idioma.php:3373
+#: idio/idioma.php:3602
+#: idio/idioma.php:3677
+#: idio/idioma.php:3974
+#: idio/idioma.php:4034
+#: idio/idioma.php:4118
+msgid "factura"
+msgstr ""
+
+#: idio/idioma.php:3425
+#: idio/idioma.php:3473
+msgid "factura control"
+msgstr ""
+
+#: idio/idioma.php:3501
+msgid "orden nro"
+msgstr ""
+
+#: idio/idioma.php:3505
+#: idio/idioma.php:3884
+msgid "saldo a la fecha"
+msgstr ""
+
+#: idio/idioma.php:3518
+#: idio/idioma.php:4055
+msgid "referencia"
+msgstr ""
+
+#: idio/idioma.php:3524
+msgid "visitas"
+msgstr ""
+
+#: idio/idioma.php:3525
+#: idio/idioma.php:3612
+#: idio/idioma.php:3613
+#: idio/idioma.php:3634
+#: idio/idioma.php:3677
+#: idio/idioma.php:3837
+#: idio/idioma.php:3946
+#: idio/idioma.php:3974
+#: idio/idioma.php:4034
+#: idio/idioma.php:4118
+#: idio/idioma.php:4139
+#: idio/idioma.php:4172
+msgid "nro"
+msgstr ""
+
+#: idio/idioma.php:3528
+msgid "notas"
+msgstr ""
+
+#: idio/idioma.php:3529
+msgid "observaciones"
+msgstr ""
+
+#: idio/idioma.php:3530
+#: idio/idioma.php:3874
+#: idio/idioma.php:3910
+msgid "fecha de culminacion"
+msgstr ""
+
+#: idio/idioma.php:3532
+#, fuzzy
+msgid "firma del cliente"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:3566
+msgid "firma del tecnico"
+msgstr ""
+
+#: idio/idioma.php:3572
+#: idio/idioma.php:3573
+msgid "nro "
+msgstr ""
+
+#: idio/idioma.php:3583
+#: idio/idioma.php:3585
+#, fuzzy
+msgid "telf"
+msgstr "joel"
+
+#: idio/idioma.php:3587
+msgid "nro cas/apto"
+msgstr ""
+
+#: idio/idioma.php:3592
+#: idio/idioma.php:3593
+#: idio/idioma.php:3852
+msgid "presinto"
+msgstr ""
+
+#: idio/idioma.php:3600
+#: idio/idioma.php:3601
+#, fuzzy
+msgid "datos de la factura"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:3608
+#: idio/idioma.php:3609
+#: idio/idioma.php:3992
+msgid "forma de pago"
+msgstr ""
+
+#: idio/idioma.php:3614
+#: idio/idioma.php:3618
+msgid "detalle"
+msgstr ""
+
+#: idio/idioma.php:3622
+#: idio/idioma.php:3623
+#: idio/idioma.php:3677
+#: idio/idioma.php:3974
+#: idio/idioma.php:4076
+#: idio/idioma.php:4118
+msgid "base"
+msgstr ""
+
+#: idio/idioma.php:3624
+#: idio/idioma.php:3625
+#: idio/idioma.php:3677
+#: idio/idioma.php:3974
+#: idio/idioma.php:4076
+#: idio/idioma.php:4118
+msgid "iva"
+msgstr ""
+
+#: idio/idioma.php:3630
+#: idio/idioma.php:4072
+msgid "tv por cable."
+msgstr ""
+
+#: idio/idioma.php:3634
+#: idio/idioma.php:3946
+msgid "hora apertura"
+msgstr ""
+
+#: idio/idioma.php:3640
+#: idio/idioma.php:3661
+#: idio/idioma.php:3695
+msgid "forma pago"
+msgstr ""
+
+#: idio/idioma.php:3643
+#: idio/idioma.php:3664
+#: idio/idioma.php:3698
+#: idio/idioma.php:3955
+msgid "resumen por servicios"
+msgstr ""
+
+#: idio/idioma.php:3678
+#: idio/idioma.php:3975
+#: idio/idioma.php:4077
+#: idio/idioma.php:4121
+msgid "resumen general"
+msgstr ""
+
+#: idio/idioma.php:3679
+#: idio/idioma.php:4078
+#: idio/idioma.php:4122
+msgid "total base"
+msgstr ""
+
+#: idio/idioma.php:3681
+#: idio/idioma.php:3978
+#: idio/idioma.php:4069
+#: idio/idioma.php:4101
+#: idio/idioma.php:4125
+msgid "total general"
+msgstr ""
+
+#: idio/idioma.php:3699
+msgid "servicios)"
+msgstr ""
+
+#: idio/idioma.php:3703
+msgid "detalle de los pagos"
+msgstr ""
+
+#: idio/idioma.php:3770
+#: idio/idioma.php:3780
+#: idio/idioma.php:3792
+#: idio/idioma.php:4079
+msgid "total iva"
+msgstr ""
+
+#: idio/idioma.php:3837
+#: idio/idioma.php:4196
+msgid "Cedula"
+msgstr ""
+
+#: idio/idioma.php:3837
+msgid "Nombre y Apellido"
+msgstr ""
+
+#: idio/idioma.php:3837
+msgid "Precinto"
+msgstr ""
+
+#: idio/idioma.php:3837
+#: idio/idioma.php:4202
+msgid "Telefono"
+msgstr ""
+
+#: idio/idioma.php:3837
+msgid "IVA"
+msgstr ""
+
+#: idio/idioma.php:3837
+msgid "Base"
+msgstr ""
+
+#: idio/idioma.php:3837
+msgid "Deuda"
+msgstr ""
+
+#: idio/idioma.php:3837
+msgid "Pago"
+msgstr ""
+
+#: idio/idioma.php:3838
+msgid "REF:"
+msgstr ""
+
+#: idio/idioma.php:3839
+msgid "PTO: "
+msgstr ""
+
+#: idio/idioma.php:3840
+msgid "CARGO:"
+msgstr ""
+
+#: idio/idioma.php:3857
+msgid "edifici "
+msgstr ""
+
+#: idio/idioma.php:3858
+#: idio/idioma.php:3894
+msgid "nro piso "
+msgstr ""
+
+#: idio/idioma.php:3859
+#, fuzzy
+msgid "poste "
+msgstr "joel"
+
+#: idio/idioma.php:3864
+msgid "asignada a"
+msgstr ""
+
+#: idio/idioma.php:3865
+#: idio/idioma.php:3901
+msgid "otros detalles"
+msgstr ""
+
+#: idio/idioma.php:3883
+msgid "fecha de emision"
+msgstr ""
+
+#: idio/idioma.php:3886
+msgid "cliente"
+msgstr ""
+
+#: idio/idioma.php:3893
+msgid "edificio "
+msgstr ""
+
+#: idio/idioma.php:3895
+#: idio/idioma.php:4159
+#, fuzzy
+msgid "postel "
+msgstr "joel"
+
+#: idio/idioma.php:3898
+#: idio/idioma.php:4161
+msgid "pto "
+msgstr ""
+
+#: idio/idioma.php:3934
+msgid "nombre_caja"
+msgstr ""
+
+#: idio/idioma.php:3935
+msgid "monto_acum"
+msgstr ""
+
+#: idio/idioma.php:3937
+msgid "fecha_caja"
+msgstr ""
+
+#: idio/idioma.php:3946
+msgid "hora Cierre"
+msgstr ""
+
+#: idio/idioma.php:3947
+msgid "total acumulado"
+msgstr ""
+
+#: idio/idioma.php:4034
+msgid "fecha pago"
+msgstr ""
+
+#: idio/idioma.php:4034
+msgid "nombre servicio"
+msgstr ""
+
+#: idio/idioma.php:4034
+msgid "fecha cargo"
+msgstr ""
+
+#: idio/idioma.php:4034
+msgid "costo"
+msgstr ""
+
+#: idio/idioma.php:4043
+msgid "telf casa"
+msgstr ""
+
+#: idio/idioma.php:4057
+msgid "TOTAL PAGADO"
+msgstr ""
+
+#: idio/idioma.php:4060
+msgid "tvpor cable."
+msgstr ""
+
+#: idio/idioma.php:4075
+msgid "ingresos por servicios"
+msgstr ""
+
+#: idio/idioma.php:4076
+msgid "mant. Z1"
+msgstr ""
+
+#: idio/idioma.php:4076
+msgid "n f."
+msgstr ""
+
+#: idio/idioma.php:4076
+msgid "mant. Z2"
+msgstr ""
+
+#: idio/idioma.php:4076
+msgid "mant. Z3"
+msgstr ""
+
+#: idio/idioma.php:4076
+msgid "cable"
+msgstr ""
+
+#: idio/idioma.php:4076
+msgid "afil. y der."
+msgstr ""
+
+#: idio/idioma.php:4076
+msgid "trasl. y rec."
+msgstr ""
+
+#: idio/idioma.php:4119
+msgid "cobrador "
+msgstr ""
+
+#: idio/idioma.php:4119
+msgid "    cedula "
+msgstr ""
+
+#: idio/idioma.php:4120
+msgid "fecha Desde "
+msgstr ""
+
+#: idio/idioma.php:4120
+msgid "     hasta "
+msgstr ""
+
+#: idio/idioma.php:4124
+msgid "comision "
+msgstr ""
+
+#: idio/idioma.php:4139
+msgid "fecha rec."
+msgstr ""
+
+#: idio/idioma.php:4139
+#: idio/idioma.php:4172
+msgid "nombre y apellido"
+msgstr ""
+
+#: idio/idioma.php:4139
+#: idio/idioma.php:4172
+msgid "deuda"
+msgstr ""
+
+#: idio/idioma.php:4156
+#: idio/idioma.php:4189
+msgid "nro casa"
+msgstr ""
+
+#: idio/idioma.php:4160
+msgid "taps "
+msgstr ""
+
+#: idio/idioma.php:4197
+msgid "Nombre"
+msgstr ""
+
+#: idio/idioma.php:4198
+msgid "Apellido"
+msgstr ""
+
+#: idio/idioma.php:4199
+msgid "Fecha Cont"
+msgstr ""
+
+#: idio/idioma.php:4200
+msgid "Status"
+msgstr ""
+
+#: idio/idioma.php:4201
+msgid "Etiqueta"
+msgstr ""
+
+#: idio/idioma.php:4203
+msgid "Total Deuda"
+msgstr ""
+
+#: idio/idioma.php:4207
+msgid "Nro Casa"
+msgstr ""
+
+#: idio/idioma.php:4211
+msgid "ipo Orden"
+msgstr ""
+
+#: idio/idioma.php:4212
+msgid "nombre orden"
+msgstr ""
+
+#: idio/idioma.php:4214
+msgid "fecha final"
+msgstr ""
+
+#: idio/idioma.php:4232
+msgid ""
+"estadisticas mensuales d\n"
+"000385 | \t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:4232
+msgid "cabe"
+msgstr ""
+
+#: idio/idioma.php:4165
+msgid ""
+"listado de contratos par\n"
+"000059 | \t\t$this->Cell(35,9,_(\"total participante \").co\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\reportes\\cortar_servicio.php  (17 Found)\n"
+"000088 | \t\t$this->MultiCell(190,7,_("
+msgstr ""
+
+#: idio/idioma.php:4128
+msgid ""
+"reporte de notas de debi\n"
+"000116 | \t\t$this->Cell(12,5,_("
+msgstr ""
+
+#: idio/idioma.php:4065
+msgid "),"
+msgstr ""
+
+#: idio/idioma.php:4005
+msgid ""
+"estdo de cuenta del clie\n"
+"000047 | \t\t$header=array(_("
+msgstr ""
+
+#: idio/idioma.php:3983
+#: idio/idioma.php:3686
+msgid ""
+"cierre de puntos de cobr\n"
+"000050 | \t\t$header=array(_("
+msgstr ""
+
+#: idio/idioma.php:3960
+msgid ""
+"detalles de los puntos d\n"
+"000241 | ,6,utf8_decode(trim($row[_(\"nombre_caja\")])),\"LR\",0,\n"
+"000242 | at(utf8_decode(trim($row[_(\"monto_acum\")])), 2, "
+msgstr ""
+
+#: idio/idioma.php:3924
+msgid ""
+"resumen por forma de pag\n"
+"000116 | \t\t\t\t$this->Cell(45,6,_(\"forma de pago\"),\"0\",0,\"L\n"
+"000121 | \t\t\t\t$this->Cell(12,6,_(\"total\"),\"0\",0,\"R\");\n"
+"000157 | \t\t\t$this->Cell(45,6,_(\"total\").\": \",\"0\",0,\"L\");\n"
+"000168 | \t\t\t$this->Cell($right,6,_("
+msgstr ""
+
+#: idio/idioma.php:3835
+#: idio/idioma.php:2029
+msgid ")."
+msgstr ""
+
+#: idio/idioma.php:3669
+msgid ""
+"detalle de los puntos de\n"
+"000266 | \t\t$this->MultiCell(195,5,_(\"error, no existe el cier\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\ReporteJava\\Rep_cobroImpreso.php  (17 Found)\n"
+"000016 | \t\t$this->MultiCell(190,5,_(\"tv por cable.\"),"
+msgstr ""
+
+#: idio/idioma.php:3648
+msgid ""
+"detalle de los puntos de\n"
+"000266 | \t\t$this->MultiCell(195,5,_(\"error, no existe el cier\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\ReporteJava\\Rep_CierreDiarioImpreso1.php  (25 Found)\n"
+"000024 | \t\t$this->Cell(12,5,_("
+msgstr ""
+
+#: idio/idioma.php:3326
+msgid "    listado de clientes  ...                        "
+msgstr ""
+
+#: idio/idioma.php:3294
+msgid ""
+"listado de variables dis\n"
+"000006 | ss="
+msgstr ""
+
+#: idio/idioma.php:2957
+msgid ""
+"estadisticas por tecnico\n"
+"000395 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2932
+msgid ""
+"estadisticas generales d\n"
+"000391 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2896
+msgid "estadistics mensuales de ... et_orden));?> <?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2859
+#: idio/idioma.php:2824
+#: idio/idioma.php:2786
+msgid "estadisticas mensuales d ... et_orden));?> <?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2750
+msgid ""
+"estadisticas mensuales d\n"
+"000431 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2708
+msgid ""
+"estadisticas mensuales d\n"
+"000440 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2668
+msgid ""
+"estadisticas mensuales d\n"
+"000421 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2626
+msgid ""
+"estadisticas mensuales d\n"
+"000445 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2587
+msgid ""
+"estadistica de clientes \n"
+"000441 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2547
+msgid ""
+"estadistica mensuales de\n"
+"000449 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2509
+msgid ""
+"estadistica mensuales de\n"
+"000438 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2468
+msgid ""
+"estadisticas mensuales d\n"
+"000455 | \t\t\t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2424
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000376 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2423
+msgid ""
+"error, el anio de inicio\n"
+"000358 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2383
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000383 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2382
+msgid ""
+"error, el anio de inicio\n"
+"000365 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2344
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000365 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2343
+msgid ""
+"error, el anio de inicio\n"
+"000347 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2302
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000387 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2301
+msgid ""
+"error, el anio de inicio\n"
+"000369 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2261
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000444 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2260
+msgid ""
+"error, el anio de inicio\n"
+"000425 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2214
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000442 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2213
+msgid ""
+"error, el anio de inicio\n"
+"000426 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2169
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000415 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2168
+msgid ""
+"error, el anio de inicio\n"
+"000396 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2121
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000437 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2120
+msgid ""
+"error, el anio de inicio\n"
+"000421 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2078
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000464 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:2077
+msgid ""
+"error, el anio de inicio\n"
+"000445 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2076
+msgid ""
+"promedio de clientes act\n"
+"000436 | \t\talert("
+msgstr ""
+
+#: idio/idioma.php:2055
+msgid ""
+"estadisticas anuales de \n"
+"000043 | \t\t$this->Cell(12,5,_("
+msgstr ""
+
+#: idio/idioma.php:2045
+msgid ""
+"resumen de clientes acti\n"
+"000574 | \t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:2034
+msgid "estadisticas anuales de"
+msgstr ""
+
+#: idio/idioma.php:1971
+msgid ""
+"resumen de clientes acti\n"
+"000184 | \t\t$header=array(_("
+msgstr ""
+
+#: idio/idioma.php:1956
+msgid ""
+"resumen de clientes acti\n"
+"000586 | \t\t\t\t\t<?php echo _("
+msgstr ""
+
+#: idio/idioma.php:1943
+#, fuzzy
+msgid ""
+"error, el anio de inicio\n"
+"000476 |  class="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1942
+msgid ""
+"error, el anio de inicio\n"
+"000457 | \t\t"
+msgstr ""
+
+#: idio/idioma.php:1908
+msgid ""
+"visitas agregadas para e\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\zona.php  (10 Found)\n"
+"000007 |  class="
+msgstr ""
+
+#: idio/idioma.php:1900
+msgid ""
+"administrar visitas a la\n"
+"000017 | ass="
+msgstr ""
+
+#: idio/idioma.php:1896
+#, fuzzy
+msgid ""
+"visitas de orden de serv\n"
+"000017 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1881
+#, fuzzy
+msgid ""
+"administracion de vended\n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1859
+#, fuzzy
+msgid ""
+"administracion de variab\n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1845
+#, fuzzy
+msgid ""
+"datos de la cuenta de us\n"
+"000067 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1836
+msgid ""
+"tipos de servicios agreg\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\Usuario.php  (18 Found)\n"
+"000009 |  class="
+msgstr ""
+
+#: idio/idioma.php:1822
+msgid ""
+"tipos de pagos agregados\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\tipo_servicio.php  (12 Found)\n"
+"000007 |  class="
+msgstr ""
+
+#: idio/idioma.php:1809
+msgid ""
+"tipos de ordenes agregad\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\tipo_pago.php  (11 Found)\n"
+"000007 |  class="
+msgstr ""
+
+#: idio/idioma.php:1802
+#, fuzzy
+msgid ""
+"administracion de tipos \n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1785
+#, fuzzy
+msgid ""
+"administracion de tecnic\n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1766
+msgid ""
+"registro de las tarifas \n"
+"000014 | ass="
+msgstr ""
+
+#: idio/idioma.php:1751
+msgid ""
+"listado de clientes para\n"
+"000015 | ass="
+msgstr ""
+
+#: idio/idioma.php:1734
+msgid ""
+"listado de clientes para\n"
+"000016 | ass="
+msgstr ""
+
+#: idio/idioma.php:1721
+#, fuzzy
+msgid ""
+"administracion de status\n"
+"000009 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1699
+#, fuzzy
+msgid ""
+"administracion de sector\n"
+"000021 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1684
+msgid ""
+"por fecha de inscripcion\n"
+"000107 | al_cli_fec()"
+msgstr ""
+
+#: idio/idioma.php:1673
+msgid ""
+"reporte de todos los cli\n"
+"000019 | ass="
+msgstr ""
+
+#: idio/idioma.php:1642
+msgid ""
+"ordenes de servicios enc\n"
+"000148 | strar"
+msgstr ""
+
+#: idio/idioma.php:1625
+#: idio/idioma.php:1601
+#, fuzzy
+msgid ""
+"reporte de ordenes de se\n"
+"000019 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1570
+msgid ""
+"reporte auditoria de not\n"
+"000018 | ass="
+msgstr ""
+
+#: idio/idioma.php:1558
+msgid ""
+"reporte de cobranza por \n"
+"000016 | ass="
+msgstr ""
+
+#: idio/idioma.php:1526
+msgid ""
+"reporte de clientes por \n"
+"000008 | ass="
+msgstr ""
+
+#: idio/idioma.php:1514
+msgid ""
+"reporte de deudas por zo\n"
+"000008 | ass="
+msgstr ""
+
+#: idio/idioma.php:1503
+msgid ""
+"reporte de deudas por se\n"
+"000010 | ass="
+msgstr ""
+
+#: idio/idioma.php:1498
+msgid ""
+"reporte de deudas por fr\n"
+"000008 | ass="
+msgstr ""
+
+#: idio/idioma.php:1493
+msgid ""
+"reporte de deudas Por ca\n"
+"000008 | ass="
+msgstr ""
+
+#: idio/idioma.php:1466
+msgid ""
+"ordenes de servicios enc\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\Rep_calle.php  (3 Found)\n"
+"000002 |  class="
+msgstr ""
+
+#: idio/idioma.php:1458
+msgid ""
+"reimprimir ordenes de se\n"
+"000015 | ass="
+msgstr ""
+
+#: idio/idioma.php:1454
+msgid ""
+"reimprimir ultima factur\n"
+"000037 | strar"
+msgstr ""
+
+#: idio/idioma.php:1440
+msgid ""
+"reimprimir cierre diario\n"
+"000016 | ass="
+msgstr ""
+
+#: idio/idioma.php:1413
+#, fuzzy
+msgid ""
+"administracion de reclam\n"
+"000018 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1399
+msgid ""
+"perfiles de usuarios agr\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\Persona.php  (9 Found)\n"
+"000012 | \t<strong><?php echo _("
+msgstr ""
+
+#: idio/idioma.php:1385
+#, fuzzy
+msgid ""
+"administracion de perfil\n"
+"000018 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1371
+msgid ""
+"parametros generales del\n"
+"000015 | ass="
+msgstr ""
+
+#: idio/idioma.php:1362
+#, fuzzy
+msgid ""
+"administracion de pago_s\n"
+"000016 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1345
+#, fuzzy
+msgid ""
+"administracion de pago_c\n"
+"000016 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1315
+msgid ""
+"modulo de cobro a client\n"
+"000045 | ass="
+msgstr ""
+
+#: idio/idioma.php:1309
+msgid ""
+"administracion de otros_\n"
+"000014 | strar"
+msgstr ""
+
+#: idio/idioma.php:1301
+#, fuzzy
+msgid ""
+"administracion de orden_\n"
+"000011 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1272
+msgid ""
+"asignar ordenes a tecnic\n"
+"000014 | ass="
+msgstr ""
+
+#: idio/idioma.php:1267
+msgid ""
+"registrar nota de credit\n"
+"000248 | minar"
+msgstr ""
+
+#: idio/idioma.php:1231
+#, fuzzy
+msgid ""
+"administracion de motivo\n"
+"000010 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1214
+#, fuzzy
+msgid ""
+"administracion de modulo\n"
+"000019 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1197
+msgid ""
+"modificar numero de fact\n"
+"000026 | ass="
+msgstr ""
+
+#: idio/idioma.php:1098
+msgid ""
+"ordenes de servicios par\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\imp_fact_lotes.php  (15 Found)\n"
+"000007 |  class="
+msgstr ""
+
+#: idio/idioma.php:1092
+msgid ""
+"imprimir ordenes a tecni\n"
+"000010 | strar"
+msgstr ""
+
+#: idio/idioma.php:1077
+#, fuzzy
+msgid ""
+"administracion de grupo \n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1069
+#, fuzzy
+msgid ""
+"dministracion de grupo_t\n"
+"000011 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1051
+#, fuzzy
+msgid ""
+"administracion de gerent\n"
+"000009 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:1032
+msgid ""
+"listado de variables dis\n"
+"000084 | ass="
+msgstr ""
+
+#: idio/idioma.php:1017
+msgid ""
+"ordenes de servicios asi\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\formato_sms.php  (15 Found)\n"
+"000007 |  class="
+msgstr ""
+
+#: idio/idioma.php:998
+msgid ""
+"finalizar ordenes a tecn\n"
+"000015 | ass="
+msgstr ""
+
+#: idio/idioma.php:991
+#, fuzzy
+msgid ""
+"datos personales del cli\n"
+"000011 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:979
+#, fuzzy
+msgid ""
+"editar datos de envio au\n"
+"000009 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:965
+#, fuzzy
+msgid ""
+"administracion de edific\n"
+"000013 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:960
+msgid ""
+"asignar a grupo&nbsp;&nb\n"
+"000026 | lass="
+msgstr ""
+
+#: idio/idioma.php:956
+msgid ""
+"ordenes de servicos devu\n"
+"000010 | strar"
+msgstr ""
+
+#: idio/idioma.php:942
+msgid ""
+"detalle de ordenes agreg\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\detalle_tipopago.php  (9 Found)\n"
+"000009 | \t<strong><?php echo _("
+msgstr ""
+
+#: idio/idioma.php:932
+#, fuzzy
+msgid ""
+"administracion de detall\n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:923
+#, fuzzy
+msgid ""
+"parametros del descuento\n"
+"000106 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:909
+msgid ""
+"listado de clientes a en\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\descuento.php  (18 Found)\n"
+"000011 |  class="
+msgstr ""
+
+#: idio/idioma.php:891
+msgid ""
+"envio de sms y email mas\n"
+"000017 | ass="
+msgstr ""
+
+#: idio/idioma.php:878
+#, fuzzy
+msgid ""
+"administracion de contra\n"
+"000016 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:825
+#, fuzzy
+msgid "datos de modem/telefono"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:821
+msgid ""
+"codigos de operadoras mo\n"
+"000064 | lass="
+msgstr ""
+
+#: idio/idioma.php:812
+msgid ""
+"configuracion general de\n"
+"000015 | ass="
+msgstr ""
+
+#: idio/idioma.php:802
+msgid ""
+"envio automatico para ge\n"
+"000098 | ass="
+msgstr ""
+
+#: idio/idioma.php:796
+#, fuzzy
+msgid ""
+"configuracion de envio a\n"
+"000019 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:771
+#, fuzzy
+msgid ""
+"configuracion de comando\n"
+"000021 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:765
+msgid ""
+"restaurar base de datos \n"
+"000092 | alue="
+msgstr ""
+
+#: idio/idioma.php:758
+msgid ""
+"error, la aplicacion no \n"
+"000034 | \t<strong><?php echo _("
+msgstr ""
+
+#: idio/idioma.php:721
+msgid ""
+"agregar Comandos para Me\n"
+"000008 | ass="
+msgstr ""
+
+#: idio/idioma.php:706
+#, fuzzy
+msgid ""
+"administracion de cobrad\n"
+"000017 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:684
+msgid ""
+"detalles de los puntos d\n"
+"000224 | umnHeader("
+msgstr ""
+
+#: idio/idioma.php:656
+msgid ""
+"detalle de los puntos de\n"
+"000227 | umnHeader("
+msgstr ""
+
+#: idio/idioma.php:625
+msgid ""
+"nota: el reporte fiscal \n"
+"000026 | lass="
+msgstr ""
+
+#: idio/idioma.php:615
+#, fuzzy
+msgid ""
+"administracion de cierre\n"
+"000016 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:602
+#, fuzzy
+msgid "datos de cierre de caja"
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:589
+#, fuzzy
+msgid ""
+"datos de la Ddeuda a car\n"
+"000075 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:572
+#, fuzzy
+msgid ""
+"datos de la deuda a carg\n"
+"000077 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:559
+msgid ""
+"confirmar contrase&ntild\n"
+"000057 | strar"
+msgstr ""
+
+#: idio/idioma.php:558
+msgid "contrase&ntilde;a nueva"
+msgstr ""
+
+#: idio/idioma.php:554
+#, fuzzy
+msgid ""
+"cambio de contrase&ntild\n"
+"000013 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:540
+#, fuzzy
+msgid ""
+"administracion de calles\n"
+"000013 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:525
+msgid ""
+"puntos de cobros agregad\n"
+"\n"
+"C:\\wamp\\www\\SAECO_4\\Formulario\\caja_cobrador.php  (10 Found)\n"
+"000023 |  class="
+msgstr ""
+
+#: idio/idioma.php:514
+#, fuzzy
+msgid ""
+"administracion de puntos\n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:504
+#, fuzzy
+msgid ""
+"ADMINISTRACION DE BANCOS\n"
+"000014 | ass="
+msgstr "ADMINISTRACION DE BANCOS"
+
+#: idio/idioma.php:473
+msgid ""
+"signar ordenes a tecnico\n"
+"000015 | ass="
+msgstr ""
+
+#: idio/idioma.php:462
+msgid ""
+"asignar ordenes a tecnic\n"
+"000017 | ass="
+msgstr ""
+
+#: idio/idioma.php:426
+msgid ""
+"detalle de los puntos de\n"
+"000221 | umnHeader("
+msgstr ""
+
+#: idio/idioma.php:399
+msgid ""
+"detalles de puntos de co\n"
+"000222 | umnHeader("
+msgstr ""
+
+#: idio/idioma.php:382
+msgid ""
+"consulta de cierre diari\n"
+"000024 | ass="
+msgstr ""
+
+#: idio/idioma.php:365
+#, fuzzy
+msgid ""
+"datos de Ubicacion del c\n"
+"000149 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:353
+#, fuzzy
+msgid ""
+"actualizacion de datos d\n"
+"000032 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:337
+#, fuzzy
+msgid ""
+"grupo que realizo el cor\n"
+"000342 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:319
+#, fuzzy
+msgid ""
+"datos de ubicacion del c\n"
+"000177 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:304
+#, fuzzy
+msgid ""
+"actualizacion de datos d\n"
+"000038 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:284
+#, fuzzy
+msgid ""
+"actualizacion de pagos d\n"
+"000014 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:269
+msgid ""
+"paquete de mantenimiento\n"
+"000070 | lass="
+msgstr ""
+
+#: idio/idioma.php:182
+msgid ""
+"Clientes que pagaron en \n"
+"000300 | rgar_deuda"
+msgstr ""
+
+#: idio/idioma.php:180
+msgid ""
+"Ordenes de Servicios Dev\n"
+"000286 | s_contrato"
+msgstr ""
+
+#: idio/idioma.php:178
+msgid ""
+"Imprimir Ordenes de Serv\n"
+"000280 | s_tecnicos"
+msgstr ""
+
+#: idio/idioma.php:173
+msgid ""
+"Imprimir Facturas en Lot\n"
+"000265 | re_diario1"
+msgstr ""
+
+#: idio/idioma.php:133
+msgid ""
+"editar Datos de envio au\n"
+"000055 | ass="
+msgstr ""
+
+#: idio/idioma.php:100
+msgid ""
+"datos de los servicios m\n"
+"000439 | Header('nombre_servicio',_('nombre servicio');\n"
+"000440 | nHeader('tipo_servicio', _('tipo de servicio');\n"
+"000441 | olumnHeader('cant_serv', _('cantidad'));\n"
+"000489 | ass="
+msgstr ""
+
+#: idio/idioma.php:68
+#, fuzzy
+msgid ""
+"datos personales del cli\n"
+"000101 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:60
+msgid "email-correcto Correcto"
+msgstr ""
+
+#: idio/idioma.php:38
+#, fuzzy
+msgid ""
+"parametros de la busqued\n"
+"000038 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:18
+#, fuzzy
+msgid ""
+"datos de ubicacion del c\n"
+"000137 | lass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#: idio/idioma.php:8
+#, fuzzy
+msgid ""
+"actualizacion de datos d\n"
+"000047 | ass="
+msgstr "Datos de Ubicacion del Cliente"
+
+#~ msgid "Hola  Mundo!"
+#~ msgstr "Hello World!"
+
+#~ msgid "world"
+#~ msgstr "mjunt"
+
+#, fuzzy
+#~ msgid "hello como estas"
+#~ msgstr "how are you"
+
+#~ msgid "how_are_you"
+#~ msgstr "who"

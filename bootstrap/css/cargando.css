@@ -1,0 +1,138 @@
+/* -------------- Capa general -------------- */
+
+#carga
+{
+	background-color: rgba(255, 255, 255, 1);
+	display: none;
+	z-index: 1100;
+	margin : 0 auto;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 0;
+	
+}
+
+
+/* -------------- Texto -------------- */
+.loading-text {
+	font-size: 1.320rem;
+	text-shadow: 0.1em 0.1em 0.05em #000;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-transform: uppercase;
+	font-weight: bold;
+	position: absolute;
+	top: 280px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:0px auto;
+	color: #969696; 
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* -------------- Figura de Carga -------------- */
+.loading8{
+	margin:200px auto;
+	width: 45px;
+	height: 45px;
+	-webkit-animation:loading8-ani1 2s ease-in-out infinite;
+	-moz-animation:loading8-ani1 2s ease-in-out infinite;
+	-o-animation:loading8-ani1 2s ease-in-out infinite;
+	animation:loading8-ani1 2s ease-in-out infinite;
+}
+.loading8 i,
+.loading8 i:before{
+  content: '';
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.loading8 i{
+  border-radius: 50%; 
+  overflow: hidden;
+}
+.loading8 i:nth-child(1){
+  background: #ff5954;
+  -webkit-transform:translate(0,-25px);
+  -moz-transform:translate(0,-25px);
+  -ms-transform:translate(0,-25px);
+  -o-transform:translate(0,-25px);
+  transform:translate(0,-25px);
+}
+.loading8 i:nth-child(1):before{
+  background: #00a8ce;
+  bottom: 0;
+  -webkit-animation:loading8-ani2 2s ease-in-out infinite;
+  -moz-animation:loading8-ani2 2s ease-in-out infinite;
+  -o-animation:loading8-ani2 2s ease-in-out infinite;
+  animation:loading8-ani2 2s ease-in-out infinite;
+}
+.loading8 i:nth-child(2){
+  background: #00a8ce;
+  -webkit-transform:translate(0,-25px);
+  -moz-transform:translate(0,-25px);
+  -ms-transform:translate(0,-25px);
+  -o-transform:translate(0,-25px);
+  transform:translate(0,25px);
+}
+.loading8 i:nth-child(2):before{
+  -webkit-animation:loading8-ani2 2s ease-in-out infinite;
+  -moz-animation:loading8-ani2 2s ease-in-out infinite;
+  -o-animation:loading8-ani2 2s ease-in-out infinite;
+  animation:loading8-ani2 2s ease-in-out infinite;
+  background: #ff5954;
+}
+@keyframes loading8-ani1{
+  40%,50%{
+    transform:rotate(180deg);
+  }
+  90%,100%{
+    transform:rotate(360deg);
+  }
+}
+@-webkit-keyframes loading8-ani1{
+  40%,50%{
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+  }
+  90%,100%{
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+  }
+}
+@-moz-keyframes loading8-ani1{
+  40%,50%{
+    -moz-transform:rotate(180deg);
+    transform:rotate(180deg);
+  }
+  90%,100%{
+    -moz-transform:rotate(360deg);
+    transform:rotate(360deg);
+  }
+}
+@-o-keyframes loading8-ani1{
+  40%,50%{
+    -o-transform:rotate(180deg);
+    transform:rotate(180deg);
+  }
+  90%,100%{
+    -o-transform:rotate(360deg);
+    transform:rotate(360deg);
+  }
+}
+@keyframes loading8-ani2{
+  40%,100%{
+    height:100%;
+  }
+  50%,90%{
+    height:0;
+  }
+}

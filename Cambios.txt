@@ -1,0 +1,1 @@
+*agrege el campo tipo_caja a la tabla caja.
